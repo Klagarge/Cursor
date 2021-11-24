@@ -1,0 +1,50 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+[ModelSim]
+Board = $SCRATCH_DIR/Board/work
+Common = $SCRATCH_DIR/Common/work
+Cursor = $SCRATCH_DIR/Cursor/work
+Cursor_test = $SCRATCH_DIR/Cursor_test/work
+gates = $SCRATCH_DIR/gates/work
+io = $SCRATCH_DIR/IO/work
+LCD = $SCRATCH_DIR/LCD/work
+LCD_test = $SCRATCH_DIR/LCD_test/work
+Memory = $SCRATCH_DIR/Memory/work
+Memory_test = $SCRATCH_DIR/Memory_test/work
+sequential = $SCRATCH_DIR/sequential/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Cursor = $HDS_PROJECT_DIR/../Cursor/hdl
+Cursor_test = $HDS_PROJECT_DIR/../Cursor_test/hdl
+gates = $HEI_LIBS_DIR/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+io = $HEI_LIBS_DIR/IO/hdl
+LCD = $HEI_LIBS_DIR/Lcd/hdl
+LCD_test = $HEI_LIBS_DIR/Lcd_test/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+Memory_test = $HEI_LIBS_DIR/Memory_test/hdl
+sequential = $HEI_LIBS_DIR/Sequential/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Cursor = $HDS_PROJECT_DIR/../Cursor/hds
+Cursor_test = $HDS_PROJECT_DIR/../Cursor_test/hds
+gates = $HEI_LIBS_DIR/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+io = $HEI_LIBS_DIR/IO/hds
+LCD = $HEI_LIBS_DIR/Lcd/hds
+LCD_test = $HEI_LIBS_DIR/Lcd_test/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+Memory_test = $HEI_LIBS_DIR/Memory_test/hds
+sequential = $HEI_LIBS_DIR/Sequential/hds
+std = $HDS_HOME/hdl_libs/std/hds
+[hds_settings]
+design_root = Cursor_test.cursor_tb(struct)cursor_tb/struct.bd
+[library_type]
+Board = regular
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
