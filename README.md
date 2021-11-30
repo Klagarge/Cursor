@@ -3,7 +3,7 @@
   <img src="./img/ELN_cursor.gif" alt="ELN Cursor Logo" width="200" height="200">
   <br>
   ELN Project Cursor
-</br> Rémi Heredero & Simon Donnet-Monnet
+</br> Rémi Heredero & Simon Donnet-Monay
   <br>
 </h1>
 
@@ -27,7 +27,7 @@
 
 Laboratory file for semesterproject chronometer for first year bachelor students.
 
-As it changes each year, all you have to do is search on `<a href="https://cyberlearn.hes-so.ch" target="_blank">`Moodle Cyberlearn`</a>` for the course number and select the one starting with the last two digits of the current year.
+As it changes each year, all you have to do is search on `<a href="https://cyberlearn.hes-so.ch" target="_blank">`Moodle Cyberlearn `</a>` for the course number and select the one starting with the last two digits of the current year.
 
 Course number is 2131 for SYND
 
