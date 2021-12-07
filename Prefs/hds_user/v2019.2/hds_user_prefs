@@ -6208,13 +6208,13 @@ yPos 0
 width 1552
 height 936
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 1
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
 componentBrowserYpos 300
-componentBrowserWidth 300
-componentBrowserHeight 340
+componentBrowserWidth 483
+componentBrowserHeight 491
 componentBrowserLibraryNames [
 "Board"
 "gates"
