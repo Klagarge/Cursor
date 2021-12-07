@@ -271,7 +271,7 @@ uid 112,0
 )
 *32 (MRCItem
 litem &15
-pos 8
+pos 2
 dimension 20
 uid 114,0
 )
@@ -283,43 +283,43 @@ uid 116,0
 )
 *34 (MRCItem
 litem &17
-pos 5
+pos 7
 dimension 20
 uid 118,0
 )
 *35 (MRCItem
 litem &18
-pos 6
+pos 8
 dimension 20
 uid 120,0
 )
 *36 (MRCItem
 litem &19
-pos 9
+pos 3
 dimension 20
 uid 122,0
 )
 *37 (MRCItem
 litem &20
-pos 2
+pos 4
 dimension 20
 uid 124,0
 )
 *38 (MRCItem
 litem &21
-pos 3
+pos 5
 dimension 20
 uid 126,0
 )
 *39 (MRCItem
 litem &22
-pos 7
+pos 9
 dimension 20
 uid 128,0
 )
 *40 (MRCItem
 litem &23
-pos 4
+pos 6
 dimension 20
 uid 130,0
 )
@@ -564,23 +564,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -600,11 +600,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
 )
 (vvPair
 variable "date"
@@ -644,7 +644,7 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
@@ -656,11 +656,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:20:45"
+value "08:28:07"
 )
 (vvPair
 variable "group"
@@ -668,7 +668,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -700,11 +700,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\interface"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\interface"
 )
 (vvPair
 variable "package_name"
@@ -732,7 +732,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "08:20:45"
+value "08:28:07"
 )
 (vvPair
 variable "unit"
@@ -740,7 +740,7 @@ value "Main"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -799,7 +799,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,66500,4000"
-st "button   : IN     unsigned (3 DOWNTO 0) ;"
+st "button   : IN     unsigned (3 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -845,7 +846,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61000,4800"
-st "clock    : IN     std_ulogic  ;"
+st "clock    : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -890,7 +892,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,67000,3200"
-st "Position : IN     unsigned (15 DOWNTO 0) ;"
+st "Position : IN     unsigned (15 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -937,7 +940,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8000,66500,8800"
-st "Power    : OUT    unsigned (7 DOWNTO 0) ;"
+st "Power    : OUT    unsigned (7 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -984,7 +988,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8800,61000,9600"
-st "RaZ      : OUT    std_ulogic  ;"
+st "RaZ      : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1030,7 +1035,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "reset    : IN     std_ulogic  ;"
+st "reset    : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1075,7 +1081,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,61000,6400"
-st "sensor1  : IN     std_uLogic  ;"
+st "sensor1  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1120,7 +1127,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,61000,7200"
-st "sensor2  : IN     std_uLogic  ;"
+st "sensor2  : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1166,7 +1174,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9600,61000,10400"
-st "SideL    : OUT    std_ulogic  ;"
+st "SideL    : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1212,7 +1221,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,61000,8000"
-st "testMode : IN     std_uLogic  ;"
+st "testMode : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1258,7 +1268,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10400,73500,11200"
-st "testOut  : OUT    std_uLogic_vector (1 TO testLineNb) ;"
+st "testOut  : OUT    std_uLogic_vector (1 TO testLineNb) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1305,7 +1316,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11200,60000,12000"
-st "unlock   : OUT    std_ulogic "
+st "unlock   : OUT    std_ulogic 
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1403,7 +1415,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,46000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2025,6 +2037,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 260,0
+lastUid 214,0
 activeModelName "Symbol:CDM"
 )
