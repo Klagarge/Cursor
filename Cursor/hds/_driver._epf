@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom drivert
+DEFAULT_FILE atom @driver/drivert.bd
