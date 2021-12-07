@@ -6208,7 +6208,7 @@ yPos 0
 width 1552
 height 936
 activeSidePanelTab 2
-activeLibraryTab 1
+activeLibraryTab 3
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 569
@@ -6221,6 +6221,15 @@ componentBrowserLibraryNames [
 "Common"
 "io"
 "sequential"
+"LCD_test"
+"synopsys"
+"verilog"
+"vital2000"
+"LCD"
+"Memory"
+"std"
+"Memory_test"
+"ieee"
 ]
 )
 (SmPreferences
