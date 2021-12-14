@@ -4173,7 +4173,6 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
-autoPopupExprBuilder 0
 showExprBldrHint 0
 searchStrings [
 ]
@@ -6222,6 +6221,17 @@ componentBrowserLibraryNames [
 "Common"
 "io"
 "sequential"
+"Cursor_test"
+"Cursor"
+"LCD"
+"Memory"
+"ieee"
+"std"
+"vital2000"
+"verilog"
+"LCD_test"
+"Memory_test"
+"synopsys"
 ]
 )
 (SmPreferences
