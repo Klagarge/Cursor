@@ -195,11 +195,11 @@ value "Compteur"
 )
 (vvPair
 variable "month"
-value "déc."
+value "dÃ©c."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "dÃ©cembre"
 )
 (vvPair
 variable "p"
@@ -1690,6 +1690,18 @@ va (VaSet
 vasetType 1
 )
 xt "8600,13600,9400,14400"
+radius 400
+)
+)
+*51 (BdJunction
+uid 540,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 541,0
+va (VaSet
+vasetType 1
+)
+xt "5600,13600,6400,14400"
 radius 400
 )
 )
