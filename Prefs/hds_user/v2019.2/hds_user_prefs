@@ -2554,7 +2554,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "1"
+second "3"
 )
 (pair
 first "onPulldownMenu"
@@ -4181,7 +4181,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200-0+0"
+logWindowGeometry "600x200+920+0"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6208,7 +6208,7 @@ yPos 0
 width 1730
 height 1119
 activeSidePanelTab 2
-activeLibraryTab 1
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 1173
@@ -6221,6 +6221,7 @@ componentBrowserLibraryNames [
 "Common"
 "io"
 "sequential"
+
 "Cursor_test"
 "Cursor"
 "LCD"
