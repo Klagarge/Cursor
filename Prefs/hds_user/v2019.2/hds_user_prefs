@@ -1484,67 +1484,67 @@ width 816
 height 1161
 )
 (PageSizeInfo
-name "Format papier personnalisé"
+name "Format papier personnalisÃ©"
 type 256
 width 783
 height 1013
 )
 (PageSizeInfo
-name "Format papier personnalisé1(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©1(210,0 x 297,0 mm)"
 type 257
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé2(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©2(210,0 x 297,0 mm)"
 type 258
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé3(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©3(210,0 x 297,0 mm)"
 type 259
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé4(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©4(210,0 x 297,0 mm)"
 type 260
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé5(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©5(210,0 x 297,0 mm)"
 type 261
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé6(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©6(210,0 x 297,0 mm)"
 type 262
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé7(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©7(210,0 x 297,0 mm)"
 type 263
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé8(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©8(210,0 x 297,0 mm)"
 type 264
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé9(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©9(210,0 x 297,0 mm)"
 type 265
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé10(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©10(210,0 x 297,0 mm)"
 type 266
 width 761
 height 1077
@@ -6208,7 +6208,7 @@ yPos 0
 width 1730
 height 1119
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 1
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 1173
