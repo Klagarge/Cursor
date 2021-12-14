@@ -2553,7 +2553,7 @@ second ""
 )
 (pair
 first "hierLevel"
-second "1"
+second "3"
 )
 (pair
 first "onPulldownMenu"
@@ -4172,7 +4172,6 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
-autoPopupExprBuilder 0
 showExprBldrHint 0
 searchStrings [
 ]
@@ -4181,7 +4180,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200-0+0"
+logWindowGeometry "600x200+920+0"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6208,11 +6207,11 @@ yPos 0
 width 1552
 height 936
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 569
-componentBrowserYpos 300
+componentBrowserXpos 158
+componentBrowserYpos 308
 componentBrowserWidth 483
 componentBrowserHeight 491
 componentBrowserLibraryNames [
@@ -6230,6 +6229,7 @@ componentBrowserLibraryNames [
 "std"
 "Memory_test"
 "ieee"
+"Cursor"
 ]
 )
 (SmPreferences

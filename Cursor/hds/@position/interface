@@ -506,7 +506,7 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
@@ -518,7 +518,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -546,7 +546,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -558,7 +558,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:18:04"
+value "16:00:58"
 )
 (vvPair
 variable "group"
@@ -630,7 +630,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:18:04"
+value "16:00:58"
 )
 (vvPair
 variable "unit"
@@ -1685,6 +1685,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 401,0
+lastUid 539,0
 activeModelName "Symbol:CDM"
 )
