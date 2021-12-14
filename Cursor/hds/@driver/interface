@@ -565,7 +565,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:19:41"
+value "16:07:46"
 )
 (vvPair
 variable "group"
@@ -637,7 +637,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:19:41"
+value "16:07:46"
 )
 (vvPair
 variable "unit"
@@ -1078,7 +1078,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,46000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1700,6 +1700,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 248,0
+lastUid 409,0
 activeModelName "Symbol:CDM"
 )
