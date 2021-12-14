@@ -110,7 +110,7 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\c
 )
 (vvPair
 variable "date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "day"
@@ -122,7 +122,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -154,7 +154,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.12.2021"
+value "14.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -166,7 +166,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:59:54"
+value "14:18:34"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "15:59:54"
+value "14:18:34"
 )
 (vvPair
 variable "unit"
@@ -2551,7 +2551,7 @@ uid 11923,0
 lang 11
 decl (Decl
 n "clk"
-t "std_uLogic"
+t "unsigned"
 o 28
 suid 88,0
 )
@@ -2560,8 +2560,8 @@ uid 11924,0
 va (VaSet
 isHidden 1
 )
-xt "0,0,16100,1200"
-st "SIGNAL clk      : std_uLogic
+xt "0,0,15100,1200"
+st "SIGNAL clk      : unsigned
 "
 )
 )
@@ -2570,7 +2570,7 @@ uid 11933,0
 lang 11
 decl (Decl
 n "rst"
-t "std_uLogic"
+t "unsigned"
 o 29
 suid 89,0
 )
@@ -2579,8 +2579,8 @@ uid 11934,0
 va (VaSet
 isHidden 1
 )
-xt "0,0,16000,1200"
-st "SIGNAL rst      : std_uLogic
+xt "0,0,15000,1200"
+st "SIGNAL rst      : unsigned
 "
 )
 )
@@ -4122,7 +4122,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 11938,0
+lastUid 12067,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5502,7 +5502,7 @@ lang 11
 m 4
 decl (Decl
 n "clk"
-t "std_uLogic"
+t "unsigned"
 o 28
 suid 88,0
 )
@@ -5515,7 +5515,7 @@ lang 11
 m 4
 decl (Decl
 n "rst"
-t "std_uLogic"
+t "unsigned"
 o 29
 suid 89,0
 )
