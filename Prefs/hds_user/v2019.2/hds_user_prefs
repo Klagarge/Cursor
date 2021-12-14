@@ -1269,6 +1269,7 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\hds.hdp"
 "C:\\work\\edu\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
 "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\hds.hdp"
+"C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1483,67 +1484,67 @@ width 816
 height 1161
 )
 (PageSizeInfo
-name "Format papier personnalisé"
+name "Format papier personnalisÃ©"
 type 256
 width 783
 height 1013
 )
 (PageSizeInfo
-name "Format papier personnalisé1(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©1(210,0 x 297,0 mm)"
 type 257
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé2(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©2(210,0 x 297,0 mm)"
 type 258
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé3(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©3(210,0 x 297,0 mm)"
 type 259
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé4(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©4(210,0 x 297,0 mm)"
 type 260
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé5(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©5(210,0 x 297,0 mm)"
 type 261
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé6(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©6(210,0 x 297,0 mm)"
 type 262
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé7(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©7(210,0 x 297,0 mm)"
 type 263
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé8(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©8(210,0 x 297,0 mm)"
 type 264
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé9(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©9(210,0 x 297,0 mm)"
 type 265
 width 761
 height 1077
 )
 (PageSizeInfo
-name "Format papier personnalisé10(210,0 x 297,0 mm)"
+name "Format papier personnalisÃ©10(210,0 x 297,0 mm)"
 type 266
 width 761
 height 1077
@@ -6204,32 +6205,34 @@ size 180
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1552
-height 936
+width 1730
+height 1119
 activeSidePanelTab 2
 activeLibraryTab 2
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 158
-componentBrowserYpos 308
-componentBrowserWidth 483
-componentBrowserHeight 491
+componentBrowserXpos 1173
+componentBrowserYpos 526
+componentBrowserWidth 300
+componentBrowserHeight 340
 componentBrowserLibraryNames [
 "Board"
 "gates"
 "Common"
 "io"
 "sequential"
-"LCD_test"
-"synopsys"
-"verilog"
-"vital2000"
+
+"Cursor_test"
+"Cursor"
 "LCD"
 "Memory"
-"std"
-"Memory_test"
 "ieee"
-"Cursor"
+"std"
+"vital2000"
+"verilog"
+"LCD_test"
+"Memory_test"
+"synopsys"
 ]
 )
 (SmPreferences
