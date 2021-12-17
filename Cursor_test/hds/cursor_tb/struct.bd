@@ -78,23 +78,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -114,27 +114,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "17"
 )
 (vvPair
 variable "designName"
@@ -162,11 +162,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -174,11 +174,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:13:23"
+value "09:37:57"
 )
 (vvPair
 variable "group"
@@ -186,7 +186,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -206,7 +206,7 @@ value "$SCRATCH_DIR/Cursor_test/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -214,19 +214,19 @@ value "cursor_tb"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -302,7 +302,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:13:23"
+value "09:37:57"
 )
 (vvPair
 variable "unit"
@@ -310,7 +310,7 @@ value "cursor_tb"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -322,11 +322,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2021"
 )
 (vvPair
 variable "yy"
-value "19"
+value "21"
 )
 ]
 )
@@ -347,7 +347,8 @@ va (VaSet
 isHidden 1
 )
 xt "-5000,32800,11300,34000"
-st "SIGNAL reset    : std_ulogic"
+st "SIGNAL reset    : std_ulogic
+"
 )
 )
 *2 (Net
@@ -364,7 +365,8 @@ va (VaSet
 isHidden 1
 )
 xt "-5000,26800,11400,28000"
-st "SIGNAL clock    : std_ulogic"
+st "SIGNAL clock    : std_ulogic
+"
 )
 )
 *3 (Grouping
@@ -449,7 +451,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "56200,91400,74600,92600"
+xt "56200,91400,71600,92600"
 st "
 by %user on %dd %month %year
 "
@@ -766,7 +768,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13600,-400"
-st "SIGNAL testMode : std_uLogic"
+st "SIGNAL testMode : std_uLogic
+"
 )
 )
 *19 (Net
@@ -784,7 +787,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13300,-400"
-st "SIGNAL sensor2  : std_uLogic"
+st "SIGNAL sensor2  : std_uLogic
+"
 )
 )
 *20 (Net
@@ -802,7 +806,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13300,-400"
-st "SIGNAL sensor1  : std_uLogic"
+st "SIGNAL sensor1  : std_uLogic
+"
 )
 )
 *21 (Net
@@ -820,7 +825,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13700,-400"
-st "SIGNAL motorOn  : std_uLogic"
+st "SIGNAL motorOn  : std_uLogic
+"
 )
 )
 *22 (Net
@@ -838,7 +844,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,12900,-400"
-st "SIGNAL side1    : std_uLogic"
+st "SIGNAL side1    : std_uLogic
+"
 )
 )
 *23 (Net
@@ -856,7 +863,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,12900,-400"
-st "SIGNAL side2    : std_uLogic"
+st "SIGNAL side2    : std_uLogic
+"
 )
 )
 *24 (Net
@@ -874,7 +882,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,12900,-400"
-st "SIGNAL go2      : std_uLogic"
+st "SIGNAL go2      : std_uLogic
+"
 )
 )
 *25 (Net
@@ -892,7 +901,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,12900,-400"
-st "SIGNAL go1      : std_uLogic"
+st "SIGNAL go1      : std_uLogic
+"
 )
 )
 *26 (Net
@@ -910,7 +920,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,12800,-400"
-st "SIGNAL restart  : std_uLogic"
+st "SIGNAL restart  : std_uLogic
+"
 )
 )
 *27 (Net
@@ -928,7 +939,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13400,-400"
-st "SIGNAL encoderI : std_uLogic"
+st "SIGNAL encoderI : std_uLogic
+"
 )
 )
 *28 (Net
@@ -946,7 +958,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13600,-400"
-st "SIGNAL encoderB : std_uLogic"
+st "SIGNAL encoderB : std_uLogic
+"
 )
 )
 *29 (Net
@@ -964,7 +977,8 @@ isHidden 1
 font "Verdana,8,0"
 )
 xt "0,-1400,13600,-400"
-st "SIGNAL encoderA : std_uLogic"
+st "SIGNAL encoderA : std_uLogic
+"
 )
 )
 *30 (Net
@@ -981,7 +995,8 @@ va (VaSet
 isHidden 1
 )
 xt "0,-1400,17300,-200"
-st "SIGNAL button4  : std_uLogic"
+st "SIGNAL button4  : std_uLogic
+"
 )
 )
 *31 (SaComponent
@@ -2531,8 +2546,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "74,46,1330,909"
-viewArea "-8608,17960,105743,94895"
+windowSize "-8,-8,1722,1111"
+viewArea "-8600,-4000,158289,106111"
 cachedDiagramExtent "-7000,-1400,102000,93000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -2559,7 +2574,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 4859,0
+lastUid 5464,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3588,7 +3603,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 16,0
+suid 38,0
 usingSuid 1
 emptyRow *102 (LEmptyRow
 )

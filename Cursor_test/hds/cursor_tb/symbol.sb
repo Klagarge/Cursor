@@ -10,7 +10,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 2001,0
+suid 2008,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -330,23 +330,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -366,27 +366,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -410,11 +410,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -422,11 +422,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:13:22"
+value "09:37:57"
 )
 (vvPair
 variable "group"
@@ -434,7 +434,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -454,7 +454,7 @@ value "$SCRATCH_DIR/Cursor_test/work"
 )
 (vvPair
 variable "mm"
-value "11"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -462,19 +462,19 @@ value "cursor_tb"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor_test\\hds\\cursor_tb\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -502,7 +502,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:13:22"
+value "09:37:57"
 )
 (vvPair
 variable "unit"
@@ -510,7 +510,7 @@ value "cursor_tb"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -522,11 +522,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2021"
 )
 (vvPair
 variable "yy"
-value "19"
+value "21"
 )
 ]
 )
@@ -541,7 +541,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "29000,13000,43000,27000"
+xt "29000,13000,56000,27000"
 )
 oxt "15000,6000,20000,26000"
 biTextGroup (BiTextGroup
@@ -673,7 +673,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "27200,47400,42300,48600"
+xt "27200,47400,42600,48600"
 st "
 by %user on %dd %month %year
 "
@@ -1224,7 +1224,7 @@ xt "0,3400,0,3400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 111,0
+lastUid 206,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 )

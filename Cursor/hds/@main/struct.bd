@@ -142,19 +142,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\M
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "day"
-value "mar."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -182,7 +182,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "17.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -194,7 +194,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:20:04"
+value "09:37:10"
 )
 (vvPair
 variable "group"
@@ -266,7 +266,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:20:04"
+value "09:37:10"
 )
 (vvPair
 variable "unit"
@@ -392,7 +392,7 @@ uid 21,0
 lang 11
 decl (Decl
 n "button"
-t "unsigned"
+t "std_uLogic_vector"
 b "(3 DOWNTO 0)"
 o 2
 suid 1,0
@@ -501,7 +501,7 @@ uid 49,0
 lang 11
 decl (Decl
 n "Position"
-t "unsigned"
+t "std_uLogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 3,0
@@ -521,7 +521,7 @@ uid 63,0
 lang 11
 decl (Decl
 n "Power"
-t "unsigned"
+t "std_uLogic_vector"
 b "(7 DOWNTO 0)"
 o 8
 suid 4,0
@@ -1787,7 +1787,7 @@ lang 11
 decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
-o 23
+o 26
 suid 23,0
 )
 declText (MLText
@@ -1803,9 +1803,9 @@ uid 535,0
 lang 11
 decl (Decl
 n "power_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
-o 19
+o 22
 suid 24,0
 )
 declText (MLText
@@ -1822,7 +1822,7 @@ lang 11
 decl (Decl
 n "sideL_cruse"
 t "std_ulogic"
-o 24
+o 27
 suid 25,0
 )
 declText (MLText
@@ -1838,9 +1838,8 @@ uid 539,0
 lang 11
 decl (Decl
 n "power_cruse"
-t "unsigned"
-b "(7 DOWNTO 0)"
-o 20
+t "std_ulogic"
+o 23
 suid 26,0
 )
 declText (MLText
@@ -1856,9 +1855,8 @@ uid 541,0
 lang 11
 decl (Decl
 n "power_deceleration"
-t "unsigned"
-b "(7 DOWNTO 0)"
-o 21
+t "std_ulogic"
+o 24
 suid 27,0
 )
 declText (MLText
@@ -1875,7 +1873,7 @@ lang 11
 decl (Decl
 n "sideL_deceleration"
 t "std_ulogic"
-o 25
+o 28
 suid 28,0
 )
 declText (MLText
@@ -1891,9 +1889,9 @@ uid 555,0
 lang 11
 decl (Decl
 n "sensor_bus"
-t "unsigned"
+t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 22
+o 25
 suid 30,0
 )
 declText (MLText
@@ -1909,7 +1907,7 @@ uid 627,0
 lang 11
 decl (Decl
 n "info_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 16
 suid 34,0
@@ -1927,7 +1925,7 @@ uid 629,0
 lang 11
 decl (Decl
 n "info_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -1945,7 +1943,7 @@ uid 631,0
 lang 11
 decl (Decl
 n "info_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -2095,7 +2093,7 @@ uid 892,0
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 43,0
 )
@@ -2112,7 +2110,7 @@ uid 902,0
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 44,0
 )
@@ -2210,8 +2208,8 @@ uid 1131,0
 lang 11
 decl (Decl
 n "skip_acceleration"
-t "unsigned"
-o 26
+t "std_ulogic"
+o 29
 suid 46,0
 )
 declText (MLText
@@ -2308,9 +2306,9 @@ uid 1348,0
 lang 11
 decl (Decl
 n "pos1"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 27
+o 19
 suid 51,0
 )
 declText (MLText
@@ -2326,9 +2324,9 @@ uid 1350,0
 lang 11
 decl (Decl
 n "pos2"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 28
+o 20
 suid 52,0
 )
 declText (MLText
@@ -2344,9 +2342,9 @@ uid 1352,0
 lang 11
 decl (Decl
 n "pos_init"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 29
+o 21
 suid 53,0
 )
 declText (MLText
@@ -2433,8 +2431,8 @@ uid 20,0
 va (VaSet
 isHidden 1
 )
-xt "2000,-1200,10200,0"
-st "button : (3:0)"
+xt "2000,-1200,5900,0"
+st "button"
 blo "2000,-200"
 tm "WireNameMgr"
 )
@@ -2642,8 +2640,8 @@ uid 48,0
 va (VaSet
 isHidden 1
 )
-xt "113000,41800,121000,43000"
-st "Power : (7:0)"
+xt "113000,41800,116700,43000"
+st "Power"
 blo "113000,42800"
 tm "WireNameMgr"
 )
@@ -2651,43 +2649,6 @@ tm "WireNameMgr"
 on &7
 )
 *99 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
-)
-*100 (Wire
 uid 71,0
 shape (OrthoPolyLine
 uid 72,0
@@ -2725,6 +2686,43 @@ tm "WireNameMgr"
 )
 )
 on &16
+)
+*100 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
 )
 *101 (Wire
 uid 85,0
@@ -3157,7 +3155,6 @@ shape (OrthoPolyLine
 uid 496,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "64000,28000,64000,34000"
 pts [
@@ -3169,7 +3166,6 @@ start &34
 end &67
 sat 2
 eat 1
-sty 1
 st 0
 sf 1
 si 0
@@ -3182,8 +3178,8 @@ uid 502,0
 ro 270
 va (VaSet
 )
-xt "62800,21700,64000,33000"
-st "power_cruse : (7:0)"
+xt "62800,25300,64000,33000"
+st "power_cruse"
 blo "63800,33000"
 tm "WireNameMgr"
 )
@@ -3270,7 +3266,6 @@ shape (OrthoPolyLine
 uid 526,0
 va (VaSet
 vasetType 3
-lineWidth 2
 )
 xt "91000,28000,91000,34000"
 pts [
@@ -3282,7 +3277,6 @@ start &38
 end &67
 sat 2
 eat 1
-sty 1
 st 0
 sf 1
 si 0
@@ -3295,8 +3289,8 @@ uid 532,0
 ro 270
 va (VaSet
 )
-xt "89800,17600,91000,33000"
-st "power_deceleration : (7:0)"
+xt "89800,21900,91000,33000"
+st "power_deceleration"
 blo "90800,33000"
 tm "WireNameMgr"
 )
@@ -5151,12 +5145,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1715,1119"
-viewArea "-7960,-26360,111000,52920"
+windowSize "0,24,1715,1143"
+viewArea "-8000,-26400,110960,50640"
 cachedDiagramExtent "-10000,-20200,128400,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 1644,0
+lastUid 1831,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6243,7 +6237,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "unsigned"
+t "std_uLogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 3,0
@@ -6256,7 +6250,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "unsigned"
+t "std_uLogic_vector"
 b "(3 DOWNTO 0)"
 o 2
 suid 1,0
@@ -6303,7 +6297,7 @@ lang 11
 m 1
 decl (Decl
 n "Power"
-t "unsigned"
+t "std_uLogic_vector"
 b "(7 DOWNTO 0)"
 o 8
 suid 4,0
@@ -6370,7 +6364,7 @@ m 4
 decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
-o 23
+o 26
 suid 23,0
 )
 )
@@ -6382,9 +6376,9 @@ lang 11
 m 4
 decl (Decl
 n "power_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
-o 19
+o 22
 suid 24,0
 )
 )
@@ -6397,7 +6391,7 @@ m 4
 decl (Decl
 n "sideL_cruse"
 t "std_ulogic"
-o 24
+o 27
 suid 25,0
 )
 )
@@ -6409,9 +6403,8 @@ lang 11
 m 4
 decl (Decl
 n "power_cruse"
-t "unsigned"
-b "(7 DOWNTO 0)"
-o 20
+t "std_ulogic"
+o 23
 suid 26,0
 )
 )
@@ -6423,9 +6416,8 @@ lang 11
 m 4
 decl (Decl
 n "power_deceleration"
-t "unsigned"
-b "(7 DOWNTO 0)"
-o 21
+t "std_ulogic"
+o 24
 suid 27,0
 )
 )
@@ -6438,7 +6430,7 @@ m 4
 decl (Decl
 n "sideL_deceleration"
 t "std_ulogic"
-o 25
+o 28
 suid 28,0
 )
 )
@@ -6450,9 +6442,9 @@ lang 11
 m 4
 decl (Decl
 n "sensor_bus"
-t "unsigned"
+t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 22
+o 25
 suid 30,0
 )
 )
@@ -6464,7 +6456,7 @@ lang 11
 m 4
 decl (Decl
 n "info_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 16
 suid 34,0
@@ -6478,7 +6470,7 @@ lang 11
 m 4
 decl (Decl
 n "info_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -6492,7 +6484,7 @@ lang 11
 m 4
 decl (Decl
 n "info_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -6544,7 +6536,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 3
 suid 43,0
 )
@@ -6556,7 +6548,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 44,0
 )
@@ -6569,8 +6561,8 @@ lang 11
 m 4
 decl (Decl
 n "skip_acceleration"
-t "unsigned"
-o 26
+t "std_ulogic"
+o 29
 suid 46,0
 )
 )
@@ -6582,9 +6574,9 @@ lang 11
 m 4
 decl (Decl
 n "pos1"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 27
+o 19
 suid 51,0
 )
 )
@@ -6596,9 +6588,9 @@ lang 11
 m 4
 decl (Decl
 n "pos2"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 28
+o 20
 suid 52,0
 )
 )
@@ -6610,9 +6602,9 @@ lang 11
 m 4
 decl (Decl
 n "pos_init"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 29
+o 21
 suid 53,0
 )
 )
@@ -7086,5 +7078,5 @@ vaOverrides [
 uid 274,0
 type 1
 )
-activeModelName "BlockDiag"
+activeModelName "BlockDiag:CDM"
 )
