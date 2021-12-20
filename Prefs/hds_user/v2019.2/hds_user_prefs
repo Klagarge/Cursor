@@ -1268,8 +1268,8 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\hds.hdp"
 "C:\\work\\edu\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
-"C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\hds.hdp"
 "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\hds.hdp"
+"C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -4181,7 +4181,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x200+920+0"
+logWindowGeometry "600x361+920+0"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6205,10 +6205,10 @@ size 180
 displayHierarchy 0
 xPos 0
 yPos 0
-width 1730
-height 1119
+width 1552
+height 936
 activeSidePanelTab 2
-activeLibraryTab 2
+activeLibraryTab 3
 sidePanelSize 278
 showUnixHiddenFiles 0
 componentBrowserXpos 158

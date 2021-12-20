@@ -1,5 +1,5 @@
 # Ignore HDL Designer Folder
-Prefs/hds_user/logs/
+Prefs/hds_user/
 Prefs/dc_user/
 Prefs/dp_user/
 Prefs/hds.info/
@@ -28,5 +28,3 @@ default_view
 *.c
 *.cpp
 *.psl
-Prefs/hds_user/v2019.2/hds_user_prefs
-Prefs/hds_user/v2019.2/hds_user_prefs
