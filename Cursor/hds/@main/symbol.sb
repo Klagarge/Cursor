@@ -78,7 +78,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "std_ulogic"
+t "unsigned"
 o 3
 suid 76,0
 )
@@ -130,7 +130,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "std_ulogic"
+t "unsigned"
 o 4
 suid 80,0
 )
@@ -657,7 +657,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:44:45"
+value "15:58:06"
 )
 (vvPair
 variable "group"
@@ -729,7 +729,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:44:45"
+value "15:58:06"
 )
 (vvPair
 variable "unit"
@@ -842,15 +842,15 @@ uid 888,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4000,61000,4800"
-st "clk      : IN     std_ulogic  ;
+xt "44000,4000,60000,4800"
+st "clk      : IN     unsigned  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "std_ulogic"
+t "unsigned"
 o 3
 suid 76,0
 )
@@ -1031,15 +1031,15 @@ uid 908,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4800,61000,5600"
-st "rst      : IN     std_ulogic  ;
+xt "44000,4800,60000,5600"
+st "rst      : IN     unsigned  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "std_ulogic"
+t "unsigned"
 o 4
 suid 80,0
 )
@@ -2031,6 +2031,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1192,0
+lastUid 1215,0
 activeModelName "Symbol:CDM"
 )

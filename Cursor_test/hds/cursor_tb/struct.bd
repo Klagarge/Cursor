@@ -178,7 +178,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:27:21"
+value "16:00:15"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:27:21"
+value "16:00:15"
 )
 (vvPair
 variable "unit"
@@ -2532,7 +2532,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-3100,25591,97693,89655"
+viewArea "-3100,25591,97693,87499"
 cachedDiagramExtent "-7000,-1400,102000,93000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"

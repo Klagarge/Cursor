@@ -166,7 +166,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:15:24"
+value "15:59:49"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "15:15:24"
+value "15:59:49"
 )
 (vvPair
 variable "unit"
@@ -2779,7 +2779,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "std_ulogic"
+t "unsigned"
 o 3
 suid 76,0
 )
@@ -2928,7 +2928,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "std_ulogic"
+t "unsigned"
 o 4
 suid 80,0
 )
@@ -4680,7 +4680,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "26700,-6149,153673,74555"
+viewArea "26700,1700,153673,79688"
 cachedDiagramExtent "-17000,-23800,171000,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -4707,7 +4707,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 13722,0
+lastUid 14054,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

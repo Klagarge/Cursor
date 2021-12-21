@@ -130,7 +130,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:39:05"
+value "15:40:47"
 )
 (vvPair
 variable "group"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "14:39:05"
+value "15:40:47"
 )
 (vvPair
 variable "unit"
@@ -620,7 +620,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,46000,46000,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1153,7 +1153,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "15930,25272,52230,26672"
+xt "19175,26207,55475,27607"
 )
 autoResize 1
 tline (Line
@@ -1164,10 +1164,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "16030,25172,52130,25172"
+xt "19275,26107,55375,26107"
 pts [
-"16030,25172"
-"52130,25172"
+"19275,26107"
+"55375,26107"
 ]
 )
 bline (Line
@@ -1178,10 +1178,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "16030,24572,52130,24572"
+xt "19275,25507,55375,25507"
 pts [
-"16030,24572"
-"52130,24572"
+"19275,25507"
+"55375,25507"
 ]
 )
 ttri (Triangle
@@ -1195,7 +1195,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "15580,24797,15930,25147"
+xt "18825,25732,19175,26082"
 )
 btri (Triangle
 uid 1014,0
@@ -1208,28 +1208,28 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "15580,22397,15930,22747"
+xt "18825,23332,19175,23682"
 )
 entryActions (MLText
 uid 1015,0
 va (VaSet
 )
-xt "16030,24972,16030,24972"
+xt "19275,25907,19275,25907"
 tm "Actions"
 )
 inActions (MLText
 uid 1016,0
 va (VaSet
 )
-xt "16030,25372,52130,26572"
-st "power_acceleration <= (257 - ((Position - info_acceleration)/17));"
+xt "19275,26307,55375,27507"
+st "power_acceleration <= (257 - ((Position - info_acceleration)/11));"
 tm "Actions"
 )
 exitActions (MLText
 uid 1017,0
 va (VaSet
 )
-xt "30080,22572,30080,22572"
+xt "33325,23507,33325,23507"
 tm "Actions"
 )
 )
@@ -1381,7 +1381,7 @@ uid 1033,0
 va (VaSet
 )
 xt "55578,22588,91878,23788"
-st "power_acceleration <= (257 - ((Position + info_acceleration)/17));"
+st "power_acceleration <= (257 - ((Position + info_acceleration)/11));"
 tm "Actions"
 )
 exitActions (MLText
@@ -2207,7 +2207,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "14600,-900,86595,44860"
+viewArea "15425,-5300,87420,38920"
 cachedDiagramExtent "0,-1000,91978,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2581,7 +2581,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1227,0
+lastUid 1256,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *61 (LEmptyRow
@@ -2694,7 +2694,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 4
 )
@@ -2709,7 +2709,7 @@ m 1
 decl (Decl
 n "power_acceleration"
 t "unsigned"
-b "(7 DOWNTO 0)"
+b "(15 DOWNTO 0)"
 o 7
 )
 )
@@ -3944,6 +3944,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )

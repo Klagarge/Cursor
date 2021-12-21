@@ -227,7 +227,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:15:57"
+value "15:59:21"
 )
 (vvPair
 variable "group"
@@ -299,7 +299,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:15:57"
+value "15:59:21"
 )
 (vvPair
 variable "unit"
@@ -1871,7 +1871,7 @@ uid 539,0
 lang 11
 decl (Decl
 n "power_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 23
 suid 26,0
@@ -1889,7 +1889,7 @@ uid 541,0
 lang 11
 decl (Decl
 n "power_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 24
 suid 27,0
@@ -2128,7 +2128,7 @@ uid 892,0
 lang 11
 decl (Decl
 n "clk"
-t "std_ulogic"
+t "unsigned"
 o 3
 suid 43,0
 )
@@ -2145,7 +2145,7 @@ uid 902,0
 lang 11
 decl (Decl
 n "rst"
-t "std_ulogic"
+t "unsigned"
 o 4
 suid 44,0
 )
@@ -2341,7 +2341,7 @@ uid 1348,0
 lang 11
 decl (Decl
 n "pos1"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -2359,7 +2359,7 @@ uid 1350,0
 lang 11
 decl (Decl
 n "pos2"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0
@@ -3068,6 +3068,43 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
+)
+*112 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
 xt "35000,40000,114000,45000"
 pts [
 "114000,45000"
@@ -3099,43 +3136,6 @@ tm "WireNameMgr"
 )
 )
 on &16
-)
-*112 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
 )
 *113 (Wire
 uid 85,0
@@ -3468,6 +3468,8 @@ lineWidth 2
 xt "37000,28000,37000,34000"
 pts [
 "37000,28000"
+"37000,32000"
+"37000,33000"
 "37000,34000"
 ]
 )
@@ -5640,11 +5642,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-11800,-22638,100774,48914"
+viewArea "13668,16080,70937,51255"
 cachedDiagramExtent "-37000,-20200,122900,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 4314,0
+lastUid 5444,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6898,7 +6900,7 @@ lang 11
 m 4
 decl (Decl
 n "power_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 23
 suid 26,0
@@ -6912,7 +6914,7 @@ lang 11
 m 4
 decl (Decl
 n "power_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 24
 suid 27,0
@@ -7033,7 +7035,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "std_ulogic"
+t "unsigned"
 o 3
 suid 43,0
 )
@@ -7045,7 +7047,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "std_ulogic"
+t "unsigned"
 o 4
 suid 44,0
 )
@@ -7071,7 +7073,7 @@ lang 11
 m 4
 decl (Decl
 n "pos1"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -7085,7 +7087,7 @@ lang 11
 m 4
 decl (Decl
 n "pos2"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0
