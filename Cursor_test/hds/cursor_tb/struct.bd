@@ -178,7 +178,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:17:00"
+value "15:27:21"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:17:00"
+value "15:27:21"
 )
 (vvPair
 variable "unit"
@@ -1806,8 +1806,7 @@ position1       = position1          ( positive )
 position2       = position2          ( positive )  
 slopeShiftBitNb = slopeShiftBitNb    ( positive )  
 pwmBitNb        = pwmBitNb           ( positive )  
-testLineNb      = 1                  ( positive )  
-"
+testLineNb      = 1                  ( positive )  "
 )
 header ""
 )

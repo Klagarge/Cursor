@@ -488,11 +488,11 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button\\interface.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button\\interface.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\interface.user"
 )
 (vvPair
 variable "SourceDir"
@@ -516,11 +516,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Button"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock"
 )
 (vvPair
 variable "date"
@@ -540,7 +540,7 @@ value "21"
 )
 (vvPair
 variable "entity_name"
-value "Button"
+value "ButtonBlock"
 )
 (vvPair
 variable "ext"
@@ -576,7 +576,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:55:06"
+value "15:22:46"
 )
 (vvPair
 variable "group"
@@ -604,7 +604,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-value "Button"
+value "ButtonBlock"
 )
 (vvPair
 variable "month"
@@ -616,11 +616,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Button\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock\\interface"
 )
 (vvPair
 variable "package_name"
@@ -648,11 +648,11 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:55:06"
+value "15:22:46"
 )
 (vvPair
 variable "unit"
-value "Button"
+value "ButtonBlock"
 )
 (vvPair
 variable "user"
@@ -1070,8 +1070,8 @@ uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16950,12500,21050,13700"
-st "Button"
+xt "16950,12500,24350,13700"
+st "ButtonBlock"
 blo "16950,13500"
 )
 )
@@ -1412,7 +1412,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,45200,48000"
+xt "36200,47000,47100,48000"
 st "
 %library/%unit/%view
 "
@@ -1748,6 +1748,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 917,0
+lastUid 940,0
 activeModelName "Symbol:CDM"
 )

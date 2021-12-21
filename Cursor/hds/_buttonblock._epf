@@ -1,2 +1,2 @@
 DEFAULT_FILE atom @button@block/button@diagram.bd
-DEFAULT_ARCHITECTURE atom button@diagram
+DEFAULT_ARCHITECTURE atom buttonDiagram

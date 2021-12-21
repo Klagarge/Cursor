@@ -130,7 +130,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:40:03"
+value "15:26:45"
 )
 (vvPair
 variable "group"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:40:03"
+value "15:26:45"
 )
 (vvPair
 variable "unit"
@@ -371,7 +371,7 @@ uid 58,0
 va (VaSet
 )
 xt "33086,8144,43186,9344"
-st "dBus0 <= \"000\";"
+st "button <= \"000\";"
 tm "Actions"
 )
 exitActions (MLText
@@ -1224,7 +1224,7 @@ uid 185,0
 va (VaSet
 )
 xt "64978,22604,75078,23804"
-st "dBus0 <= \"001\";"
+st "button <= \"001\";"
 tm "Actions"
 )
 exitActions (MLText
@@ -1383,7 +1383,7 @@ uid 202,0
 va (VaSet
 )
 xt "46690,35060,56790,36260"
-st "dBus0 <= \"010\";"
+st "button <= \"010\";"
 tm "Actions"
 )
 exitActions (MLText
@@ -1542,7 +1542,7 @@ uid 219,0
 va (VaSet
 )
 xt "20122,31604,30222,32804"
-st "dBus0 <= \"100\";"
+st "button <= \"100\";"
 tm "Actions"
 )
 exitActions (MLText
@@ -2663,7 +2663,7 @@ font "Courier New,8,0"
 )
 xt "45400,200,71400,1800"
 st "SIGNAL  MODE    DEFAULT  RESET  SCHEME COMMENT  
-dbus0   OUT                     COMB            
+button  OUT                     COMB            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -2763,7 +2763,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 467,0
+lastUid 496,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *62 (LEmptyRow
@@ -2891,7 +2891,7 @@ port (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "dbus0"
+n "button"
 t "unsigned"
 b "(2 DOWNTO 0)"
 o 7
@@ -4116,6 +4116,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl2008LangMgr"
 )
