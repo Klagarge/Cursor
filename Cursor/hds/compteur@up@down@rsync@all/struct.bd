@@ -190,7 +190,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:28:34"
+value "14:27:13"
 )
 (vvPair
 variable "group"
@@ -262,7 +262,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:28:34"
+value "14:27:13"
 )
 (vvPair
 variable "unit"
@@ -1132,7 +1132,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 suid 3,0
@@ -1475,7 +1475,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 )
@@ -1813,7 +1813,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 )
@@ -2151,7 +2151,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 )
@@ -2489,7 +2489,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 )
@@ -2960,7 +2960,7 @@ uid 1439,0
 lang 11
 decl (Decl
 n "position20bit"
-t "std_ulogic_vector"
+t "unsigned"
 b "(19 DOWNTO 0)"
 o 10
 suid 25,0
@@ -2970,8 +2970,8 @@ uid 1440,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "22000,6400,47000,7200"
-st "position20bit : std_ulogic_vector(19 DOWNTO 0)
+xt "22000,6400,42000,7200"
+st "position20bit : unsigned(19 DOWNTO 0)
 "
 )
 )
@@ -4561,11 +4561,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,960"
-viewArea "7700,-4800,87549,42780"
+viewArea "7700,-9700,87549,39588"
 cachedDiagramExtent "-9000,0,73100,118400"
 hasePageBreakOrigin 1
 pageBreakOrigin "-10000,0"
-lastUid 1521,0
+lastUid 1679,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5749,7 +5749,7 @@ lang 11
 m 1
 decl (Decl
 n "position20bit"
-t "std_ulogic_vector"
+t "unsigned"
 b "(19 DOWNTO 0)"
 o 10
 suid 25,0
@@ -6086,5 +6086,5 @@ vaOverrides [
 uid 178,0
 type 1
 )
-activeModelName "BlockDiag:CDM"
+activeModelName "BlockDiag"
 )

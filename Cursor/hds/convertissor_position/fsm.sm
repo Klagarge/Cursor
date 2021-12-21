@@ -139,7 +139,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:28:54"
+value "14:27:52"
 )
 (vvPair
 variable "group"
@@ -211,7 +211,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:28:54"
+value "14:27:52"
 )
 (vvPair
 variable "unit"
@@ -2306,8 +2306,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "76,33,1263,960"
-viewArea "18600,-4700,76140,41560"
+windowSize "76,33,1264,960"
+viewArea "18600,-4700,76200,41560"
 cachedDiagramExtent "0,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2682,7 +2682,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 424,0
+lastUid 453,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *61 (LEmptyRow
@@ -2745,7 +2745,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "position20bit"
-t "std_ulogic_vector"
+t "unsigned"
 b "(19 DOWNTO 0)"
 o 3
 )
