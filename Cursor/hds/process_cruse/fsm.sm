@@ -78,7 +78,7 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\p
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -90,7 +90,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -118,7 +118,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -130,7 +130,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:35:00"
+value "14:07:01"
 )
 (vvPair
 variable "group"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:35:00"
+value "14:07:01"
 )
 (vvPair
 variable "unit"
@@ -2908,7 +2908,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1715,1143"
-viewArea "-6000,-6100,102551,66243"
+viewArea "-6000,-6100,102551,64199"
 cachedDiagramExtent "0,-1000,93382,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -3295,7 +3295,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 505,0
+lastUid 563,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *67 (LEmptyRow
@@ -3358,7 +3358,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 )
@@ -3370,9 +3370,9 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "info_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 2
+o 3
 )
 )
 uid 158,0
@@ -3383,7 +3383,7 @@ lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 3
+o 6
 )
 )
 uid 160,0
@@ -3395,7 +3395,7 @@ m 1
 decl (Decl
 n "end_cruse"
 t "std_ulogic"
-o 4
+o 7
 )
 )
 uid 162,0
@@ -3409,7 +3409,7 @@ decl (Decl
 n "power_cruse"
 t "unsigned"
 b "(7 DOWNTO 0)"
-o 5
+o 8
 )
 )
 uid 164,0
@@ -3420,13 +3420,12 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "sensor_bus"
-t "unsigned"
+t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 6
+o 5
 )
 )
 uid 166,0
-scheme 0
 )
 *92 (LeafLogPort
 port (LogicalPort
@@ -3435,7 +3434,7 @@ m 1
 decl (Decl
 n "sideL_cruse"
 t "std_ulogic"
-o 7
+o 9
 )
 )
 uid 168,0
@@ -3446,13 +3445,12 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
-o 8
+t "std_ulogic"
+o 2
 )
 )
 uid 170,0
 cat 1
-scheme 0
 expr "clk'EVENT AND clk = '1'"
 )
 *94 (LeafLogPort
@@ -3460,13 +3458,12 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
-o 9
+t "std_ulogic"
+o 4
 )
 )
 uid 172,0
 cat 8
-scheme 0
 expr "rst = '0'"
 )
 ]
@@ -3521,25 +3518,25 @@ uid 200,0
 )
 *100 (MRCItem
 litem &86
-pos 0
+pos 3
 dimension 20
 uid 157,0
 )
 *101 (MRCItem
 litem &87
-pos 1
+pos 2
 dimension 20
 uid 159,0
 )
 *102 (MRCItem
 litem &88
-pos 2
+pos 8
 dimension 20
 uid 161,0
 )
 *103 (MRCItem
 litem &89
-pos 3
+pos 1
 dimension 20
 uid 163,0
 )
@@ -3551,25 +3548,25 @@ uid 165,0
 )
 *105 (MRCItem
 litem &91
-pos 5
+pos 6
 dimension 20
 uid 167,0
 )
 *106 (MRCItem
 litem &92
-pos 6
+pos 7
 dimension 20
 uid 169,0
 )
 *107 (MRCItem
 litem &93
-pos 7
+pos 0
 dimension 20
 uid 171,0
 )
 *108 (MRCItem
 litem &94
-pos 8
+pos 5
 dimension 20
 uid 173,0
 )
@@ -4697,6 +4694,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )

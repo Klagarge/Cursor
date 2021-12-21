@@ -87,7 +87,7 @@ uid 329,0
 port (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 8
 suid 2,0
 )
@@ -98,7 +98,7 @@ uid 330,0
 port (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -294,7 +294,7 @@ m 1
 decl (Decl
 n "testOut"
 t "std_uLogic_vector"
-b "(1 TO testLineNb)"
+b "(1 DOWNTO 0)"
 o 21
 suid 2022,0
 )
@@ -792,23 +792,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -828,27 +828,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit"
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "designName"
@@ -876,11 +876,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -888,11 +888,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:59:57"
+value "14:09:20"
 )
 (vvPair
 variable "group"
@@ -900,7 +900,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -948,11 +948,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursor@circuit\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cursorCircuit\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1028,7 +1028,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:59:57"
+value "14:09:20"
 )
 (vvPair
 variable "unit"
@@ -1036,7 +1036,7 @@ value "cursorCircuit"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -1104,13 +1104,12 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,12700,19000,13500"
-st "clock    : IN     std_ulogic  ;
-"
+st "clock    : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -1158,13 +1157,12 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,17500,19000,18300"
-st "reset    : IN     std_ulogic  ;
-"
+st "reset    : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 8
 suid 2,0
 )
@@ -1214,8 +1212,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,26300,19000,27100"
-st "side1    : OUT    std_uLogic  ;
-"
+st "side1    : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1269,8 +1266,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,18300,19000,19100"
-st "restart  : IN     std_uLogic  ;
-"
+st "restart  : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1323,8 +1319,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,16700,19000,17500"
-st "go2      : IN     std_uLogic  ;
-"
+st "go2      : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1379,8 +1374,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19100,19000,19900"
-st "sensor1  : IN     std_uLogic  ;
-"
+st "sensor1  : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1433,8 +1427,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,20700,19000,21500"
-st "testMode : IN     std_uLogic  ;
-"
+st "testMode : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1487,8 +1480,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,15900,19000,16700"
-st "go1      : IN     std_uLogic  ;
-"
+st "go1      : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1543,8 +1535,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,27100,19000,27900"
-st "side2    : OUT    std_uLogic  ;
-"
+st "side2    : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1600,8 +1591,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19900,19000,20700"
-st "sensor2  : IN     std_uLogic  ;
-"
+st "sensor2  : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1656,8 +1646,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25500,19000,26300"
-st "motorOn  : OUT    std_uLogic  ;
-"
+st "motorOn  : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1713,8 +1702,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,13500,19000,14300"
-st "encoderA : IN     std_uLogic  ;
-"
+st "encoderA : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1769,8 +1757,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,14300,19000,15100"
-st "encoderB : IN     std_uLogic  ;
-"
+st "encoderB : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1825,8 +1812,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,15100,19000,15900"
-st "encoderI : IN     std_uLogic  ;
-"
+st "encoderI : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1879,8 +1865,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,11900,19000,12700"
-st "button4  : IN     std_uLogic  ;
-"
+st "button4  : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1933,8 +1918,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,22300,19000,23100"
-st "CS1_n    : OUT    std_ulogic  ;
-"
+st "CS1_n    : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1988,8 +1972,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,23900,19000,24700"
-st "SCL      : OUT    std_ulogic  ;
-"
+st "SCL      : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2043,8 +2026,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,24700,19000,25500"
-st "SI       : OUT    std_ulogic  ;
-"
+st "SI       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2098,8 +2080,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21500,19000,22300"
-st "A0       : OUT    std_ulogic  ;
-"
+st "A0       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2153,8 +2134,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,23100,19000,23900"
-st "RST_n    : OUT    std_ulogic  ;
-"
+st "RST_n    : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2209,16 +2189,15 @@ uid 947,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "2000,27900,30500,28700"
-st "testOut  : OUT    std_uLogic_vector (1 TO testLineNb)
-"
+xt "2000,27900,28000,28700"
+st "testOut  : OUT    std_uLogic_vector (1 DOWNTO 0)"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "testOut"
 t "std_uLogic_vector"
-b "(1 TO testLineNb)"
+b "(1 DOWNTO 0)"
 o 21
 suid 2022,0
 )
@@ -2964,7 +2943,7 @@ xt "0,9900,0,9900"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 947,0
+lastUid 1246,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

@@ -90,7 +90,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Power"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 1
 suid 3,0
@@ -513,19 +513,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\D
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -553,7 +553,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -565,7 +565,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:37:40"
+value "13:48:40"
 )
 (vvPair
 variable "group"
@@ -637,7 +637,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:37:40"
+value "13:48:40"
 )
 (vvPair
 variable "unit"
@@ -704,8 +704,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,60500,4800"
-st "clock   : IN     std_ulogic  ;
-"
+st "clock   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -751,8 +750,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,60500,6400"
-st "motorOn : OUT    std_uLogic  ;
-"
+st "motorOn : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -797,15 +795,14 @@ uid 65,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2400,70500,3200"
-st "Power   : IN     std_ulogic_vector (7 DOWNTO 0) ;
-"
+xt "44000,2400,66000,3200"
+st "Power   : IN     unsigned (7 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Power"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 1
 suid 3,0
@@ -845,8 +842,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,60500,5600"
-st "reset   : IN     std_ulogic  ;
-"
+st "reset   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -892,8 +888,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,60500,7200"
-st "side1   : OUT    std_uLogic  ;
-"
+st "side1   : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -940,8 +935,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,59500,8000"
-st "side2   : OUT    std_uLogic 
-"
+st "side2   : OUT    std_uLogic "
 )
 thePort (LogicalPort
 lang 11
@@ -987,8 +981,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,60500,4000"
-st "SideL   : IN     std_ulogic  ;
-"
+st "SideL   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1707,6 +1700,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 639,0
+lastUid 685,0
 activeModelName "Symbol:CDM"
 )

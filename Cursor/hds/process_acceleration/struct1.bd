@@ -97,7 +97,7 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\p
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -109,7 +109,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -137,7 +137,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -149,7 +149,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:13:45"
+value "14:06:44"
 )
 (vvPair
 variable "group"
@@ -221,7 +221,7 @@ value "struct1"
 )
 (vvPair
 variable "time"
-value "09:13:45"
+value "14:06:44"
 )
 (vvPair
 variable "unit"
@@ -302,7 +302,7 @@ uid 21,0
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 2
 suid 1,0
 )
@@ -429,7 +429,7 @@ uid 49,0
 lang 11
 decl (Decl
 n "info_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 3
 suid 3,0
@@ -494,7 +494,7 @@ uid 63,0
 lang 11
 decl (Decl
 n "Position"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 4,0
@@ -623,7 +623,7 @@ uid 91,0
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 6,0
 )
@@ -1105,7 +1105,7 @@ uid 328,0
 lang 11
 decl (Decl
 n "skip_acceleration"
-t "unsigned"
+t "std_ulogic"
 o 5
 suid 8,0
 )
@@ -2459,12 +2459,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1722,1111"
-viewArea "-30000,-15572,78144,55780"
+windowSize "0,24,1715,1143"
+viewArea "-30000,-15600,78551,56743"
 cachedDiagramExtent "-15300,-6200,74400,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-87000,-49000"
-lastUid 1003,0
+lastUid 1240,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3551,7 +3551,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_logic"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 4,0
@@ -3591,7 +3591,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 3
 suid 3,0
@@ -3617,7 +3617,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 2
 suid 1,0
 )
@@ -3629,7 +3629,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 6,0
 )
@@ -3641,7 +3641,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "skip_acceleration"
-t "unsigned"
+t "std_ulogic"
 o 5
 suid 8,0
 )

@@ -83,19 +83,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\P
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -123,7 +123,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -135,7 +135,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:45:08"
+value "13:48:37"
 )
 (vvPair
 variable "group"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "08:45:08"
+value "13:48:37"
 )
 (vvPair
 variable "unit"
@@ -1717,8 +1717,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1722,1111"
-viewArea "-4286,-4742,82229,52339"
+windowSize "0,0,1715,1119"
+viewArea "-4300,-4700,81946,51154"
 cachedDiagramExtent "-650,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-2000"
@@ -2091,7 +2091,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 302,0
+lastUid 360,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *56 (LEmptyRow
@@ -2179,7 +2179,7 @@ port (LogicalPort
 decl (Decl
 n "countOut"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 3
 )
 )
@@ -3415,6 +3415,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )
