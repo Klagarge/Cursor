@@ -53,23 +53,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -89,11 +89,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration"
 )
 (vvPair
 variable "date"
@@ -133,7 +133,7 @@ value "struct1"
 )
 (vvPair
 variable "graphical_source_author"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "graphical_source_date"
@@ -145,11 +145,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:06:44"
+value "14:36:24"
 )
 (vvPair
 variable "group"
@@ -157,7 +157,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "language"
@@ -189,11 +189,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\process_acceleration\\struct1.bd"
 )
 (vvPair
 variable "package_name"
@@ -221,7 +221,7 @@ value "struct1"
 )
 (vvPair
 variable "time"
-value "14:06:44"
+value "14:36:24"
 )
 (vvPair
 variable "unit"
@@ -229,7 +229,7 @@ value "process_acceleration"
 )
 (vvPair
 variable "user"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "version"
@@ -494,7 +494,7 @@ uid 63,0
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 suid 4,0
@@ -2459,12 +2459,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1715,1143"
-viewArea "-30000,-15600,78551,56743"
+windowSize "0,0,1537,960"
+viewArea "-30000,-15600,79956,51936"
 cachedDiagramExtent "-15300,-6200,74400,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-87000,-49000"
-lastUid 1240,0
+lastUid 1319,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3551,7 +3551,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 suid 4,0
@@ -3989,5 +3989,5 @@ vaOverrides [
 uid 194,0
 type 1
 )
-activeModelName "BlockDiag"
+activeModelName "BlockDiag:CDM"
 )

@@ -131,23 +131,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -167,11 +167,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
 )
 (vvPair
 variable "date"
@@ -211,7 +211,7 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "graphical_source_date"
@@ -223,11 +223,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:07:25"
+value "14:37:59"
 )
 (vvPair
 variable "group"
@@ -235,7 +235,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "language"
@@ -267,11 +267,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\struct.bd"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -299,7 +299,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:07:25"
+value "14:37:59"
 )
 (vvPair
 variable "unit"
@@ -307,7 +307,7 @@ value "Main"
 )
 (vvPair
 variable "user"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "version"
@@ -534,7 +534,7 @@ uid 49,0
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 suid 3,0
@@ -3068,43 +3068,6 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
-)
-*112 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
 xt "35000,40000,114000,45000"
 pts [
 "114000,45000"
@@ -3136,6 +3099,43 @@ tm "WireNameMgr"
 )
 )
 on &16
+)
+*112 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
 )
 *113 (Wire
 uid 85,0
@@ -5639,12 +5639,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,11,1715,1130"
-viewArea "-20675,-15400,90850,58925"
+windowSize "0,0,1537,960"
+viewArea "-20700,-29676,91874,41876"
 cachedDiagramExtent "-37000,-20200,122900,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 3379,0
+lastUid 3566,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6731,7 +6731,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 suid 3,0

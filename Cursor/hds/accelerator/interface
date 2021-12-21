@@ -21,7 +21,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 73,0
+suid 80,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -67,10 +67,10 @@ decl (Decl
 n "clk"
 t "std_ulogic"
 o 2
-suid 67,0
+suid 74,0
 )
 )
-uid 950,0
+uid 1022,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -78,11 +78,11 @@ lang 11
 decl (Decl
 n "end_acceleration"
 t "std_ulogic"
-o 7
-suid 68,0
+o 3
+suid 75,0
 )
 )
-uid 952,0
+uid 1024,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -91,24 +91,24 @@ decl (Decl
 n "info_acceleration"
 t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 3
-suid 69,0
+o 4
+suid 76,0
 )
 )
-uid 954,0
+uid 1026,0
 )
 *17 (LogPort
 port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
-suid 70,0
+suid 77,0
 )
 )
-uid 956,0
+uid 1028,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -118,11 +118,11 @@ decl (Decl
 n "power_acceleration"
 t "unsigned"
 b "(7 DOWNTO 0)"
-o 8
-suid 71,0
+o 7
+suid 78,0
 )
 )
-uid 958,0
+uid 1030,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -130,11 +130,11 @@ lang 11
 decl (Decl
 n "rst"
 t "std_ulogic"
-o 4
-suid 72,0
+o 5
+suid 79,0
 )
 )
-uid 960,0
+uid 1032,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -142,11 +142,11 @@ lang 11
 decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
-o 9
-suid 73,0
+o 6
+suid 80,0
 )
 )
-uid 962,0
+uid 1034,0
 )
 ]
 )
@@ -202,43 +202,43 @@ uid 106,0
 litem &14
 pos 0
 dimension 20
-uid 951,0
+uid 1023,0
 )
 *27 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 953,0
+uid 1025,0
 )
 *28 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 955,0
+uid 1027,0
 )
 *29 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 957,0
+uid 1029,0
 )
 *30 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 959,0
+uid 1031,0
 )
 *31 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 961,0
+uid 1033,0
 )
 *32 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 963,0
+uid 1035,0
 )
 ]
 )
@@ -469,23 +469,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -505,11 +505,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
 )
 (vvPair
 variable "date"
@@ -549,7 +549,7 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "graphical_source_date"
@@ -561,11 +561,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:06:44"
+value "14:39:05"
 )
 (vvPair
 variable "group"
@@ -573,7 +573,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "language"
@@ -605,11 +605,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\interface"
 )
 (vvPair
 variable "package_name"
@@ -637,7 +637,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:06:44"
+value "14:39:05"
 )
 (vvPair
 variable "unit"
@@ -645,7 +645,7 @@ value "accelerator"
 )
 (vvPair
 variable "user"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "version"
@@ -672,10 +672,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *66 (CptPort
-uid 915,0
+uid 987,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 916,0
+uid 988,0
 ro 90
 va (VaSet
 vasetType 1
@@ -684,11 +684,11 @@ fg "0,65535,0"
 xt "14250,9625,15000,10375"
 )
 tg (CPTG
-uid 917,0
+uid 989,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 918,0
+uid 990,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -699,7 +699,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 919,0
+uid 991,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -713,15 +713,15 @@ decl (Decl
 n "clk"
 t "std_ulogic"
 o 2
-suid 67,0
+suid 74,0
 )
 )
 )
 *67 (CptPort
-uid 920,0
+uid 992,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 921,0
+uid 993,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -729,11 +729,11 @@ fg "0,65535,0"
 xt "19625,16000,20375,16750"
 )
 tg (CPTG
-uid 922,0
+uid 994,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 923,0
+uid 995,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -745,7 +745,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 924,0
+uid 996,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -758,16 +758,16 @@ lang 11
 decl (Decl
 n "end_acceleration"
 t "std_ulogic"
-o 7
-suid 68,0
+o 3
+suid 75,0
 )
 )
 )
 *68 (CptPort
-uid 925,0
+uid 997,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 926,0
+uid 998,0
 ro 90
 va (VaSet
 vasetType 1
@@ -776,11 +776,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 927,0
+uid 999,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 928,0
+uid 1000,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -791,7 +791,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 929,0
+uid 1001,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -805,16 +805,16 @@ decl (Decl
 n "info_acceleration"
 t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
-o 3
-suid 69,0
+o 4
+suid 76,0
 )
 )
 )
 *69 (CptPort
-uid 930,0
+uid 1002,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 931,0
+uid 1003,0
 ro 90
 va (VaSet
 vasetType 1
@@ -823,11 +823,11 @@ fg "0,65535,0"
 xt "14250,6625,15000,7375"
 )
 tg (CPTG
-uid 932,0
+uid 1004,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 933,0
+uid 1005,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -838,30 +838,30 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 934,0
+uid 1006,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2400,76500,3200"
-st "Position           : IN     std_ulogic_vector (15 DOWNTO 0) ;
+xt "44000,2400,72000,3200"
+st "Position           : IN     unsigned (15 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
-suid 70,0
+suid 77,0
 )
 )
 )
 *70 (CptPort
-uid 935,0
+uid 1007,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 936,0
+uid 1008,0
 ro 90
 va (VaSet
 vasetType 1
@@ -870,11 +870,11 @@ fg "0,65535,0"
 xt "23000,6625,23750,7375"
 )
 tg (CPTG
-uid 937,0
+uid 1009,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 938,0
+uid 1010,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -886,7 +886,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 939,0
+uid 1011,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -901,16 +901,16 @@ decl (Decl
 n "power_acceleration"
 t "unsigned"
 b "(7 DOWNTO 0)"
-o 8
-suid 71,0
+o 7
+suid 78,0
 )
 )
 )
 *71 (CptPort
-uid 940,0
+uid 1012,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 941,0
+uid 1013,0
 ro 90
 va (VaSet
 vasetType 1
@@ -919,11 +919,11 @@ fg "0,65535,0"
 xt "14250,10625,15000,11375"
 )
 tg (CPTG
-uid 942,0
+uid 1014,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 943,0
+uid 1015,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -934,7 +934,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 944,0
+uid 1016,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -947,16 +947,16 @@ lang 11
 decl (Decl
 n "rst"
 t "std_ulogic"
-o 4
-suid 72,0
+o 5
+suid 79,0
 )
 )
 )
 *72 (CptPort
-uid 945,0
+uid 1017,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 946,0
+uid 1018,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -964,11 +964,11 @@ fg "0,65535,0"
 xt "17625,16000,18375,16750"
 )
 tg (CPTG
-uid 947,0
+uid 1019,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 948,0
+uid 1020,0
 ro 270
 va (VaSet
 font "Verdana,12,0"
@@ -980,7 +980,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 949,0
+uid 1021,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -993,8 +993,8 @@ lang 11
 decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
-o 9
-suid 73,0
+o 6
+suid 80,0
 )
 )
 )
@@ -1083,7 +1083,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,46000,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1705,6 +1705,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 963,0
+lastUid 1058,0
 activeModelName "Symbol:CDM"
 )

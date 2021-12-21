@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -70,11 +70,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator"
 )
 (vvPair
 variable "date"
@@ -114,7 +114,7 @@ value "fsm"
 )
 (vvPair
 variable "graphical_source_author"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "graphical_source_date"
@@ -126,11 +126,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:02:25"
+value "14:39:05"
 )
 (vvPair
 variable "group"
@@ -138,7 +138,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "language"
@@ -170,11 +170,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\accelerator\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "14:02:25"
+value "14:39:05"
 )
 (vvPair
 variable "unit"
@@ -210,7 +210,7 @@ value "accelerator"
 )
 (vvPair
 variable "user"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "version"
@@ -1153,7 +1153,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "16230,25272,51930,26672"
+xt "15930,25272,52230,26672"
 )
 autoResize 1
 tline (Line
@@ -1164,10 +1164,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "16330,25172,51830,25172"
+xt "16030,25172,52130,25172"
 pts [
-"16330,25172"
-"51830,25172"
+"16030,25172"
+"52130,25172"
 ]
 )
 bline (Line
@@ -1178,10 +1178,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "16330,24572,51830,24572"
+xt "16030,24572,52130,24572"
 pts [
-"16330,24572"
-"51830,24572"
+"16030,24572"
+"52130,24572"
 ]
 )
 ttri (Triangle
@@ -1195,7 +1195,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "15880,24797,16230,25147"
+xt "15580,24797,15930,25147"
 )
 btri (Triangle
 uid 1014,0
@@ -1208,21 +1208,21 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "15880,22397,16230,22747"
+xt "15580,22397,15930,22747"
 )
 entryActions (MLText
 uid 1015,0
 va (VaSet
 )
-xt "16330,24972,16330,24972"
+xt "16030,24972,16030,24972"
 tm "Actions"
 )
 inActions (MLText
 uid 1016,0
 va (VaSet
 )
-xt "16330,25372,51830,26572"
-st "power_acceleration <= (257 - ((Position - info_accleration)/17));"
+xt "16030,25372,52130,26572"
+st "power_acceleration <= (257 - ((Position - info_acceleration)/17));"
 tm "Actions"
 )
 exitActions (MLText
@@ -1312,7 +1312,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "55778,22488,91678,23888"
+xt "55478,22488,91978,23888"
 )
 autoResize 1
 tline (Line
@@ -1323,10 +1323,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55878,22388,91578,22388"
+xt "55578,22388,91878,22388"
 pts [
-"55878,22388"
-"91578,22388"
+"55578,22388"
+"91878,22388"
 ]
 )
 bline (Line
@@ -1337,10 +1337,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55878,21788,91578,21788"
+xt "55578,21788,91878,21788"
 pts [
-"55878,21788"
-"91578,21788"
+"55578,21788"
+"91878,21788"
 ]
 )
 ttri (Triangle
@@ -1354,7 +1354,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55428,22013,55778,22363"
+xt "55128,22013,55478,22363"
 )
 btri (Triangle
 uid 1031,0
@@ -1367,21 +1367,21 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "55428,19613,55778,19963"
+xt "55128,19613,55478,19963"
 )
 entryActions (MLText
 uid 1032,0
 va (VaSet
 )
-xt "55878,22188,55878,22188"
+xt "55578,22188,55578,22188"
 tm "Actions"
 )
 inActions (MLText
 uid 1033,0
 va (VaSet
 )
-xt "55878,22588,91578,23788"
-st "power_acceleration <= (257 - ((Position + info_accleration)/17));"
+xt "55578,22588,91878,23788"
+st "power_acceleration <= (257 - ((Position + info_acceleration)/17));"
 tm "Actions"
 )
 exitActions (MLText
@@ -2206,9 +2206,9 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1715,1143"
-viewArea "14600,-900,85976,45324"
-cachedDiagramExtent "0,-1000,91678,47000"
+windowSize "0,0,1537,960"
+viewArea "14600,-900,86595,44860"
+cachedDiagramExtent "0,-1000,91978,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
 isTopLevel 1
@@ -2581,7 +2581,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1198,0
+lastUid 1227,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *61 (LEmptyRow
@@ -2644,7 +2644,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 )
@@ -2656,7 +2656,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 2
 )
 )
@@ -2669,7 +2669,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 5
 )
 )
@@ -3944,6 +3944,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl2008LangMgr"
 )
