@@ -99,7 +99,7 @@ lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 suid 3,0
@@ -521,7 +521,7 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -533,7 +533,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -561,7 +561,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -573,7 +573,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:12:38"
+value "13:37:10"
 )
 (vvPair
 variable "group"
@@ -645,7 +645,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:12:38"
+value "13:37:10"
 )
 (vvPair
 variable "unit"
@@ -712,7 +712,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,59500,4000"
-st "clock : IN     std_ulogic  ;"
+st "clock : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -757,7 +758,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,59500,4800"
-st "eni   : IN     std_ulogic  ;"
+st "eni   : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -802,15 +804,16 @@ uid 65,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6400,64000,7200"
-st "Qi    : OUT    integer (3 DOWNTO 0) ;"
+xt "44000,6400,64500,7200"
+st "Qi    : OUT    unsigned (3 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
 n "Qi"
-t "integer"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 6
 suid 3,0
@@ -850,7 +853,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,59500,3200"
-st "RaZ   : IN     std_ulogic  ;"
+st "RaZ   : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -896,7 +900,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,58500,8000"
-st "RCOi  : OUT    std_ulogic "
+st "RCOi  : OUT    std_ulogic 
+"
 )
 thePort (LogicalPort
 lang 11
@@ -942,7 +947,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,59500,5600"
-st "reset : IN     std_ulogic  ;"
+st "reset : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -987,7 +993,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,59500,6400"
-st "up    : IN     std_ulogic  ;"
+st "up    : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1001,6 +1008,7 @@ suid 7,0
 )
 ]
 shape (Rectangle
+uid 226,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -1708,7 +1716,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 202,0
+lastUid 249,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

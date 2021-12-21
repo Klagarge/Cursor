@@ -74,9 +74,10 @@ uid 328,0
 )
 *6 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "button4"
-t "std_uLogic"
+t "std_ulogic"
 o 1
 suid 16,0
 )
@@ -836,19 +837,19 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "designName"
@@ -880,7 +881,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -892,7 +893,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:59:57"
+value "13:55:09"
 )
 (vvPair
 variable "group"
@@ -1028,7 +1029,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:59:57"
+value "13:55:09"
 )
 (vvPair
 variable "unit"
@@ -1879,13 +1880,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,11900,19000,12700"
-st "button4  : IN     std_uLogic  ;
+st "button4  : IN     std_ulogic  ;
 "
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "button4"
-t "std_uLogic"
+t "std_ulogic"
 o 1
 suid 16,0
 )
@@ -2964,7 +2966,7 @@ xt "0,9900,0,9900"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 947,0
+lastUid 993,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

@@ -110,19 +110,19 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "designName"
@@ -154,7 +154,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -166,7 +166,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:59:57"
+value "13:55:09"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "10:59:57"
+value "13:55:09"
 )
 (vvPair
 variable "unit"
@@ -1676,9 +1676,10 @@ tm "SignalTypeMgr"
 )
 *40 (Net
 uid 7316,0
+lang 11
 decl (Decl
 n "button4"
-t "std_uLogic"
+t "std_ulogic"
 o 1
 suid 47,0
 )
@@ -1687,8 +1688,8 @@ uid 7317,0
 va (VaSet
 isHidden 1
 )
-xt "0,-23800,12800,-22600"
-st "button4  : std_uLogic
+xt "0,-23800,12500,-22600"
+st "button4  : std_ulogic
 "
 )
 )
@@ -2785,7 +2786,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "79250,40625,80000,41375"
+xt "79250,41625,80000,42375"
 )
 tg (CPTG
 uid 12365,0
@@ -2796,9 +2797,9 @@ uid 12366,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "81000,40300,86000,41700"
+xt "81000,41300,86000,42700"
 st "button"
-blo "81000,41500"
+blo "81000,42500"
 )
 )
 thePort (LogicalPort
@@ -3867,9 +3868,9 @@ uid 7315,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "44000,44600,48900,45900"
+xt "44000,44600,49800,46000"
 st "button4"
-blo "44000,45600"
+blo "44000,45800"
 tm "WireNameMgr"
 )
 )
@@ -4296,10 +4297,10 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "64000,41000,79250,41000"
+xt "64000,42000,79250,42000"
 pts [
-"64000,41000"
-"79250,41000"
+"64000,42000"
+"79250,42000"
 ]
 )
 start &57
@@ -4320,9 +4321,9 @@ uid 11566,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "73000,39600,78000,41000"
+xt "73000,40600,78000,42000"
 st "button"
-blo "73000,40800"
+blo "73000,41800"
 tm "WireNameMgr"
 )
 )
@@ -4844,7 +4845,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "39300,1604,141402,66500"
+viewArea "39300,8052,141402,72948"
 cachedDiagramExtent "-17000,-23800,171000,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -4871,7 +4872,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 12785,0
+lastUid 12975,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -5884,7 +5885,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 91,0
+suid 92,0
 usingSuid 1
 emptyRow *167 (LEmptyRow
 )
@@ -6082,9 +6083,10 @@ uid 5693,0
 )
 *194 (LeafLogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "button4"
-t "std_uLogic"
+t "std_ulogic"
 o 1
 suid 47,0
 )

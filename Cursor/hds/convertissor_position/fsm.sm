@@ -87,7 +87,7 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -99,7 +99,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -127,7 +127,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -139,7 +139,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:00:33"
+value "13:28:54"
 )
 (vvPair
 variable "group"
@@ -211,7 +211,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "16:00:33"
+value "13:28:54"
 )
 (vvPair
 variable "unit"
@@ -2306,8 +2306,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1185,927"
-viewArea "18600,-4700,76020,43240"
+windowSize "76,33,1263,960"
+viewArea "18600,-4700,76140,41560"
 cachedDiagramExtent "0,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2682,7 +2682,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 366,0
+lastUid 424,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *61 (LEmptyRow
@@ -2745,7 +2745,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "position20bit"
-t "integer"
+t "std_ulogic_vector"
 b "(19 DOWNTO 0)"
 o 3
 )
@@ -4008,6 +4008,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )
