@@ -90,7 +90,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_uLogic_vector"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 77,0
@@ -104,7 +104,7 @@ lang 11
 m 1
 decl (Decl
 n "Power"
-t "std_uLogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 8
 suid 78,0
@@ -185,11 +185,12 @@ uid 957,0
 )
 *24 (LogPort
 port (LogicalPort
+lang 11
 m 1
 decl (Decl
 n "testOut"
 t "std_uLogic_vector"
-b "(1 TO testLineNb)"
+b "(1 DOWNTO 0)"
 o 11
 suid 85,0
 )
@@ -604,19 +605,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\M
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -644,7 +645,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -656,7 +657,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:37:10"
+value "14:07:25"
 )
 (vvPair
 variable "group"
@@ -728,7 +729,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "09:37:10"
+value "14:07:25"
 )
 (vvPair
 variable "unit"
@@ -888,14 +889,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,71500,3200"
-st "Position : IN     std_uLogic_vector (15 DOWNTO 0) ;
+st "Position : IN     std_ulogic_vector (15 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_uLogic_vector"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 1
 suid 77,0
@@ -935,8 +936,8 @@ uid 898,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,8000,71000,8800"
-st "Power    : OUT    std_uLogic_vector (7 DOWNTO 0) ;
+xt "44000,8000,66500,8800"
+st "Power    : OUT    unsigned (7 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
@@ -944,7 +945,7 @@ lang 11
 m 1
 decl (Decl
 n "Power"
-t "std_uLogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 8
 suid 78,0
@@ -1260,16 +1261,17 @@ uid 933,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10400,73500,11200"
-st "testOut  : OUT    std_uLogic_vector (1 TO testLineNb) ;
+xt "44000,10400,71000,11200"
+st "testOut  : OUT    std_uLogic_vector (1 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
+lang 11
 m 1
 decl (Decl
 n "testOut"
 t "std_uLogic_vector"
-b "(1 TO testLineNb)"
+b "(1 DOWNTO 0)"
 o 11
 suid 85,0
 )
@@ -2029,6 +2031,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 985,0
+lastUid 1146,0
 activeModelName "Symbol:CDM"
 )

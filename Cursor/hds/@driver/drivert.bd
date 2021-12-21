@@ -130,19 +130,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\D
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -170,7 +170,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -182,7 +182,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "09:37:40"
+value "13:48:40"
 )
 (vvPair
 variable "group"
@@ -254,7 +254,7 @@ value "drivert"
 )
 (vvPair
 variable "time"
-value "09:37:40"
+value "13:48:40"
 )
 (vvPair
 variable "unit"
@@ -462,7 +462,7 @@ uid 49,0
 lang 11
 decl (Decl
 n "Power"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 1
 suid 3,0
@@ -1350,7 +1350,7 @@ viewiconposition 0
 uid 574,0
 decl (Decl
 n "countOut"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 12
 suid 19,0
@@ -2699,12 +2699,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1715,1119"
-viewArea "-6700,-18804,136052,73644"
+windowSize "0,24,1715,1143"
+viewArea "-6700,-18800,136052,76336"
 cachedDiagramExtent "-1400,0,105100,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,0"
-lastUid 1245,0
+lastUid 1393,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3747,7 +3747,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 44,0
+suid 45,0
 usingSuid 1
 emptyRow *110 (LEmptyRow
 )
@@ -3791,7 +3791,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Power"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 1
 suid 3,0
@@ -3892,7 +3892,7 @@ port (LogicalPort
 m 4
 decl (Decl
 n "countOut"
-t "std_ulogic_vector"
+t "unsigned"
 b "(7 DOWNTO 0)"
 o 12
 suid 19,0
@@ -4265,5 +4265,5 @@ vaOverrides [
 uid 194,0
 type 1
 )
-activeModelName "BlockDiag:CDM"
+activeModelName "BlockDiag"
 )

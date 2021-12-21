@@ -83,19 +83,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\C
 )
 (vvPair
 variable "date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -123,7 +123,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -135,7 +135,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:32:56"
+value "13:48:18"
 )
 (vvPair
 variable "group"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "08:32:56"
+value "13:48:18"
 )
 (vvPair
 variable "unit"
@@ -235,6 +235,7 @@ value "21"
 )
 ]
 )
+uid 278,0
 optionalChildren [
 *1 (ConcurrentSM
 uid 1,0
@@ -2409,8 +2410,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1722,1111"
-viewArea "-500,-9410,134680,79780"
+windowSize "0,24,1715,1143"
+viewArea "-500,-9400,134817,78233"
 cachedDiagramExtent "-650,-1000,88950,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-2000"
@@ -2786,11 +2787,12 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 277,0
+lastUid 375,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *63 (LEmptyRow
 )
+uid 280,0
 optionalChildren [
 *64 (RefLabelRowHdr
 )
@@ -2861,7 +2863,7 @@ port (LogicalPort
 decl (Decl
 n "countOut"
 t "unsigned"
-b "(bitNb-1 DOWNTO 0)"
+b "(7 DOWNTO 0)"
 o 2
 )
 )
@@ -2909,6 +2911,7 @@ scheme 0
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 299,0
 optionalChildren [
 *87 (Sheet
 sheetRow (SheetRow
@@ -2932,22 +2935,26 @@ litem &63
 pos 5
 dimension 20
 )
+uid 301,0
 optionalChildren [
 *89 (MRCItem
 litem &64
 pos 0
 dimension 20
+uid 302,0
 )
 *90 (MRCItem
 litem &65
 pos 1
 dimension 23
+uid 303,0
 )
 *91 (MRCItem
 litem &66
 pos 2
 hidden 1
 dimension 20
+uid 304,0
 )
 *92 (MRCItem
 litem &82
@@ -2988,93 +2995,111 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 305,0
 optionalChildren [
 *97 (MRCItem
 litem &67
 pos 0
 dimension 20
+uid 306,0
 )
 *98 (MRCItem
 litem &69
 pos 1
 dimension 50
+uid 307,0
 )
 *99 (MRCItem
 litem &70
 pos 2
 dimension 70
+uid 308,0
 )
 *100 (MRCItem
 litem &71
 pos 3
 dimension 50
+uid 309,0
 )
 *101 (MRCItem
 litem &72
 pos 4
 dimension 80
+uid 310,0
 )
 *102 (MRCItem
 litem &73
 pos 5
 dimension 80
+uid 311,0
 )
 *103 (MRCItem
 litem &74
 pos 6
 dimension 40
+uid 312,0
 )
 *104 (MRCItem
 litem &75
 pos 7
 dimension 100
+uid 313,0
 )
 *105 (MRCItem
 litem &76
 pos 8
 dimension 60
+uid 314,0
 )
 *106 (MRCItem
 litem &77
 pos 9
 dimension 130
+uid 315,0
 )
 *107 (MRCItem
 litem &78
 pos 10
 dimension 56
+uid 316,0
 )
 *108 (MRCItem
 litem &79
 pos 11
 dimension 50
+uid 317,0
 )
 *109 (MRCItem
 litem &80
 pos 12
 dimension 50
+uid 318,0
 )
 *110 (MRCItem
 litem &81
 pos 13
 dimension 80
+uid 319,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 300,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 279,0
 )
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *111 (LEmptyRow
 )
+uid 321,0
 optionalChildren [
 *112 (RefLabelRowHdr
 )
@@ -3111,6 +3136,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 333,0
 optionalChildren [
 *123 (Sheet
 sheetRow (SheetRow
@@ -3134,22 +3160,26 @@ litem &111
 pos 0
 dimension 20
 )
+uid 335,0
 optionalChildren [
 *125 (MRCItem
 litem &112
 pos 0
 dimension 20
+uid 336,0
 )
 *126 (MRCItem
 litem &113
 pos 1
 dimension 23
+uid 337,0
 )
 *127 (MRCItem
 litem &114
 pos 2
 hidden 1
 dimension 20
+uid 338,0
 )
 ]
 )
@@ -3160,52 +3190,62 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 339,0
 optionalChildren [
 *128 (MRCItem
 litem &115
 pos 0
 dimension 20
+uid 340,0
 )
 *129 (MRCItem
 litem &117
 pos 1
 dimension 50
+uid 341,0
 )
 *130 (MRCItem
 litem &118
 pos 2
 dimension 100
+uid 342,0
 )
 *131 (MRCItem
 litem &119
 pos 3
 dimension 100
+uid 343,0
 )
 *132 (MRCItem
 litem &120
 pos 4
 dimension 50
+uid 344,0
 )
 *133 (MRCItem
 litem &121
 pos 5
 dimension 50
+uid 345,0
 )
 *134 (MRCItem
 litem &122
 pos 6
 dimension 80
+uid 346,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 334,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 320,0
 type 1
 )
 signalSuffix "_int"
@@ -3786,7 +3826,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-371,972,-116,1278"
+xt "-441,926,-116,1323"
 )
 ]
 )
@@ -3861,7 +3901,7 @@ va (VaSet
 vasetType 1
 transparent 1
 )
-xt "-415,1064,-76,1263"
+xt "-425,943,-76,1304"
 )
 (Line
 sl 0
@@ -4070,6 +4110,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )

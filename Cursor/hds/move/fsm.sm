@@ -78,7 +78,7 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\m
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -90,7 +90,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -118,7 +118,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -130,7 +130,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:08:02"
+value "14:01:01"
 )
 (vvPair
 variable "group"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "15:08:02"
+value "14:01:01"
 )
 (vvPair
 variable "unit"
@@ -2232,7 +2232,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1715,1119"
-viewArea "-1900,-2300,84346,55178"
+viewArea "-1900,-2300,84346,53554"
 cachedDiagramExtent "0,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-8000,-2000"
@@ -2609,7 +2609,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 428,0
+lastUid 486,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *60 (LEmptyRow
@@ -2705,7 +2705,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "power_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 5
 )
@@ -2717,7 +2717,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "power_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 6
 )
@@ -2729,7 +2729,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "power_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 7
 )
@@ -4093,6 +4093,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine"
+activeModelName "StateMachine:CDM"
 LanguageMgr "Vhdl2008LangMgr"
 )
