@@ -21,7 +21,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 74,0
+suid 82,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -67,10 +67,10 @@ decl (Decl
 n "clk"
 t "std_ulogic"
 o 2
-suid 67,0
+suid 75,0
 )
 )
-uid 909,0
+uid 988,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -80,23 +80,23 @@ decl (Decl
 n "end_acceleration"
 t "std_ulogic"
 o 7
-suid 68,0
+suid 76,0
 )
 )
-uid 911,0
+uid 990,0
 )
 *16 (LogPort
 port (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 3
-suid 69,0
+suid 77,0
 )
 )
-uid 913,0
+uid 992,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -106,10 +106,10 @@ n "Position"
 t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
-suid 70,0
+suid 78,0
 )
 )
-uid 915,0
+uid 994,0
 )
 *18 (LogPort
 port (LogicalPort
@@ -118,10 +118,10 @@ decl (Decl
 n "rst"
 t "std_ulogic"
 o 4
-suid 71,0
+suid 79,0
 )
 )
-uid 917,0
+uid 996,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -130,10 +130,10 @@ decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
 o 9
-suid 72,0
+suid 80,0
 )
 )
-uid 919,0
+uid 998,0
 )
 *20 (LogPort
 port (LogicalPort
@@ -142,10 +142,10 @@ decl (Decl
 n "skip_acceleration"
 t "std_ulogic"
 o 5
-suid 73,0
+suid 81,0
 )
 )
-uid 921,0
+uid 1000,0
 )
 *21 (LogPort
 port (LogicalPort
@@ -154,10 +154,10 @@ decl (Decl
 n "unlock"
 t "std_ulogic"
 o 6
-suid 74,0
+suid 82,0
 )
 )
-uid 923,0
+uid 1002,0
 )
 ]
 )
@@ -213,49 +213,49 @@ uid 99,0
 litem &14
 pos 0
 dimension 20
-uid 910,0
+uid 989,0
 )
 *28 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 912,0
+uid 991,0
 )
 *29 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 914,0
+uid 993,0
 )
 *30 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 916,0
+uid 995,0
 )
 *31 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 918,0
+uid 997,0
 )
 *32 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 920,0
+uid 999,0
 )
 *33 (MRCItem
 litem &20
 pos 6
 dimension 20
-uid 922,0
+uid 1001,0
 )
 *34 (MRCItem
 litem &21
 pos 7
 dimension 20
-uid 924,0
+uid 1003,0
 )
 ]
 )
@@ -582,7 +582,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:36:24"
+value "15:14:17"
 )
 (vvPair
 variable "group"
@@ -654,7 +654,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:36:24"
+value "15:14:17"
 )
 (vvPair
 variable "unit"
@@ -689,10 +689,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *68 (CptPort
-uid 869,0
+uid 948,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 870,0
+uid 949,0
 ro 90
 va (VaSet
 vasetType 1
@@ -701,11 +701,11 @@ fg "0,65535,0"
 xt "14250,13625,15000,14375"
 )
 tg (CPTG
-uid 871,0
+uid 950,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 872,0
+uid 951,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -716,7 +716,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 873,0
+uid 952,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -730,15 +730,15 @@ decl (Decl
 n "clk"
 t "std_ulogic"
 o 2
-suid 67,0
+suid 75,0
 )
 )
 )
 *69 (CptPort
-uid 874,0
+uid 953,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 875,0
+uid 954,0
 ro 90
 va (VaSet
 vasetType 1
@@ -747,11 +747,11 @@ fg "0,65535,0"
 xt "23000,14625,23750,15375"
 )
 tg (CPTG
-uid 876,0
+uid 955,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 877,0
+uid 956,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -763,7 +763,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 878,0
+uid 957,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -778,15 +778,15 @@ decl (Decl
 n "end_acceleration"
 t "std_ulogic"
 o 7
-suid 68,0
+suid 76,0
 )
 )
 )
 *70 (CptPort
-uid 879,0
+uid 958,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 880,0
+uid 959,0
 ro 90
 va (VaSet
 vasetType 1
@@ -795,11 +795,11 @@ fg "0,65535,0"
 xt "14250,10625,15000,11375"
 )
 tg (CPTG
-uid 881,0
+uid 960,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 882,0
+uid 961,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -810,30 +810,30 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 883,0
+uid 962,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4000,76500,4800"
-st "info_acceleration  : IN     std_ulogic_vector (15 DOWNTO 0) ;
+xt "44000,4000,72000,4800"
+st "info_acceleration  : IN     unsigned (15 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 3
-suid 69,0
+suid 77,0
 )
 )
 )
 *71 (CptPort
-uid 884,0
+uid 963,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 885,0
+uid 964,0
 ro 90
 va (VaSet
 vasetType 1
@@ -842,11 +842,11 @@ fg "0,65535,0"
 xt "14250,9625,15000,10375"
 )
 tg (CPTG
-uid 886,0
+uid 965,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 887,0
+uid 966,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -857,7 +857,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 888,0
+uid 967,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -872,15 +872,15 @@ n "Position"
 t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
-suid 70,0
+suid 78,0
 )
 )
 )
 *72 (CptPort
-uid 889,0
+uid 968,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 890,0
+uid 969,0
 ro 90
 va (VaSet
 vasetType 1
@@ -889,11 +889,11 @@ fg "0,65535,0"
 xt "14250,14625,15000,15375"
 )
 tg (CPTG
-uid 891,0
+uid 970,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 892,0
+uid 971,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -904,7 +904,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 893,0
+uid 972,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -918,15 +918,15 @@ decl (Decl
 n "rst"
 t "std_ulogic"
 o 4
-suid 71,0
+suid 79,0
 )
 )
 )
 *73 (CptPort
-uid 894,0
+uid 973,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 895,0
+uid 974,0
 ro 90
 va (VaSet
 vasetType 1
@@ -935,11 +935,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 896,0
+uid 975,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 897,0
+uid 976,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -950,7 +950,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 898,0
+uid 977,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -964,15 +964,15 @@ decl (Decl
 n "sideL_acceleration"
 t "std_ulogic"
 o 9
-suid 72,0
+suid 80,0
 )
 )
 )
 *74 (CptPort
-uid 899,0
+uid 978,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 900,0
+uid 979,0
 ro 90
 va (VaSet
 vasetType 1
@@ -981,11 +981,11 @@ fg "0,65535,0"
 xt "14250,12625,15000,13375"
 )
 tg (CPTG
-uid 901,0
+uid 980,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 902,0
+uid 981,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -996,7 +996,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 903,0
+uid 982,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1010,15 +1010,15 @@ decl (Decl
 n "skip_acceleration"
 t "std_ulogic"
 o 5
-suid 73,0
+suid 81,0
 )
 )
 )
 *75 (CptPort
-uid 904,0
+uid 983,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 905,0
+uid 984,0
 ro 90
 va (VaSet
 vasetType 1
@@ -1027,11 +1027,11 @@ fg "0,65535,0"
 xt "14250,11625,15000,12375"
 )
 tg (CPTG
-uid 906,0
+uid 985,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 907,0
+uid 986,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -1042,7 +1042,7 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 908,0
+uid 987,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -1056,7 +1056,7 @@ decl (Decl
 n "unlock"
 t "std_ulogic"
 o 6
-suid 74,0
+suid 82,0
 )
 )
 )
@@ -1145,7 +1145,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,46000,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1767,6 +1767,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 924,0
+lastUid 1003,0
 activeModelName "Symbol:CDM"
 )

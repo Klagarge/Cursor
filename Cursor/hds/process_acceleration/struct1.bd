@@ -149,7 +149,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:36:24"
+value "15:14:17"
 )
 (vvPair
 variable "group"
@@ -221,7 +221,7 @@ value "struct1"
 )
 (vvPair
 variable "time"
-value "14:36:24"
+value "15:14:17"
 )
 (vvPair
 variable "unit"
@@ -429,7 +429,7 @@ uid 49,0
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 3
 suid 3,0
@@ -724,7 +724,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "22200,48000,32000,49000"
+xt "22200,48000,31400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2460,11 +2460,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-30000,-15600,79956,51936"
+viewArea "-30000,-15600,79956,54288"
 cachedDiagramExtent "-15300,-6200,74400,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-87000,-49000"
-lastUid 1319,0
+lastUid 1398,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3591,7 +3591,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 3
 suid 3,0
@@ -3989,5 +3989,5 @@ vaOverrides [
 uid 194,0
 type 1
 )
-activeModelName "BlockDiag:CDM"
+activeModelName "BlockDiag"
 )

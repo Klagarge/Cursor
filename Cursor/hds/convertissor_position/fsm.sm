@@ -139,7 +139,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:27:52"
+value "15:10:53"
 )
 (vvPair
 variable "group"
@@ -211,7 +211,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "14:27:52"
+value "15:10:53"
 )
 (vvPair
 variable "unit"
@@ -406,278 +406,7 @@ tm "SmCaseExpr"
 )
 )
 )
-*3 (SmClockPoint
-uid 60,0
-shape (CompositeShape
-uid 61,0
-va (VaSet
-vasetType 1
-fg "65535,65535,0"
-)
-optionalChildren [
-(Pentagon
-uid 62,0
-sl 0
-ro 270
-xt "3366,16778,5616,17778"
-)
-(OrthoPolyLine
-uid 63,0
-sl 0
-ro 270
-va (VaSet
-vasetType 3
-)
-xt "4266,16978,4865,17578"
-pts [
-"4266,17578"
-"4565,17578"
-"4565,16978"
-"4865,16978"
-]
-)
-(Arc2D
-pts [
-"3875,17431"
-"3620,17125"
-"3875,17125"
-]
-uid 64,0
-sl 0
-ro 270
-va (VaSet
-vasetType 1
-transparent 1
-)
-xt "3547,17078,3875,17477"
-)
-]
-)
-name (TextAssociate
-uid 65,0
-ps "CenterOffsetStrategy"
-text (Text
-uid 66,0
-va (VaSet
-)
-xt "666,16778,2866,17978"
-st "clk"
-ju 2
-blo "2866,17778"
-tm "SmControlSignalNameMgr"
-)
-)
-cond (SmControlCondition
-uid 67,0
-ps "CenterOffsetStrategy"
-shape (Rectangle
-uid 68,0
-va (VaSet
-vasetType 1
-fg "65535,65535,65535"
-lineColor "0,32768,49152"
-)
-xt "5732,16636,20632,18036"
-)
-autoResize 1
-cond (MLText
-uid 69,0
-va (VaSet
-)
-xt "5832,16736,20532,17936"
-st "clk'EVENT AND clk = '1'"
-tm "SmControlConditionMgr"
-)
-)
-)
-*4 (SmResetPoint
-uid 70,0
-shape (CompositeShape
-uid 71,0
-va (VaSet
-vasetType 1
-fg "65535,65535,0"
-)
-optionalChildren [
-(Pentagon
-uid 72,0
-sl 0
-ro 270
-xt "3250,19500,5500,20500"
-)
-(OrthoPolyLine
-uid 73,0
-sl 0
-ro 270
-va (VaSet
-vasetType 3
-)
-xt "4150,19700,4749,20300"
-pts [
-"4749,20300"
-"4449,20300"
-"4449,19700"
-"4150,19700"
-]
-)
-(Line
-uid 74,0
-sl 0
-ro 270
-xt "3499,19825,3599,19875"
-pts [
-"3499,19875"
-"3599,19825"
-]
-)
-(Line
-uid 75,0
-sl 0
-ro 270
-xt "3499,19825,3499,20175"
-pts [
-"3499,20175"
-"3499,19825"
-]
-)
-(Circle
-uid 76,0
-layer 10
-sl 0
-ro 270
-va (VaSet
-vasetType 1
-isHidden 1
-fg "65535,65535,0"
-)
-xt "4299,19850,4599,20150"
-radius 150
-)
-]
-)
-cond (SmControlCondition
-uid 82,0
-ps "CenterOffsetStrategy"
-shape (Rectangle
-uid 83,0
-va (VaSet
-vasetType 1
-isHidden 1
-fg "65535,65535,65535"
-lineColor "0,32768,49152"
-)
-xt "3250,17700,8150,19100"
-)
-autoResize 1
-cond (MLText
-uid 84,0
-va (VaSet
-isHidden 1
-)
-xt "3350,17800,8050,19000"
-st "rst = '0'"
-tm "SmControlConditionMgr"
-)
-)
-prio (TransitionPriority
-uid 79,0
-ps "PercentageFromStartStrategy"
-shape (Circle
-uid 80,0
-va (VaSet
-vasetType 1
-isHidden 1
-fg "65535,65535,65535"
-bg "0,0,0"
-)
-xt "5500,18937,7626,21063"
-radius 1063
-)
-pr (Text
-uid 81,0
-va (VaSet
-isHidden 1
-)
-xt "5863,19400,7263,20600"
-st "1"
-ju 0
-blo "6563,20400"
-tm "TransitionPriority"
-)
-padding "100,100"
-)
-name (TextAssociate
-uid 77,0
-ps "CenterOffsetStrategy"
-text (Text
-uid 78,0
-va (VaSet
-)
-xt "1150,19400,3250,20600"
-st "rst"
-ju 2
-blo "3250,20400"
-tm "SmControlSignalNameMgr"
-)
-)
-actions (TextAssociate
-uid 85,0
-ps "CenterOffsetStrategy"
-text (MLText
-uid 86,0
-va (VaSet
-isHidden 1
-)
-xt "11125,24125,19725,25325"
-st "< Automatic >"
-tm "Actions"
-)
-)
-)
-*5 (Link
-uid 87,0
-shape (CompositeShape
-uid 88,0
-va (VaSet
-vasetType 1
-fg "65535,65535,0"
-bg "0,0,0"
-)
-optionalChildren [
-(Pentagon
-uid 89,0
-sl 0
-ro 270
-xt "17000,19500,19250,20500"
-)
-(Line
-uid 90,0
-sl 0
-ro 270
-xt "16500,20000,17000,20000"
-pts [
-"16500,20000"
-"17000,20000"
-]
-)
-]
-)
-name (TextAssociate
-uid 91,0
-ps "CenterOffsetStrategy"
-text (Text
-uid 92,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "19750,19500,21450,20700"
-st "s0"
-blo "19750,20500"
-tm "LinkName"
-)
-)
-)
-*6 (SmRecoveryStatePoint
+*3 (SmRecoveryStatePoint
 uid 93,0
 shape (CompositeShape
 uid 94,0
@@ -723,7 +452,7 @@ pts [
 ]
 )
 )
-*7 (Link
+*4 (Link
 uid 98,0
 shape (CompositeShape
 uid 99,0
@@ -766,10 +495,10 @@ tm "LinkName"
 )
 )
 )
-*8 (Grouping
+*5 (Grouping
 uid 124,0
 optionalChildren [
-*9 (CommentText
+*6 (CommentText
 uid 126,0
 shape (Rectangle
 uid 127,0
@@ -801,7 +530,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*10 (CommentText
+*7 (CommentText
 uid 129,0
 shape (Rectangle
 uid 130,0
@@ -833,7 +562,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*11 (CommentText
+*8 (CommentText
 uid 132,0
 shape (Rectangle
 uid 133,0
@@ -865,7 +594,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*12 (CommentText
+*9 (CommentText
 uid 135,0
 shape (Rectangle
 uid 136,0
@@ -897,7 +626,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*13 (CommentText
+*10 (CommentText
 uid 138,0
 shape (Rectangle
 uid 139,0
@@ -928,7 +657,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*14 (CommentText
+*11 (CommentText
 uid 141,0
 shape (Rectangle
 uid 142,0
@@ -960,7 +689,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*15 (CommentText
+*12 (CommentText
 uid 144,0
 shape (Rectangle
 uid 145,0
@@ -991,7 +720,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*16 (CommentText
+*13 (CommentText
 uid 147,0
 shape (Rectangle
 uid 148,0
@@ -1023,7 +752,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*17 (CommentText
+*14 (CommentText
 uid 150,0
 shape (Rectangle
 uid 151,0
@@ -1055,7 +784,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*18 (CommentText
+*15 (CommentText
 uid 153,0
 shape (Rectangle
 uid 154,0
@@ -1100,7 +829,7 @@ xt "32000,42000,73000,47000"
 )
 oxt "14000,66000,55000,71000"
 )
-*19 (State
+*16 (State
 uid 164,0
 shape (Circle
 uid 165,0
@@ -1259,7 +988,7 @@ tm "SmCaseExpr"
 )
 )
 )
-*20 (State
+*17 (State
 uid 181,0
 shape (Circle
 uid 182,0
@@ -1418,7 +1147,7 @@ tm "SmCaseExpr"
 )
 )
 )
-*21 (State
+*18 (State
 uid 330,0
 shape (Circle
 uid 331,0
@@ -1577,96 +1306,278 @@ tm "SmCaseExpr"
 )
 )
 )
-*22 (Transition
-uid 104,0
-shape (Spline
-uid 105,0
+*19 (SmClockPoint
+uid 487,0
+shape (CompositeShape
+uid 488,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 489,0
+sl 0
+ro 270
+xt "3675,18080,5925,19080"
+)
+(OrthoPolyLine
+uid 490,0
+sl 0
+ro 270
 va (VaSet
 vasetType 3
 )
-xt "5500,20000,16500,20000"
+xt "4575,18280,5174,18880"
 pts [
-"5500,20000"
-"16500,20000"
+"4575,18880"
+"4874,18880"
+"4874,18280"
+"5174,18280"
 ]
 )
-start &4
-end &5
-ss 0
-es 0
-cond "rst = '0'"
-tb (TransitionBlock
-uid 106,0
+(Arc2D
+pts [
+"4184,18733"
+"3929,18427"
+"4184,18427"
+]
+uid 491,0
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "3856,18380,4184,18779"
+)
+]
+)
+name (TextAssociate
+uid 492,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 493,0
+va (VaSet
+)
+xt "-225,18080,3175,19280"
+st "clock"
+ju 2
+blo "3175,19080"
+tm "SmControlSignalNameMgr"
+)
+)
+cond (SmControlCondition
+uid 494,0
 ps "CenterOffsetStrategy"
 shape (Rectangle
-uid 107,0
+uid 495,0
 va (VaSet
 vasetType 1
 fg "65535,65535,65535"
-bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "8150,18900,13850,21100"
+xt "5985,17820,23285,19220"
 )
 autoResize 1
-lineShape (Line
-uid 108,0
+cond (MLText
+uid 496,0
+va (VaSet
+)
+xt "6085,17920,23185,19120"
+st "clock'EVENT AND clock = '1'"
+tm "SmControlConditionMgr"
+)
+)
+)
+*20 (SmResetPoint
+uid 497,0
+shape (CompositeShape
+uid 498,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 499,0
+sl 0
+ro 270
+xt "2550,21920,4800,22920"
+)
+(OrthoPolyLine
+uid 500,0
+sl 0
+ro 270
 va (VaSet
 vasetType 3
 )
-xt "8650,20500,13350,20500"
+xt "3450,22120,4049,22720"
 pts [
-"8650,20500"
-"13350,20500"
+"4049,22720"
+"3749,22720"
+"3749,22120"
+"3450,22120"
 ]
 )
-condition (MLText
-uid 109,0
+(Line
+uid 501,0
+sl 0
+ro 270
+xt "2799,22245,2899,22295"
+pts [
+"2799,22295"
+"2899,22245"
+]
+)
+(Line
+uid 502,0
+sl 0
+ro 270
+xt "2799,22245,2799,22595"
+pts [
+"2799,22595"
+"2799,22245"
+]
+)
+(Circle
+uid 503,0
+layer 10
+sl 0
+ro 270
 va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,0"
 )
-xt "8650,18900,13350,20100"
-st "rst = '0'"
-tm "Condition"
+xt "3599,22270,3899,22570"
+radius 150
 )
-actions (MLText
-uid 110,0
+]
+)
+cond (SmControlCondition
+uid 509,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 510,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "1600,20120,8400,21520"
+)
+autoResize 1
+cond (MLText
+uid 511,0
 va (VaSet
 isHidden 1
 )
-xt "6700,20900,15300,22100"
-st "< Automatic >"
-tm "Actions"
+xt "1700,20220,8300,21420"
+st "reset = '0'"
+tm "SmControlConditionMgr"
 )
 )
-tp (TransitionPriority
-uid 111,0
+prio (TransitionPriority
+uid 506,0
 ps "PercentageFromStartStrategy"
 shape (Circle
-uid 112,0
+uid 507,0
 va (VaSet
 vasetType 1
 isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "5537,18937,7663,21063"
+xt "4800,21357,6926,23483"
 radius 1063
 )
 pr (Text
-uid 113,0
+uid 508,0
 va (VaSet
 isHidden 1
 )
-xt "5900,19400,7300,20600"
+xt "5163,21820,6563,23020"
 st "1"
 ju 0
-blo "6600,20400"
+blo "5863,22820"
 tm "TransitionPriority"
 )
 padding "100,100"
 )
+name (TextAssociate
+uid 504,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 505,0
+va (VaSet
 )
-*23 (Transition
+xt "-750,21820,2550,23020"
+st "reset"
+ju 2
+blo "2550,22820"
+tm "SmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+uid 512,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 513,0
+va (VaSet
+isHidden 1
+)
+xt "10425,26545,19025,27745"
+st "< Automatic >"
+tm "Actions"
+)
+)
+)
+*21 (Link
+uid 514,0
+shape (CompositeShape
+uid 515,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "0,0,0"
+)
+optionalChildren [
+(Pentagon
+uid 516,0
+sl 0
+ro 270
+xt "16050,21920,18300,22920"
+)
+(Line
+uid 517,0
+sl 0
+ro 270
+xt "15550,22420,16050,22420"
+pts [
+"15550,22420"
+"16050,22420"
+]
+)
+]
+)
+name (TextAssociate
+uid 518,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 519,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "18800,21920,20500,23120"
+st "s0"
+blo "18800,22920"
+tm "LinkName"
+)
+)
+)
+*22 (Transition
 uid 114,0
 shape (Spline
 uid 115,0
@@ -1679,8 +1590,8 @@ pts [
 "16500,15000"
 ]
 )
-start &6
-end &7
+start &3
+end &4
 ss 0
 es 0
 tb (TransitionBlock
@@ -1753,7 +1664,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*24 (Transition
+*23 (Transition
 uid 198,0
 shape (Spline
 uid 199,0
@@ -1767,8 +1678,8 @@ pts [
 ]
 arrow 1
 )
-start &20
-end &19
+start &17
+end &16
 cond "position20bit(19) = '1'"
 tb (TransitionBlock
 uid 200,0
@@ -1838,7 +1749,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*25 (Transition
+*24 (Transition
 uid 208,0
 shape (Spline
 uid 209,0
@@ -1853,8 +1764,8 @@ pts [
 ]
 arrow 1
 )
-start &19
-end &20
+start &16
+end &17
 ss 0
 es 0
 cond "position20bit(19) = '0'"
@@ -1928,7 +1839,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*26 (Transition
+*25 (Transition
 uid 218,0
 shape (Spline
 uid 219,0
@@ -1943,7 +1854,7 @@ pts [
 arrow 1
 )
 start &2
-end &20
+end &17
 es 0
 cond "en = '1'"
 tb (TransitionBlock
@@ -2016,7 +1927,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*27 (Transition
+*26 (Transition
 uid 347,0
 shape (Spline
 uid 348,0
@@ -2031,8 +1942,8 @@ pts [
 ]
 arrow 1
 )
-start &20
-end &21
+start &17
+end &18
 ss 0
 es 0
 cond "position20bit >262143"
@@ -2104,7 +2015,7 @@ tm "TransitionPriority"
 padding "100,100"
 )
 )
-*28 (Transition
+*27 (Transition
 uid 357,0
 shape (Spline
 uid 358,0
@@ -2119,8 +2030,8 @@ pts [
 ]
 arrow 1
 )
-start &21
-end &20
+start &18
+end &17
 ss 0
 cond "position20bit < 262143"
 tb (TransitionBlock
@@ -2188,6 +2099,95 @@ xt "59690,26375,61090,27575"
 st "1"
 ju 0
 blo "60390,27375"
+tm "TransitionPriority"
+)
+padding "100,100"
+)
+)
+*28 (Transition
+uid 520,0
+shape (Spline
+uid 521,0
+va (VaSet
+vasetType 3
+)
+xt "4800,22420,15550,22420"
+pts [
+"4800,22420"
+"15550,22420"
+]
+)
+start &20
+end &21
+ss 0
+es 0
+cond "reset = '0'"
+tb (TransitionBlock
+uid 522,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 523,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "7325,21320,14925,23520"
+)
+autoResize 1
+lineShape (Line
+uid 524,0
+va (VaSet
+vasetType 3
+)
+xt "7825,22920,14425,22920"
+pts [
+"7825,22920"
+"14425,22920"
+]
+)
+condition (MLText
+uid 525,0
+va (VaSet
+)
+xt "7825,21320,14425,22520"
+st "reset = '0'"
+tm "Condition"
+)
+actions (MLText
+uid 526,0
+va (VaSet
+isHidden 1
+)
+xt "6825,23320,15425,24520"
+st "< Automatic >"
+tm "Actions"
+)
+)
+tp (TransitionPriority
+uid 527,0
+ps "PercentageFromStartStrategy"
+shape (Circle
+uid 528,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+)
+xt "4812,21357,6938,23483"
+radius 1063
+)
+pr (Text
+uid 529,0
+va (VaSet
+isHidden 1
+)
+xt "5175,21820,6575,23020"
+st "1"
+ju 0
+blo "5875,22820"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -2306,11 +2306,11 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "76,33,1264,960"
-viewArea "18600,-4700,76200,41560"
-cachedDiagramExtent "0,-1000,86600,47000"
+windowSize "76,33,1266,960"
+viewArea "-4400,-9440,53320,36820"
+cachedDiagramExtent "-750,-1000,86600,47000"
 hasePageBreakOrigin 1
-pageBreakOrigin "0,-2000"
+pageBreakOrigin "-73000,-2000"
 isTopLevel 1
 defaultCommentText (CommentText
 shape (Rectangle
@@ -2675,14 +2675,14 @@ radix 2
 )
 stateOrder [
 &2
-&19
-&20
-&21
+&16
+&17
+&18
 ]
 name "csm"
 )
 ]
-lastUid 453,0
+lastUid 562,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *61 (LEmptyRow
@@ -2770,32 +2770,6 @@ scheme 0
 port (LogicalPort
 lang 11
 decl (Decl
-n "clk"
-t "unsigned"
-o 1
-)
-)
-uid 160,0
-cat 1
-expr "clk'EVENT AND clk = '1'"
-)
-*83 (LeafLogPort
-port (LogicalPort
-lang 11
-decl (Decl
-n "rst"
-t "unsigned"
-o 4
-)
-)
-uid 162,0
-cat 8
-expr "rst = '0'"
-)
-*84 (LeafLogPort
-port (LogicalPort
-lang 11
-decl (Decl
 n "en"
 t "std_ulogic"
 o 2
@@ -2803,6 +2777,34 @@ o 2
 )
 uid 327,0
 ass ""
+)
+*83 (LeafLogPort
+port (LogicalPort
+lang 11
+decl (Decl
+n "clock"
+t "std_ulogic"
+o 1
+)
+)
+uid 484,0
+cat 1
+ass ""
+expr "clock'EVENT AND clock = '1'"
+)
+*84 (LeafLogPort
+port (LogicalPort
+lang 11
+decl (Decl
+n "reset"
+t "std_ulogic"
+o 4
+)
+)
+uid 486,0
+cat 8
+ass ""
+expr "reset = '0'"
 )
 ]
 )
@@ -2868,21 +2870,21 @@ uid 159,0
 )
 *92 (MRCItem
 litem &82
-pos 0
-dimension 20
-uid 161,0
-)
-*93 (MRCItem
-litem &83
-pos 4
-dimension 20
-uid 163,0
-)
-*94 (MRCItem
-litem &84
 pos 1
 dimension 20
 uid 326,0
+)
+*93 (MRCItem
+litem &83
+pos 0
+dimension 20
+uid 483,0
+)
+*94 (MRCItem
+litem &84
+pos 4
+dimension 20
+uid 485,0
 )
 ]
 )

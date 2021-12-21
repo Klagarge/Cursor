@@ -227,7 +227,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:44:45"
+value "15:15:57"
 )
 (vvPair
 variable "group"
@@ -299,7 +299,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:44:45"
+value "15:15:57"
 )
 (vvPair
 variable "unit"
@@ -1942,7 +1942,7 @@ uid 627,0
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 16
 suid 34,0
@@ -1960,7 +1960,7 @@ uid 629,0
 lang 11
 decl (Decl
 n "info_cruse"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -1978,7 +1978,7 @@ uid 631,0
 lang 11
 decl (Decl
 n "info_deceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -2341,7 +2341,7 @@ uid 1348,0
 lang 11
 decl (Decl
 n "pos1"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -2359,7 +2359,7 @@ uid 1350,0
 lang 11
 decl (Decl
 n "pos2"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0
@@ -3068,43 +3068,6 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
-)
-*112 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
 xt "35000,40000,114000,45000"
 pts [
 "114000,45000"
@@ -3136,6 +3099,43 @@ tm "WireNameMgr"
 )
 )
 on &16
+)
+*112 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
 )
 *113 (Wire
 uid 85,0
@@ -5640,11 +5640,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-20700,-29700,91874,41852"
+viewArea "-11800,-22638,100774,48914"
 cachedDiagramExtent "-37000,-20200,122900,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 3753,0
+lastUid 4314,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6953,7 +6953,7 @@ lang 11
 m 4
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 16
 suid 34,0
@@ -6967,7 +6967,7 @@ lang 11
 m 4
 decl (Decl
 n "info_cruse"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -6981,7 +6981,7 @@ lang 11
 m 4
 decl (Decl
 n "info_deceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -7071,7 +7071,7 @@ lang 11
 m 4
 decl (Decl
 n "pos1"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -7085,7 +7085,7 @@ lang 11
 m 4
 decl (Decl
 n "pos2"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0

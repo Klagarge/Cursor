@@ -55,7 +55,7 @@ value "pwmBitNb"
 (GiElement
 name "testLineNb"
 type "positive"
-value "0"
+value "1"
 )
 ]
 mwi 0
@@ -178,7 +178,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:45:58"
+value "15:17:00"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:45:58"
+value "15:17:00"
 )
 (vvPair
 variable "unit"
@@ -1806,7 +1806,8 @@ position1       = position1          ( positive )
 position2       = position2          ( positive )  
 slopeShiftBitNb = slopeShiftBitNb    ( positive )  
 pwmBitNb        = pwmBitNb           ( positive )  
-testLineNb      = 0                  ( positive )  "
+testLineNb      = 1                  ( positive )  
+"
 )
 header ""
 )
@@ -1839,7 +1840,7 @@ value "pwmBitNb"
 (GiElement
 name "testLineNb"
 type "positive"
-value "0"
+value "1"
 )
 ]
 )
@@ -2532,7 +2533,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-3100,19200,97693,83264"
+viewArea "-3100,25591,97693,89655"
 cachedDiagramExtent "-7000,-1400,102000,93000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ipp.hevs.ch\\PREA309_HPLJP3005DN,winspool,"
@@ -2559,7 +2560,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 5790,0
+lastUid 5843,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
