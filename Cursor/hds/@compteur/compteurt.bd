@@ -15,10 +15,6 @@ unitName "numeric_std"
 library "gates"
 unitName "gates"
 )
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 instances [
 (Instance
@@ -177,7 +173,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:27:54"
+value "15:04:17"
 )
 (vvPair
 variable "group"
@@ -249,7 +245,7 @@ value "compteurt"
 )
 (vvPair
 variable "time"
-value "14:27:54"
+value "15:04:17"
 )
 (vvPair
 variable "unit"
@@ -340,8 +336,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-3800,35500,-3000"
-st "clock         : std_ulogic
-"
+st "clock         : std_ulogic"
 )
 )
 *3 (PortIoIn
@@ -404,8 +399,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-3000,35500,-2200"
-st "down          : std_uLogic
-"
+st "down          : std_uLogic"
 )
 )
 *5 (PortIoOut
@@ -468,8 +462,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-600,41000,200"
-st "Position      : unsigned(15 DOWNTO 0)
-"
+st "Position      : unsigned(15 DOWNTO 0)"
 )
 )
 *7 (PortIoIn
@@ -532,8 +525,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-4600,35500,-3800"
-st "RaZ           : std_ulogic
-"
+st "RaZ           : std_ulogic"
 )
 )
 *9 (PortIoIn
@@ -596,8 +588,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-2200,35500,-1400"
-st "reset         : std_ulogic
-"
+st "reset         : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -660,8 +651,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,-1400,35500,-600"
-st "up            : std_uLogic
-"
+st "up            : std_uLogic"
 )
 )
 *13 (Grouping
@@ -1084,7 +1074,7 @@ lang 11
 decl (Decl
 n "upnotdown"
 t "std_uLogic"
-o 5
+o 11
 suid 12,0
 )
 declText (MLText
@@ -1093,8 +1083,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,4600,39000,5400"
-st "SIGNAL upnotdown     : std_uLogic
-"
+st "SIGNAL upnotdown     : std_uLogic"
 )
 )
 *29 (Net
@@ -1103,7 +1092,7 @@ lang 11
 decl (Decl
 n "en"
 t "std_ulogic"
-o 7
+o 8
 suid 13,0
 )
 declText (MLText
@@ -1112,8 +1101,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,2200,39000,3000"
-st "SIGNAL en            : std_ulogic
-"
+st "SIGNAL en            : std_ulogic"
 )
 )
 *30 (SaComponent
@@ -1436,7 +1424,7 @@ decl (Decl
 n "position20bit"
 t "unsigned"
 b "(19 DOWNTO 0)"
-o 10
+o 9
 suid 16,0
 )
 declText (MLText
@@ -1445,8 +1433,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,3000,45000,3800"
-st "SIGNAL position20bit : unsigned(19 DOWNTO 0)
-"
+st "SIGNAL position20bit : unsigned(19 DOWNTO 0)"
 )
 )
 *42 (Net
@@ -1455,7 +1442,7 @@ lang 11
 decl (Decl
 n "clk"
 t "unsigned"
-o 10
+o 7
 suid 17,0
 )
 declText (MLText
@@ -1464,8 +1451,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,1400,38000,2200"
-st "SIGNAL clk           : unsigned
-"
+st "SIGNAL clk           : unsigned"
 )
 )
 *43 (Net
@@ -1474,7 +1460,7 @@ lang 11
 decl (Decl
 n "rst"
 t "unsigned"
-o 11
+o 10
 suid 18,0
 )
 declText (MLText
@@ -1483,8 +1469,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "21000,3800,38000,4600"
-st "SIGNAL rst           : unsigned
-"
+st "SIGNAL rst           : unsigned"
 )
 )
 *44 (SaComponent
@@ -2221,13 +2206,12 @@ blo "0,600"
 uid 139,0
 va (VaSet
 )
-xt "0,800,19000,8000"
+xt "0,800,17500,6800"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+USE gates.gates.all;"
 tm "PackageList"
 )
 ]
@@ -2306,11 +2290,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1537,960"
-viewArea "-21080,-16900,79713,45316"
+viewArea "-21100,-16900,79693,45316"
 cachedDiagramExtent "-6200,-7000,68800,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,-49000"
-lastUid 834,0
+lastUid 981,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3470,7 +3454,7 @@ m 4
 decl (Decl
 n "upnotdown"
 t "std_uLogic"
-o 5
+o 11
 suid 12,0
 )
 )
@@ -3483,7 +3467,7 @@ m 4
 decl (Decl
 n "en"
 t "std_ulogic"
-o 7
+o 8
 suid 13,0
 )
 )
@@ -3497,7 +3481,7 @@ decl (Decl
 n "position20bit"
 t "unsigned"
 b "(19 DOWNTO 0)"
-o 10
+o 9
 suid 16,0
 )
 )
@@ -3510,7 +3494,7 @@ m 4
 decl (Decl
 n "clk"
 t "unsigned"
-o 10
+o 7
 suid 17,0
 )
 )
@@ -3523,7 +3507,7 @@ m 4
 decl (Decl
 n "rst"
 t "unsigned"
-o 11
+o 10
 suid 18,0
 )
 )

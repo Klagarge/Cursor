@@ -130,7 +130,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:37:51"
+value "14:44:17"
 )
 (vvPair
 variable "group"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "14:37:51"
+value "14:44:17"
 )
 (vvPair
 variable "unit"
@@ -779,7 +779,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,46000,46000,47000"
+xt "36200,46000,45400,47000"
 st "
 by %user on %dd %month %year
 "
@@ -3670,7 +3670,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 701,0
+lastUid 730,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *71 (LEmptyRow
@@ -3745,7 +3745,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 )

@@ -470,11 +470,11 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position\\interface.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position\\interface.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\interface.user"
 )
 (vvPair
 variable "SourceDir"
@@ -498,11 +498,11 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Position"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock"
 )
 (vvPair
 variable "date"
@@ -522,7 +522,7 @@ value "21"
 )
 (vvPair
 variable "entity_name"
-value "Position"
+value "PositionBlock"
 )
 (vvPair
 variable "ext"
@@ -558,7 +558,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:32:31"
+value "15:01:17"
 )
 (vvPair
 variable "group"
@@ -586,7 +586,7 @@ value "12"
 )
 (vvPair
 variable "module_name"
-value "Position"
+value "PositionBlock"
 )
 (vvPair
 variable "month"
@@ -598,11 +598,11 @@ value "décembre"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Position\\interface"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock\\interface"
 )
 (vvPair
 variable "package_name"
@@ -630,11 +630,11 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:32:31"
+value "15:01:17"
 )
 (vvPair
 variable "unit"
-value "Position"
+value "PositionBlock"
 )
 (vvPair
 variable "user"
@@ -1007,8 +1007,8 @@ uid 12,0
 va (VaSet
 font "Verdana,9,1"
 )
-xt "16650,11000,21350,12200"
-st "Position"
+xt "16650,11000,24650,12200"
+st "PositionBlock"
 blo "16650,12000"
 )
 )
@@ -1349,7 +1349,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,47000,45800,48000"
+xt "36200,47000,47700,48000"
 st "
 %library/%unit/%view
 "
@@ -1685,6 +1685,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 562,0
+lastUid 585,0
 activeModelName "Symbol:CDM"
 )

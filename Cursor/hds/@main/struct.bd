@@ -227,7 +227,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:37:59"
+value "14:44:45"
 )
 (vvPair
 variable "group"
@@ -299,7 +299,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:37:59"
+value "14:44:45"
 )
 (vvPair
 variable "unit"
@@ -425,7 +425,7 @@ uid 21,0
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 suid 1,0
@@ -1083,7 +1083,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "27200,49000,37000,50000"
+xt "27200,49000,36400,50000"
 st "
 by %user on %dd %month %year
 "
@@ -3068,6 +3068,43 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
+)
+*112 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
 xt "35000,40000,114000,45000"
 pts [
 "114000,45000"
@@ -3099,43 +3136,6 @@ tm "WireNameMgr"
 )
 )
 on &16
-)
-*112 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
 )
 *113 (Wire
 uid 85,0
@@ -5640,11 +5640,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "-20700,-29676,91874,41876"
+viewArea "-20700,-29700,91874,41852"
 cachedDiagramExtent "-37000,-20200,122900,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 3566,0
+lastUid 3753,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6744,7 +6744,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 suid 1,0

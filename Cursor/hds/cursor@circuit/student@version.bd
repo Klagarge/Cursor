@@ -16,7 +16,7 @@ instances [
 (Instance
 name "I0"
 duLibraryName "Cursor"
-duName "Position"
+duName "PositionBlock"
 elements [
 ]
 mwi 0
@@ -25,7 +25,7 @@ uid 11433,0
 (Instance
 name "I1"
 duLibraryName "Cursor"
-duName "Button"
+duName "ButtonBlock"
 elements [
 ]
 mwi 0
@@ -166,7 +166,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:39:31"
+value "15:01:19"
 )
 (vvPair
 variable "group"
@@ -302,7 +302,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "14:39:31"
+value "15:01:19"
 )
 (vvPair
 variable "unit"
@@ -2167,8 +2167,8 @@ tm "BdLibraryNameMgr"
 uid 11437,0
 va (VaSet
 )
-xt "62950,12400,67750,13600"
-st "Position"
+xt "62950,12400,71250,13600"
+st "PositionBlock"
 blo "62950,13400"
 tm "BlkNameMgr"
 )
@@ -2230,8 +2230,8 @@ tm "BdLibraryNameMgr"
 uid 11446,0
 va (VaSet
 )
-xt "57950,42400,61950,43600"
-st "Button"
+xt "57950,42400,65450,43600"
+st "ButtonBlock"
 blo "57950,43400"
 tm "BlkNameMgr"
 )
@@ -2289,7 +2289,7 @@ decl (Decl
 n "Position"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 23
+o 22
 suid 79,0
 )
 declText (MLText
@@ -2308,7 +2308,7 @@ decl (Decl
 n "button"
 t "unsigned"
 b "(3 DOWNTO 0)"
-o 25
+o 26
 suid 81,0
 )
 declText (MLText
@@ -2326,7 +2326,7 @@ lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 26
+o 27
 suid 83,0
 )
 declText (MLText
@@ -2344,7 +2344,7 @@ lang 11
 decl (Decl
 n "SideL"
 t "std_ulogic"
-o 27
+o 25
 suid 86,0
 )
 declText (MLText
@@ -2363,7 +2363,7 @@ decl (Decl
 n "Power"
 t "unsigned"
 b "(7 DOWNTO 0)"
-o 26
+o 23
 suid 87,0
 )
 declText (MLText
@@ -2742,7 +2742,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 suid 75,0
@@ -3231,7 +3231,7 @@ decl (Decl
 n "testOut"
 t "std_uLogic_vector"
 b "(1 DOWNTO 0)"
-o 29
+o 21
 suid 91,0
 )
 declText (MLText
@@ -4680,7 +4680,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,0,1537,960"
-viewArea "49400,346,130558,51930"
+viewArea "26700,-14200,153673,66504"
 cachedDiagramExtent "-17000,-23800,171000,152000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\ipp://ippsion.hevs.ch\\PREA309_HPLJ3005DN,winspool,"
@@ -4707,7 +4707,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "24000,-12000"
-lastUid 13141,0
+lastUid 13639,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6009,7 +6009,7 @@ decl (Decl
 n "Position"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 23
+o 22
 suid 79,0
 )
 )
@@ -6023,7 +6023,7 @@ decl (Decl
 n "button"
 t "unsigned"
 b "(3 DOWNTO 0)"
-o 25
+o 26
 suid 81,0
 )
 )
@@ -6036,7 +6036,7 @@ m 4
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 26
+o 27
 suid 83,0
 )
 )
@@ -6049,7 +6049,7 @@ m 4
 decl (Decl
 n "SideL"
 t "std_ulogic"
-o 27
+o 25
 suid 86,0
 )
 )
@@ -6063,7 +6063,7 @@ decl (Decl
 n "Power"
 t "unsigned"
 b "(7 DOWNTO 0)"
-o 26
+o 23
 suid 87,0
 )
 )
@@ -6076,7 +6076,7 @@ decl (Decl
 n "testOut"
 t "std_uLogic_vector"
 b "(1 DOWNTO 0)"
-o 29
+o 21
 suid 91,0
 )
 )
@@ -6254,43 +6254,43 @@ uid 10033,0
 )
 *226 (MRCItem
 litem &194
-pos 20
+pos 21
 dimension 20
 uid 11582,0
 )
 *227 (MRCItem
 litem &195
-pos 21
+pos 22
 dimension 20
 uid 11584,0
 )
 *228 (MRCItem
 litem &196
-pos 22
+pos 23
 dimension 20
 uid 11586,0
 )
 *229 (MRCItem
 litem &197
-pos 23
+pos 24
 dimension 20
 uid 11588,0
 )
 *230 (MRCItem
 litem &198
-pos 24
+pos 25
 dimension 20
 uid 11654,0
 )
 *231 (MRCItem
 litem &199
-pos 25
+pos 26
 dimension 20
 uid 11656,0
 )
 *232 (MRCItem
 litem &200
-pos 26
+pos 20
 dimension 20
 uid 12785,0
 )

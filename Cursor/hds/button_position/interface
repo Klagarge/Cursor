@@ -70,7 +70,7 @@ port (LogicalPort
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 1
 suid 43,0
 )
 )
@@ -84,7 +84,7 @@ decl (Decl
 n "dbus0"
 t "unsigned"
 b "(2 DOWNTO 0)"
-o 9
+o 7
 suid 44,0
 )
 )
@@ -95,7 +95,7 @@ port (LogicalPort
 decl (Decl
 n "go1"
 t "std_uLogic"
-o 3
+o 2
 suid 45,0
 )
 )
@@ -106,7 +106,7 @@ port (LogicalPort
 decl (Decl
 n "go2"
 t "std_uLogic"
-o 4
+o 3
 suid 46,0
 )
 )
@@ -117,7 +117,7 @@ port (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 9
+o 4
 suid 47,0
 )
 )
@@ -128,7 +128,7 @@ port (LogicalPort
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 6
+o 5
 suid 48,0
 )
 )
@@ -140,7 +140,7 @@ lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 7
+o 6
 suid 49,0
 )
 )
@@ -204,37 +204,37 @@ uid 737,0
 )
 *27 (MRCItem
 litem &15
-pos 1
+pos 6
 dimension 20
 uid 739,0
 )
 *28 (MRCItem
 litem &16
-pos 2
+pos 1
 dimension 20
 uid 741,0
 )
 *29 (MRCItem
 litem &17
-pos 3
+pos 2
 dimension 20
 uid 743,0
 )
 *30 (MRCItem
 litem &18
-pos 4
+pos 3
 dimension 20
 uid 745,0
 )
 *31 (MRCItem
 litem &19
-pos 5
+pos 4
 dimension 20
 uid 747,0
 )
 *32 (MRCItem
 litem &20
-pos 6
+pos 5
 dimension 20
 uid 749,0
 )
@@ -563,7 +563,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:53:24"
+value "14:54:17"
 )
 (vvPair
 variable "group"
@@ -635,7 +635,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:53:24"
+value "14:54:17"
 )
 (vvPair
 variable "unit"
@@ -702,14 +702,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,60500,3200"
-st "clock   : IN     std_ulogic  ;
-"
+st "clock   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 1
 suid 43,0
 )
 )
@@ -748,8 +747,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,64500,8000"
-st "dbus0   : OUT    unsigned (2 DOWNTO 0)
-"
+st "dbus0   : OUT    unsigned (2 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 11
@@ -758,7 +756,7 @@ decl (Decl
 n "dbus0"
 t "unsigned"
 b "(2 DOWNTO 0)"
-o 9
+o 7
 suid 44,0
 )
 )
@@ -796,14 +794,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,60500,4000"
-st "go1     : IN     std_uLogic  ;
-"
+st "go1     : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "go1"
 t "std_uLogic"
-o 3
+o 2
 suid 45,0
 )
 )
@@ -841,14 +838,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,60500,4800"
-st "go2     : IN     std_uLogic  ;
-"
+st "go2     : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "go2"
 t "std_uLogic"
-o 4
+o 3
 suid 46,0
 )
 )
@@ -886,14 +882,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,60500,5600"
-st "reset   : IN     std_ulogic  ;
-"
+st "reset   : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 9
+o 4
 suid 47,0
 )
 )
@@ -931,14 +926,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,60500,6400"
-st "restart : IN     std_uLogic  ;
-"
+st "restart : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 6
+o 5
 suid 48,0
 )
 )
@@ -976,15 +970,14 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,60500,7200"
-st "unlock  : IN     std_ulogic  ;
-"
+st "unlock  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 7
+o 6
 suid 49,0
 )
 )
@@ -1506,8 +1499,8 @@ tm "PanelText"
 )
 parentGraphicsRef (HdmGraphicsRef
 libraryName "Cursor"
-entityName "Button"
-viewName "button.bd"
+entityName "ButtonBlock"
+viewName "buttonDiagram.bd"
 )
 defaultSymbolBody (SymbolBody
 shape (Rectangle
@@ -1698,6 +1691,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 749,0
+lastUid 795,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
 )

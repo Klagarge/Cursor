@@ -501,7 +501,7 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "day"
@@ -513,7 +513,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -541,7 +541,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "21.12.2021"
 )
 (vvPair
 variable "graphical_source_group"
@@ -553,7 +553,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:09:17"
+value "14:54:36"
 )
 (vvPair
 variable "group"
@@ -625,7 +625,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "13:09:17"
+value "14:54:36"
 )
 (vvPair
 variable "unit"
@@ -692,8 +692,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,61000,4000"
-st "clock    : IN     std_ulogic  ;
-"
+st "clock    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -737,8 +736,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61000,4800"
-st "down     : IN     std_uLogic  ;
-"
+st "down     : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -784,8 +782,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,66000,7200"
-st "Position : OUT    unsigned (15 DOWNTO 0)
-"
+st "Position : OUT    unsigned (15 DOWNTO 0)"
 )
 thePort (LogicalPort
 lang 11
@@ -832,8 +829,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61000,3200"
-st "RaZ      : IN     std_ulogic  ;
-"
+st "RaZ      : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -878,8 +874,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "reset    : IN     std_ulogic  ;
-"
+st "reset    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -924,8 +919,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,61000,6400"
-st "up       : IN     std_uLogic  ;
-"
+st "up       : IN     std_uLogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1455,8 +1449,8 @@ tm "PanelText"
 )
 parentGraphicsRef (HdmGraphicsRef
 libraryName "Cursor"
-entityName "Position"
-viewName "position.bd"
+entityName "PositionBlock"
+viewName "positionDiagram.bd"
 )
 defaultSymbolBody (SymbolBody
 shape (Rectangle
@@ -1647,6 +1641,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 172,0
+lastUid 218,0
+okToSyncOnLoad 1
+OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
 )

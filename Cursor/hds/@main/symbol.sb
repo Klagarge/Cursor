@@ -65,7 +65,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 suid 75,0
@@ -657,7 +657,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:37:59"
+value "14:44:45"
 )
 (vvPair
 variable "group"
@@ -729,7 +729,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:37:59"
+value "14:44:45"
 )
 (vvPair
 variable "unit"
@@ -795,15 +795,15 @@ uid 883,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3200,71000,4000"
-st "button   : IN     std_uLogic_vector (3 DOWNTO 0) ;
+xt "44000,3200,66500,4000"
+st "button   : IN     unsigned (3 DOWNTO 0) ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "button"
-t "std_uLogic_vector"
+t "unsigned"
 b "(3 DOWNTO 0)"
 o 2
 suid 75,0
@@ -1409,7 +1409,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,46000,49000"
+xt "36200,48000,45400,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2031,6 +2031,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1169,0
+lastUid 1192,0
 activeModelName "Symbol:CDM"
 )

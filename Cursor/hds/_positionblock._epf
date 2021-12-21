@@ -1,0 +1,2 @@
+DEFAULT_FILE atom @position@block/position@diagram.bd
+DEFAULT_ARCHITECTURE atom positionDiagram
