@@ -73,7 +73,7 @@ decl (Decl
 n "button"
 t "unsigned"
 b "(2 DOWNTO 0)"
-o 8
+o 7
 suid 51,0
 )
 )
@@ -84,7 +84,7 @@ port (LogicalPort
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 1
 suid 52,0
 )
 )
@@ -95,7 +95,7 @@ port (LogicalPort
 decl (Decl
 n "go1"
 t "std_uLogic"
-o 3
+o 2
 suid 53,0
 )
 )
@@ -106,7 +106,7 @@ port (LogicalPort
 decl (Decl
 n "go2"
 t "std_uLogic"
-o 4
+o 3
 suid 54,0
 )
 )
@@ -117,7 +117,7 @@ port (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 5
+o 4
 suid 55,0
 )
 )
@@ -128,7 +128,7 @@ port (LogicalPort
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 6
+o 5
 suid 56,0
 )
 )
@@ -140,7 +140,7 @@ lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 7
+o 6
 suid 57,0
 )
 )
@@ -198,43 +198,43 @@ uid 120,0
 )
 *26 (MRCItem
 litem &14
-pos 0
+pos 6
 dimension 20
 uid 885,0
 )
 *27 (MRCItem
 litem &15
-pos 1
+pos 0
 dimension 20
 uid 887,0
 )
 *28 (MRCItem
 litem &16
-pos 2
+pos 1
 dimension 20
 uid 889,0
 )
 *29 (MRCItem
 litem &17
-pos 3
+pos 2
 dimension 20
 uid 891,0
 )
 *30 (MRCItem
 litem &18
-pos 4
+pos 3
 dimension 20
 uid 893,0
 )
 *31 (MRCItem
 litem &19
-pos 5
+pos 4
 dimension 20
 uid 895,0
 )
 *32 (MRCItem
 litem &20
-pos 6
+pos 5
 dimension 20
 uid 897,0
 )
@@ -467,23 +467,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -503,15 +503,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "day"
@@ -523,7 +523,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -547,11 +547,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -559,11 +559,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:26:48"
+value "14:08:24"
 )
 (vvPair
 variable "group"
@@ -571,7 +571,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -587,7 +587,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -595,19 +595,19 @@ value "button_position"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\button_position\\interface"
 )
 (vvPair
 variable "package_name"
@@ -635,7 +635,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "15:26:48"
+value "14:08:24"
 )
 (vvPair
 variable "unit"
@@ -643,7 +643,7 @@ value "button_position"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -655,11 +655,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -713,7 +713,7 @@ decl (Decl
 n "button"
 t "unsigned"
 b "(2 DOWNTO 0)"
-o 8
+o 7
 suid 51,0
 )
 )
@@ -758,7 +758,7 @@ thePort (LogicalPort
 decl (Decl
 n "clock"
 t "std_ulogic"
-o 2
+o 1
 suid 52,0
 )
 )
@@ -803,7 +803,7 @@ thePort (LogicalPort
 decl (Decl
 n "go1"
 t "std_uLogic"
-o 3
+o 2
 suid 53,0
 )
 )
@@ -848,7 +848,7 @@ thePort (LogicalPort
 decl (Decl
 n "go2"
 t "std_uLogic"
-o 4
+o 3
 suid 54,0
 )
 )
@@ -893,7 +893,7 @@ thePort (LogicalPort
 decl (Decl
 n "reset"
 t "std_ulogic"
-o 5
+o 4
 suid 55,0
 )
 )
@@ -938,7 +938,7 @@ thePort (LogicalPort
 decl (Decl
 n "restart"
 t "std_uLogic"
-o 6
+o 5
 suid 56,0
 )
 )
@@ -984,7 +984,7 @@ lang 11
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 7
+o 6
 suid 57,0
 )
 )
@@ -1698,7 +1698,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 897,0
+lastUid 920,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

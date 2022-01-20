@@ -352,7 +352,7 @@ value "testLineNb"
 )
 ]
 mwi 0
-uid 5636,0
+uid 6730,0
 )
 ]
 embeddedInstances [
@@ -383,23 +383,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hdl"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd.info"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd.user"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -419,15 +419,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor"
 )
 (vvPair
 variable "date"
-value "30.11.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
@@ -439,7 +439,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "30"
+value "18"
 )
 (vvPair
 variable "designName"
@@ -467,11 +467,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "graphical_source_date"
-value "30.11.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -479,11 +479,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:00:02"
+value "16:14:14"
 )
 (vvPair
 variable "group"
@@ -491,7 +491,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "language"
@@ -523,7 +523,7 @@ value "U:\\ELN_cursor\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "11"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -531,19 +531,19 @@ value "FPGA_cursor"
 )
 (vvPair
 variable "month"
-value "nov."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "novembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\@f@p@g@a_cursor\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor\\struct.bd"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Board\\hds\\FPGA_cursor\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -611,7 +611,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "16:00:02"
+value "16:14:14"
 )
 (vvPair
 variable "unit"
@@ -619,7 +619,7 @@ value "FPGA_cursor"
 )
 (vvPair
 variable "user"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "version"
@@ -631,11 +631,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -741,7 +741,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "94200,116400,108700,117600"
+xt "94200,116400,112200,117600"
 st "
 by %user on %dd %month %year
 "
@@ -7429,14 +7429,32 @@ xt "0,74600,15600,75800"
 st "LCD_RST_n     : std_ulogic"
 )
 )
-*255 (SaComponent
-uid 5636,0
+*255 (Net
+uid 5716,0
+decl (Decl
+n "LEDs"
+t "std_uLogic_vector"
+b "(1 TO 8)"
+o 20
+suid 55,0
+)
+declText (MLText
+uid 5717,0
+va (VaSet
+isHidden 1
+)
+xt "0,0,22900,1200"
+st "LEDs          : std_uLogic_vector(1 TO 8)"
+)
+)
+*256 (SaComponent
+uid 6730,0
 optionalChildren [
-*256 (CptPort
-uid 5531,0
+*257 (CptPort
+uid 6646,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5532,0
+uid 6647,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7445,33 +7463,33 @@ fg "0,65535,0"
 xt "67250,77625,68000,78375"
 )
 tg (CPTG
-uid 5533,0
+uid 6648,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5534,0
+uid 6649,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,77300,72500,78600"
+xt "69000,77300,72800,78700"
 st "clock"
-blo "69000,78300"
+blo "69000,78500"
 )
 )
 thePort (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 2
 suid 1,0
 )
 )
 )
-*257 (CptPort
-uid 5536,0
+*258 (CptPort
+uid 6650,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5537,0
+uid 6651,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7480,33 +7498,33 @@ fg "0,65535,0"
 xt "67250,79625,68000,80375"
 )
 tg (CPTG
-uid 5538,0
+uid 6652,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5539,0
+uid 6653,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,79300,72500,80600"
+xt "69000,79300,73100,80700"
 st "reset"
-blo "69000,80300"
+blo "69000,80500"
 )
 )
 thePort (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 8
 suid 2,0
 )
 )
 )
-*258 (CptPort
-uid 5541,0
+*259 (CptPort
+uid 6654,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5542,0
+uid 6655,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7515,18 +7533,18 @@ fg "0,65535,0"
 xt "84000,55625,84750,56375"
 )
 tg (CPTG
-uid 5543,0
+uid 6656,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5544,0
+uid 6657,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "79500,55400,83000,56700"
+xt "78800,55400,83000,56800"
 st "side1"
 ju 2
-blo "83000,56400"
+blo "83000,56600"
 )
 )
 thePort (LogicalPort
@@ -7539,11 +7557,11 @@ suid 3,0
 )
 )
 )
-*259 (CptPort
-uid 5546,0
+*260 (CptPort
+uid 6658,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5547,0
+uid 6659,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7552,17 +7570,17 @@ fg "0,65535,0"
 xt "67250,53625,68000,54375"
 )
 tg (CPTG
-uid 5548,0
+uid 6660,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5549,0
+uid 6661,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,53300,73900,54600"
+xt "69000,53300,74100,54700"
 st "restart"
-blo "69000,54300"
+blo "69000,54500"
 )
 )
 thePort (LogicalPort
@@ -7574,11 +7592,11 @@ suid 4,0
 )
 )
 )
-*260 (CptPort
-uid 5551,0
+*261 (CptPort
+uid 6662,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5552,0
+uid 6663,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7587,17 +7605,17 @@ fg "0,65535,0"
 xt "67250,57625,68000,58375"
 )
 tg (CPTG
-uid 5553,0
+uid 6664,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5554,0
+uid 6665,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,57300,71100,58600"
+xt "69000,57300,72200,58700"
 st "go2"
-blo "69000,58300"
+blo "69000,58500"
 )
 )
 thePort (LogicalPort
@@ -7609,11 +7627,11 @@ suid 5,0
 )
 )
 )
-*261 (CptPort
-uid 5556,0
+*262 (CptPort
+uid 6666,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5557,0
+uid 6667,0
 ro 270
 va (VaSet
 vasetType 1
@@ -7622,18 +7640,18 @@ fg "0,65535,0"
 xt "84000,61625,84750,62375"
 )
 tg (CPTG
-uid 5558,0
+uid 6668,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5559,0
+uid 6669,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "78100,61400,83000,62700"
+xt "77100,61400,83000,62800"
 st "sensor1"
 ju 2
-blo "83000,62400"
+blo "83000,62600"
 )
 )
 thePort (LogicalPort
@@ -7645,11 +7663,11 @@ suid 6,0
 )
 )
 )
-*262 (CptPort
-uid 5561,0
+*263 (CptPort
+uid 6670,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5562,0
+uid 6671,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7658,17 +7676,17 @@ fg "0,65535,0"
 xt "67250,75625,68000,76375"
 )
 tg (CPTG
-uid 5563,0
+uid 6672,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5564,0
+uid 6673,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,75300,74600,76600"
+xt "69000,75300,75700,76700"
 st "testMode"
-blo "69000,76300"
+blo "69000,76500"
 )
 )
 thePort (LogicalPort
@@ -7680,48 +7698,11 @@ suid 7,0
 )
 )
 )
-*263 (CptPort
-uid 5566,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 5567,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "75625,49250,76375,50000"
-)
-tg (CPTG
-uid 5568,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 5569,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "73700,51000,78600,52300"
-st "testOut"
-ju 2
-blo "78600,52000"
-)
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "testOut"
-t "std_uLogic_vector"
-b "(1 TO testLineNb)"
-o 21
-suid 8,0
-)
-)
-)
 *264 (CptPort
-uid 5571,0
+uid 6674,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5572,0
+uid 6675,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7730,17 +7711,17 @@ fg "0,65535,0"
 xt "67250,55625,68000,56375"
 )
 tg (CPTG
-uid 5573,0
+uid 6676,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5574,0
+uid 6677,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,55300,71100,56600"
+xt "69000,55300,72200,56700"
 st "go1"
-blo "69000,56300"
+blo "69000,56500"
 )
 )
 thePort (LogicalPort
@@ -7753,10 +7734,10 @@ suid 9,0
 )
 )
 *265 (CptPort
-uid 5576,0
+uid 6678,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5577,0
+uid 6679,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7765,18 +7746,18 @@ fg "0,65535,0"
 xt "84000,57625,84750,58375"
 )
 tg (CPTG
-uid 5578,0
+uid 6680,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5579,0
+uid 6681,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "79500,57400,83000,58700"
+xt "78800,57400,83000,58800"
 st "side2"
 ju 2
-blo "83000,58400"
+blo "83000,58600"
 )
 )
 thePort (LogicalPort
@@ -7790,10 +7771,10 @@ suid 10,0
 )
 )
 *266 (CptPort
-uid 5581,0
+uid 6682,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5582,0
+uid 6683,0
 ro 270
 va (VaSet
 vasetType 1
@@ -7802,18 +7783,18 @@ fg "0,65535,0"
 xt "84000,63625,84750,64375"
 )
 tg (CPTG
-uid 5583,0
+uid 6684,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5584,0
+uid 6685,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "81100,37350,86000,38650"
+xt "77100,63300,83000,64700"
 st "sensor2"
 ju 2
-blo "86000,38350"
+blo "83000,64500"
 )
 )
 thePort (LogicalPort
@@ -7826,10 +7807,10 @@ suid 11,0
 )
 )
 *267 (CptPort
-uid 5586,0
+uid 6686,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5587,0
+uid 6687,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7838,18 +7819,18 @@ fg "0,65535,0"
 xt "84000,53625,84750,54375"
 )
 tg (CPTG
-uid 5588,0
+uid 6688,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5589,0
+uid 6689,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "78100,53400,83000,54700"
+xt "76700,53400,83000,54800"
 st "motorOn"
 ju 2
-blo "83000,54400"
+blo "83000,54600"
 )
 )
 thePort (LogicalPort
@@ -7863,10 +7844,10 @@ suid 12,0
 )
 )
 *268 (CptPort
-uid 5591,0
+uid 6690,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5592,0
+uid 6691,0
 ro 270
 va (VaSet
 vasetType 1
@@ -7875,18 +7856,18 @@ fg "0,65535,0"
 xt "84000,67625,84750,68375"
 )
 tg (CPTG
-uid 5593,0
+uid 6692,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5594,0
+uid 6693,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77400,67400,83000,68700"
+xt "76300,67400,83000,68800"
 st "encoderA"
 ju 2
-blo "83000,68400"
+blo "83000,68600"
 )
 )
 thePort (LogicalPort
@@ -7899,10 +7880,10 @@ suid 13,0
 )
 )
 *269 (CptPort
-uid 5596,0
+uid 6694,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5597,0
+uid 6695,0
 ro 270
 va (VaSet
 vasetType 1
@@ -7911,18 +7892,18 @@ fg "0,65535,0"
 xt "84000,69625,84750,70375"
 )
 tg (CPTG
-uid 5598,0
+uid 6696,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5599,0
+uid 6697,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77400,69400,83000,70700"
+xt "76300,69400,83000,70800"
 st "encoderB"
 ju 2
-blo "83000,70400"
+blo "83000,70600"
 )
 )
 thePort (LogicalPort
@@ -7935,10 +7916,10 @@ suid 14,0
 )
 )
 *270 (CptPort
-uid 5601,0
+uid 6698,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5602,0
+uid 6699,0
 ro 270
 va (VaSet
 vasetType 1
@@ -7947,18 +7928,18 @@ fg "0,65535,0"
 xt "84000,71625,84750,72375"
 )
 tg (CPTG
-uid 5603,0
+uid 6700,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 5604,0
+uid 6701,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "77400,71400,83000,72700"
+xt "76600,71400,83000,72800"
 st "encoderI"
 ju 2
-blo "83000,72400"
+blo "83000,72600"
 )
 )
 thePort (LogicalPort
@@ -7971,10 +7952,10 @@ suid 15,0
 )
 )
 *271 (CptPort
-uid 5606,0
+uid 6702,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5607,0
+uid 6703,0
 ro 90
 va (VaSet
 vasetType 1
@@ -7983,33 +7964,34 @@ fg "0,65535,0"
 xt "67250,59625,68000,60375"
 )
 tg (CPTG
-uid 5608,0
+uid 6704,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5609,0
+uid 6705,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,59300,73900,60600"
+xt "69000,59300,74800,60700"
 st "button4"
-blo "69000,60300"
+blo "69000,60500"
 )
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "button4"
-t "std_uLogic"
+t "std_ulogic"
 o 1
 suid 16,0
 )
 )
 )
 *272 (CptPort
-uid 5611,0
+uid 6706,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5612,0
+uid 6707,0
 ro 270
 va (VaSet
 vasetType 1
@@ -8018,17 +8000,17 @@ fg "0,65535,0"
 xt "67250,63625,68000,64375"
 )
 tg (CPTG
-uid 5613,0
+uid 6708,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5614,0
+uid 6709,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,63300,72500,64600"
+xt "69000,63300,73900,64700"
 st "CS1_n"
-blo "69000,64300"
+blo "69000,64500"
 )
 )
 thePort (LogicalPort
@@ -8042,10 +8024,10 @@ suid 2017,0
 )
 )
 *273 (CptPort
-uid 5616,0
+uid 6710,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5617,0
+uid 6711,0
 ro 270
 va (VaSet
 vasetType 1
@@ -8054,17 +8036,17 @@ fg "0,65535,0"
 xt "67250,65625,68000,66375"
 )
 tg (CPTG
-uid 5618,0
+uid 6712,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5619,0
+uid 6713,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,65300,71100,66600"
+xt "69000,65300,72200,66700"
 st "SCL"
-blo "69000,66300"
+blo "69000,66500"
 )
 )
 thePort (LogicalPort
@@ -8078,10 +8060,10 @@ suid 2018,0
 )
 )
 *274 (CptPort
-uid 5621,0
+uid 6714,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5622,0
+uid 6715,0
 ro 270
 va (VaSet
 vasetType 1
@@ -8090,17 +8072,17 @@ fg "0,65535,0"
 xt "67250,67625,68000,68375"
 )
 tg (CPTG
-uid 5623,0
+uid 6716,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5624,0
+uid 6717,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,67300,70400,68600"
+xt "69000,67300,71100,68700"
 st "SI"
-blo "69000,68300"
+blo "69000,68500"
 )
 )
 thePort (LogicalPort
@@ -8114,10 +8096,10 @@ suid 2019,0
 )
 )
 *275 (CptPort
-uid 5626,0
+uid 6718,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5627,0
+uid 6719,0
 ro 270
 va (VaSet
 vasetType 1
@@ -8126,17 +8108,17 @@ fg "0,65535,0"
 xt "67250,69625,68000,70375"
 )
 tg (CPTG
-uid 5628,0
+uid 6720,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5629,0
+uid 6721,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,69300,70400,70600"
+xt "69000,69300,71400,70700"
 st "A0"
-blo "69000,70300"
+blo "69000,70500"
 )
 )
 thePort (LogicalPort
@@ -8150,10 +8132,10 @@ suid 2020,0
 )
 )
 *276 (CptPort
-uid 5631,0
+uid 6722,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 5632,0
+uid 6723,0
 ro 270
 va (VaSet
 vasetType 1
@@ -8162,17 +8144,17 @@ fg "0,65535,0"
 xt "67250,71625,68000,72375"
 )
 tg (CPTG
-uid 5633,0
+uid 6724,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 5634,0
+uid 6725,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "69000,71300,72500,72600"
+xt "69000,71300,73700,72700"
 st "RST_n"
-blo "69000,72300"
+blo "69000,72500"
 )
 )
 thePort (LogicalPort
@@ -8185,9 +8167,47 @@ suid 2021,0
 )
 )
 )
+*277 (CptPort
+uid 6726,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 6727,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "75625,49250,76375,50000"
+)
+tg (CPTG
+uid 6728,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 6729,0
+ro 270
+va (VaSet
+font "Verdana,12,0"
+)
+xt "75300,51000,76700,56600"
+st "testOut"
+ju 2
+blo "76500,51000"
+)
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "testOut"
+t "std_uLogic_vector"
+b "(1 to 16)"
+o 21
+suid 2022,0
+)
+)
+)
 ]
 shape (Rectangle
-uid 5637,0
+uid 6731,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -8198,53 +8218,53 @@ xt "68000,50000,84000,82000"
 )
 oxt "40000,2000,56000,34000"
 ttg (MlTextGroup
-uid 5638,0
+uid 6732,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*277 (Text
-uid 5639,0
+*278 (Text
+uid 6733,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "68100,81700,71100,82600"
+xt "68100,81700,71800,82700"
 st "Cursor"
-blo "68100,82400"
+blo "68100,82500"
 tm "BdLibraryNameMgr"
 )
-*278 (Text
-uid 5640,0
+*279 (Text
+uid 6734,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "68100,82700,75100,83600"
+xt "68100,82700,75400,83700"
 st "cursorCircuit"
-blo "68100,83400"
+blo "68100,83500"
 tm "CptNameMgr"
 )
-*279 (Text
-uid 5641,0
+*280 (Text
+uid 6735,0
 va (VaSet
 font "Verdana,8,1"
 )
-xt "68100,83700,69100,84600"
+xt "68100,83700,69700,84700"
 st "I0"
-blo "68100,84400"
+blo "68100,84500"
 tm "InstanceNameMgr"
 )
 ]
 )
 ga (GenericAssociation
-uid 5642,0
+uid 6736,0
 ps "EdgeToEdgeStrategy"
 matrix (Matrix
-uid 5643,0
+uid 6737,0
 text (MLText
-uid 5644,0
+uid 6738,0
 va (VaSet
-font "Verdana,8,0"
+font "Courier New,8,0"
 )
-xt "68000,85200,90000,91200"
+xt "68000,85200,95500,90000"
 st "position0       = position0          ( positive )  
 position1       = position1          ( positive )  
 position2       = position2          ( positive )  
@@ -8292,24 +8312,6 @@ sTC 0
 sT 1
 )
 archFileType "UNKNOWN"
-)
-*280 (Net
-uid 5716,0
-decl (Decl
-n "LEDs"
-t "std_uLogic_vector"
-b "(1 TO 8)"
-o 20
-suid 55,0
-)
-declText (MLText
-uid 5717,0
-va (VaSet
-isHidden 1
-)
-xt "0,0,22900,1200"
-st "LEDs          : std_uLogic_vector(1 TO 8)"
-)
 )
 *281 (Wire
 uid 1317,0
@@ -8364,7 +8366,7 @@ pts [
 "28000,78000"
 ]
 )
-start &256
+start &257
 end &13
 es 0
 sat 32
@@ -8405,7 +8407,7 @@ pts [
 "55750,82000"
 ]
 )
-start &257
+start &258
 end &85
 es 0
 sat 32
@@ -8444,7 +8446,7 @@ pts [
 "28000,76000"
 ]
 )
-start &262
+start &263
 end &28
 sat 32
 eat 32
@@ -8675,7 +8677,7 @@ pts [
 ]
 )
 start &34
-end &260
+end &261
 sat 32
 eat 32
 stc 0
@@ -8903,7 +8905,7 @@ pts [
 ]
 )
 start &52
-end &259
+end &260
 sat 32
 eat 32
 stc 0
@@ -9133,7 +9135,7 @@ pts [
 "120000,46000"
 ]
 )
-start &258
+start &259
 end &66
 sat 32
 eat 32
@@ -9443,11 +9445,13 @@ lineWidth 2
 xt "76000,34000,92000,49250"
 pts [
 "76000,49250"
-"76000,34000"
+"76000,46000"
+"84000,46000"
+"84000,34000"
 "92000,34000"
 ]
 )
-start &263
+start &277
 end &103
 sat 32
 eat 1
@@ -9871,7 +9875,7 @@ pts [
 "97000,52000"
 ]
 )
-start &261
+start &262
 end &156
 sat 32
 eat 32
@@ -10096,7 +10100,7 @@ blo "117000,35800"
 tm "WireNameMgr"
 )
 )
-on &280
+on &255
 )
 *326 (Wire
 uid 4193,0
@@ -10994,8 +10998,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,936"
-viewArea "18900,16144,139328,90480"
+windowSize "288,54,1831,990"
+viewArea "18900,16100,139880,87860"
 cachedDiagramExtent "-53000,0,180750,118000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\SUN\\PREA203_HPLJ2430DTN.PRINTERS.SYSTEM.SION.HEVs,winspool,"
@@ -11022,7 +11026,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,19000"
-lastUid 6204,0
+lastUid 6951,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

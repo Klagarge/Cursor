@@ -15,10 +15,6 @@ unitName "numeric_std"
 library "gates"
 unitName "gates"
 )
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 instances [
 (Instance
@@ -133,23 +129,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -169,27 +165,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "sam."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "samedi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -213,11 +209,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -225,11 +221,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:58:26"
+value "21:26:49"
 )
 (vvPair
 variable "group"
@@ -237,7 +233,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -253,7 +249,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -261,19 +257,19 @@ value "cpt1bit"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt1bit\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -301,7 +297,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:58:26"
+value "21:26:49"
 )
 (vvPair
 variable "unit"
@@ -309,7 +305,7 @@ value "cpt1bit"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -321,11 +317,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -800,7 +796,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "29200,48000,38400,49000"
+xt "29200,48000,39200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2705,24 +2701,6 @@ sT 1
 archFileType "UNKNOWN"
 )
 *77 (Net
-uid 442,0
-decl (Decl
-n "out1"
-t "std_uLogic"
-o 8
-suid 8,0
-)
-declText (MLText
-uid 443,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "41000,6200,56000,7000"
-st "SIGNAL out1    : std_uLogic
-"
-)
-)
-*78 (Net
 uid 448,0
 decl (Decl
 n "xorOut"
@@ -2740,7 +2718,7 @@ st "SIGNAL xorOut  : std_ulogic
 "
 )
 )
-*79 (Net
+*78 (Net
 uid 454,0
 decl (Decl
 n "out2"
@@ -2758,7 +2736,7 @@ st "SIGNAL out2    : std_uLogic
 "
 )
 )
-*80 (Net
+*79 (Net
 uid 466,0
 decl (Decl
 n "out3"
@@ -2776,7 +2754,7 @@ st "SIGNAL out3    : std_uLogic
 "
 )
 )
-*81 (Net
+*80 (Net
 uid 472,0
 decl (Decl
 n "xorOut1"
@@ -2791,6 +2769,24 @@ font "Courier New,8,0"
 )
 xt "41000,9400,56000,10200"
 st "SIGNAL xorOut1 : std_ulogic
+"
+)
+)
+*81 (Net
+uid 586,0
+decl (Decl
+n "out1"
+t "std_uLogic"
+o 12
+suid 13,0
+)
+declText (MLText
+uid 587,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "41000,6200,56000,7000"
+st "SIGNAL out1    : std_uLogic
 "
 )
 )
@@ -3092,52 +3088,6 @@ tm "WireNameMgr"
 on &14
 )
 *91 (Wire
-uid 444,0
-shape (OrthoPolyLine
-uid 445,0
-va (VaSet
-vasetType 3
-)
-xt "17750,15000,20382,15000"
-pts [
-"17750,15000"
-"20382,15000"
-]
-)
-start &65
-end &45
-sat 32
-eat 32
-stc 0
-sf 1
-si 0
-tg (WTG
-uid 446,0
-ps "ConnStartEndStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 447,0
-va (VaSet
-isHidden 1
-)
-xt "19750,13800,22750,15000"
-st "out1"
-blo "19750,14800"
-tm "WireNameMgr"
-)
-s (Text
-uid 529,0
-va (VaSet
-isHidden 1
-)
-xt "19750,15000,19750,15000"
-blo "19750,15000"
-tm "SignalTypeMgr"
-)
-)
-on &77
-)
-*92 (Wire
 uid 450,0
 shape (OrthoPolyLine
 uid 451,0
@@ -3183,9 +3133,9 @@ blo "30000,17000"
 tm "SignalTypeMgr"
 )
 )
-on &78
+on &77
 )
-*93 (Wire
+*92 (Wire
 uid 456,0
 shape (OrthoPolyLine
 uid 457,0
@@ -3229,9 +3179,9 @@ blo "44950,35000"
 tm "SignalTypeMgr"
 )
 )
-on &79
+on &78
 )
-*94 (Wire
+*93 (Wire
 uid 468,0
 shape (OrthoPolyLine
 uid 469,0
@@ -3275,9 +3225,9 @@ blo "32750,37000"
 tm "SignalTypeMgr"
 )
 )
-on &80
+on &79
 )
-*95 (Wire
+*94 (Wire
 uid 474,0
 shape (OrthoPolyLine
 uid 475,0
@@ -3323,9 +3273,9 @@ blo "30000,28000"
 tm "SignalTypeMgr"
 )
 )
-on &81
+on &80
 )
-*96 (Wire
+*95 (Wire
 uid 478,0
 shape (OrthoPolyLine
 uid 479,0
@@ -3363,10 +3313,10 @@ tm "WireNameMgr"
 )
 on &4
 )
-*97 (Wire
+*96 (Wire
 uid 484,0
 optionalChildren [
-*98 (BdJunction
+*97 (BdJunction
 uid 494,0
 ps "OnConnectorStrategy"
 shape (Circle
@@ -3417,7 +3367,7 @@ tm "WireNameMgr"
 )
 on &6
 )
-*99 (Wire
+*98 (Wire
 uid 490,0
 shape (OrthoPolyLine
 uid 491,0
@@ -3432,7 +3382,7 @@ pts [
 ]
 )
 start &38
-end &98
+end &97
 sat 32
 eat 32
 stc 0
@@ -3454,6 +3404,51 @@ tm "WireNameMgr"
 )
 )
 on &6
+)
+*99 (Wire
+uid 588,0
+shape (OrthoPolyLine
+uid 589,0
+va (VaSet
+vasetType 3
+)
+xt "17750,15000,20382,15000"
+pts [
+"17750,15000"
+"20382,15000"
+]
+)
+start &65
+end &45
+sat 32
+eat 32
+stc 0
+sf 1
+si 0
+tg (WTG
+uid 590,0
+ps "ConnStartEndStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 591,0
+va (VaSet
+isHidden 1
+)
+xt "19750,13800,22750,15000"
+st "out1"
+blo "19750,14800"
+tm "WireNameMgr"
+)
+s (Text
+va (VaSet
+isHidden 1
+)
+xt "19750,15000,19750,15000"
+blo "19750,15000"
+tm "SignalTypeMgr"
+)
+)
+on &81
 )
 ]
 bg "65535,65535,65535"
@@ -3484,13 +3479,12 @@ blo "1000,-1400"
 uid 155,0
 va (VaSet
 )
-xt "1000,-1200,20000,6000"
+xt "1000,-1200,18500,4800"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+USE gates.gates.all;"
 tm "PackageList"
 )
 ]
@@ -3568,12 +3562,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1544,928"
-viewArea "-30688,-5947,66758,53522"
+windowSize "93,70,1647,1006"
+viewArea "-19230,-5900,78894,51820"
 cachedDiagramExtent "-6400,-3000,67100,49000"
 hasePageBreakOrigin 1
-pageBreakOrigin "-7000,0"
-lastUid 533,0
+pageBreakOrigin "-7000,-49000"
+lastUid 593,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4613,7 +4607,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 12,0
+suid 13,0
 usingSuid 1
 emptyRow *131 (LEmptyRow
 )
@@ -4742,18 +4736,6 @@ uid 119,0
 port (LogicalPort
 m 4
 decl (Decl
-n "out1"
-t "std_uLogic"
-o 8
-suid 8,0
-)
-)
-uid 460,0
-)
-*152 (LeafLogPort
-port (LogicalPort
-m 4
-decl (Decl
 n "xorOut"
 t "std_ulogic"
 o 11
@@ -4762,7 +4744,7 @@ suid 9,0
 )
 uid 462,0
 )
-*153 (LeafLogPort
+*152 (LeafLogPort
 port (LogicalPort
 m 4
 decl (Decl
@@ -4774,7 +4756,7 @@ suid 10,0
 )
 uid 464,0
 )
-*154 (LeafLogPort
+*153 (LeafLogPort
 port (LogicalPort
 m 4
 decl (Decl
@@ -4786,7 +4768,7 @@ suid 11,0
 )
 uid 496,0
 )
-*155 (LeafLogPort
+*154 (LeafLogPort
 port (LogicalPort
 m 4
 decl (Decl
@@ -4797,6 +4779,18 @@ suid 12,0
 )
 )
 uid 498,0
+)
+*155 (LeafLogPort
+port (LogicalPort
+m 4
+decl (Decl
+n "out1"
+t "std_uLogic"
+o 12
+suid 13,0
+)
+)
+uid 592,0
 )
 ]
 )
@@ -4894,31 +4888,31 @@ uid 120,0
 litem &151
 pos 7
 dimension 20
-uid 461,0
+uid 463,0
 )
 *169 (MRCItem
 litem &152
 pos 8
 dimension 20
-uid 463,0
+uid 465,0
 )
 *170 (MRCItem
 litem &153
 pos 9
 dimension 20
-uid 465,0
+uid 497,0
 )
 *171 (MRCItem
 litem &154
 pos 10
 dimension 20
-uid 497,0
+uid 499,0
 )
 *172 (MRCItem
 litem &155
 pos 11
 dimension 20
-uid 499,0
+uid 593,0
 )
 ]
 )

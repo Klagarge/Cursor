@@ -15,10 +15,6 @@ unitName "numeric_std"
 library "gates"
 unitName "gates"
 )
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 instances [
 (Instance
@@ -53,23 +49,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd.info"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd.user"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -89,15 +85,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
@@ -109,7 +105,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -133,11 +129,11 @@ value "position@diagram"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -145,11 +141,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:01:17"
+value "14:29:46"
 )
 (vvPair
 variable "group"
@@ -157,7 +153,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "language"
@@ -173,7 +169,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -181,19 +177,19 @@ value "PositionBlock"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@position@block\\position@diagram.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock\\positionDiagram.bd"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\PositionBlock\\positionDiagram.bd"
 )
 (vvPair
 variable "package_name"
@@ -221,7 +217,7 @@ value "positionDiagram"
 )
 (vvPair
 variable "time"
-value "15:01:17"
+value "14:29:46"
 )
 (vvPair
 variable "unit"
@@ -229,7 +225,7 @@ value "PositionBlock"
 )
 (vvPair
 variable "user"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "version"
@@ -241,11 +237,11 @@ value "positionDiagram"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -301,7 +297,7 @@ tm "WireNameMgr"
 uid 21,0
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -311,7 +307,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,34000,4000"
-st "clock    : std_ulogic"
+st "clock    : std_uLogic
+"
 )
 )
 *3 (PortIoIn
@@ -373,7 +370,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,34000,4800"
-st "encoderA : std_uLogic"
+st "encoderA : std_uLogic
+"
 )
 )
 *5 (PortIoIn
@@ -435,7 +433,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,34000,5600"
-st "encoderB : std_uLogic"
+st "encoderB : std_uLogic
+"
 )
 )
 *7 (PortIoIn
@@ -497,7 +496,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,34000,6400"
-st "encoderI : std_uLogic"
+st "encoderI : std_uLogic
+"
 )
 )
 *9 (Grouping
@@ -522,7 +522,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "27200,48000,36400,49000"
+xt "27200,48000,37200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -894,7 +894,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,7200,39500,8000"
-st "Position : unsigned(15 DOWNTO 0)"
+st "Position : unsigned(15 DOWNTO 0)
+"
 )
 )
 *22 (PortIoIn
@@ -957,7 +958,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,34000,3200"
-st "RaZ      : std_ulogic"
+st "RaZ      : std_ulogic
+"
 )
 )
 *24 (PortIoIn
@@ -1009,8 +1011,8 @@ tm "WireNameMgr"
 uid 235,0
 decl (Decl
 n "reset"
-t "std_ulogic"
-o 8
+t "std_uLogic"
+o 6
 suid 8,0
 )
 declText (MLText
@@ -1019,7 +1021,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,6400,34000,7200"
-st "reset    : std_ulogic"
+st "reset    : std_uLogic
+"
 )
 )
 *26 (Blk
@@ -1108,7 +1111,7 @@ uid 540,0
 decl (Decl
 n "up"
 t "std_uLogic"
-o 8
+o 9
 suid 11,0
 )
 declText (MLText
@@ -1117,7 +1120,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,10000,37500,10800"
-st "SIGNAL up       : std_uLogic"
+st "SIGNAL up       : std_uLogic
+"
 )
 )
 *31 (Net
@@ -1125,7 +1129,7 @@ uid 548,0
 decl (Decl
 n "down"
 t "std_uLogic"
-o 9
+o 8
 suid 12,0
 )
 declText (MLText
@@ -1134,7 +1138,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,9200,37500,10000"
-st "SIGNAL down     : std_uLogic"
+st "SIGNAL down     : std_uLogic
+"
 )
 )
 *32 (Blk
@@ -1649,13 +1654,12 @@ blo "0,1000"
 uid 123,0
 va (VaSet
 )
-xt "0,1200,19000,8400"
+xt "0,1200,17500,7200"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+USE gates.gates.all;"
 tm "PackageList"
 )
 ]
@@ -1733,12 +1737,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,40,1537,960"
-viewArea "-23700,-7200,73166,51408"
+windowSize "0,40,1540,960"
+viewArea "-23700,-7200,73388,51408"
 cachedDiagramExtent "-8500,0,64000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-9000,0"
-lastUid 748,0
+lastUid 907,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2854,7 +2858,7 @@ uid 83,0
 port (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -2891,8 +2895,8 @@ uid 192,0
 port (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
-o 8
+t "std_uLogic"
+o 6
 suid 8,0
 )
 )
@@ -2904,7 +2908,7 @@ m 4
 decl (Decl
 n "up"
 t "std_uLogic"
-o 8
+o 9
 suid 11,0
 )
 )
@@ -2916,7 +2920,7 @@ m 4
 decl (Decl
 n "down"
 t "std_uLogic"
-o 9
+o 8
 suid 12,0
 )
 )

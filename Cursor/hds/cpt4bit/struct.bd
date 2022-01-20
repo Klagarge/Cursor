@@ -3,22 +3,6 @@ Header (DocumentHdr
 version 2
 dialect 11
 dmPackageRefs [
-(DmPackageRef
-library "ieee"
-unitName "std_logic_1164"
-)
-(DmPackageRef
-library "ieee"
-unitName "numeric_std"
-)
-(DmPackageRef
-library "gates"
-unitName "gates"
-)
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 instances [
 (Instance
@@ -58,10 +42,6 @@ mwi 0
 uid 347,0
 )
 ]
-libraryRefs [
-"ieee"
-"gates"
-]
 )
 version "32.1"
 appVersion "2019.2 (Build 5)"
@@ -71,23 +51,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -107,15 +87,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "day"
@@ -127,7 +107,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -151,11 +131,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -163,11 +143,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:37:10"
+value "16:06:42"
 )
 (vvPair
 variable "group"
@@ -175,7 +155,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -191,7 +171,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -199,19 +179,19 @@ value "cpt4bit"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\cpt4bit\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -239,7 +219,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "13:37:10"
+value "16:06:42"
 )
 (vvPair
 variable "unit"
@@ -247,7 +227,7 @@ value "cpt4bit"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -259,11 +239,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -330,8 +310,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-7800,32000,-7000"
-st "clock : std_ulogic
-"
+st "clock : std_ulogic"
 )
 )
 *3 (PortIoIn
@@ -394,8 +373,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-7000,32000,-6200"
-st "eni   : std_ulogic
-"
+st "eni   : std_ulogic"
 )
 )
 *5 (PortIoOut
@@ -458,8 +436,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-4600,37500,-3800"
-st "Qi    : unsigned(3 DOWNTO 0)
-"
+st "Qi    : unsigned(3 DOWNTO 0)"
 )
 )
 *7 (PortIoIn
@@ -522,8 +499,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-8600,32000,-7800"
-st "RaZ   : std_ulogic
-"
+st "RaZ   : std_ulogic"
 )
 )
 *9 (PortIoOut
@@ -585,8 +561,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-3800,32000,-3000"
-st "RCOi  : std_ulogic
-"
+st "RCOi  : std_ulogic"
 )
 )
 *11 (PortIoIn
@@ -649,8 +624,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-6200,32000,-5400"
-st "reset : std_ulogic
-"
+st "reset : std_ulogic"
 )
 )
 *13 (PortIoIn
@@ -713,8 +687,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-5400,32000,-4600"
-st "up    : std_ulogic
-"
+st "up    : std_ulogic"
 )
 )
 *15 (Grouping
@@ -741,7 +714,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "29200,48000,38400,49000"
+xt "29200,48000,39200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2542,8 +2515,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-1800,36000,-1000"
-st "SIGNAL RCOi1 : std_ulogic
-"
+st "SIGNAL RCOi1 : std_ulogic"
 )
 )
 *75 (Net
@@ -2561,8 +2533,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-1000,36000,-200"
-st "SIGNAL RCOi2 : std_ulogic
-"
+st "SIGNAL RCOi2 : std_ulogic"
 )
 )
 *76 (Net
@@ -2580,8 +2551,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,-200,36000,600"
-st "SIGNAL RCOi3 : std_ulogic
-"
+st "SIGNAL RCOi3 : std_ulogic"
 )
 )
 *77 (Wire
@@ -3763,13 +3733,7 @@ blo "0,1000"
 uid 155,0
 va (VaSet
 )
-xt "0,1200,19000,8400"
-st "LIBRARY ieee;
-  USE ieee.std_logic_1164.all;
-  USE ieee.numeric_std.all;
-LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+xt "0,1200,17500,7200"
 tm "PackageList"
 )
 ]
@@ -3847,12 +3811,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1537,960"
-viewArea "-30700,-7300,91037,67844"
+windowSize "0,24,1539,960"
+viewArea "-30700,-29580,91223,45564"
 cachedDiagramExtent "-7200,-11000,66000,76600"
 hasePageBreakOrigin 1
 pageBreakOrigin "-80000,-49000"
-lastUid 751,0
+lastUid 881,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

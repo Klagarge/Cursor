@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom struct
-DEFAULT_FILE atom @main/struct.bd
+DEFAULT_ARCHITECTURE atom fsm
+DEFAULT_FILE atom @main/fsm.sm

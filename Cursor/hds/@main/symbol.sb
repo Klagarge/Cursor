@@ -78,7 +78,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 3
 suid 76,0
 )
@@ -130,7 +130,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_uLogic"
 o 4
 suid 80,0
 )
@@ -262,61 +262,61 @@ uid 155,0
 )
 *31 (MRCItem
 litem &14
-pos 0
+pos 1
 dimension 20
 uid 940,0
 )
 *32 (MRCItem
 litem &15
-pos 1
+pos 2
 dimension 20
 uid 942,0
 )
 *33 (MRCItem
 litem &16
-pos 2
+pos 0
 dimension 20
 uid 944,0
 )
 *34 (MRCItem
 litem &17
-pos 3
+pos 7
 dimension 20
 uid 946,0
 )
 *35 (MRCItem
 litem &18
-pos 4
+pos 8
 dimension 20
 uid 948,0
 )
 *36 (MRCItem
 litem &19
-pos 5
+pos 3
 dimension 20
 uid 950,0
 )
 *37 (MRCItem
 litem &20
-pos 6
+pos 4
 dimension 20
 uid 952,0
 )
 *38 (MRCItem
 litem &21
-pos 7
+pos 5
 dimension 20
 uid 954,0
 )
 *39 (MRCItem
 litem &22
-pos 8
+pos 9
 dimension 20
 uid 956,0
 )
 *40 (MRCItem
 litem &23
-pos 9
+pos 6
 dimension 20
 uid 958,0
 )
@@ -561,23 +561,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -597,15 +597,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "day"
@@ -617,7 +617,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "11"
 )
 (vvPair
 variable "entity_name"
@@ -641,11 +641,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "11.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -653,11 +653,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:58:06"
+value "14:45:52"
 )
 (vvPair
 variable "group"
@@ -665,7 +665,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -681,7 +681,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -689,19 +689,19 @@ value "Main"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@main\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\symbol.sb"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\Main\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -729,7 +729,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:58:06"
+value "14:45:52"
 )
 (vvPair
 variable "unit"
@@ -737,7 +737,7 @@ value "Main"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -749,11 +749,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -842,15 +842,15 @@ uid 888,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4000,60000,4800"
-st "clk      : IN     unsigned  ;
+xt "44000,4000,61000,4800"
+st "clk      : IN     std_uLogic  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 3
 suid 76,0
 )
@@ -1031,15 +1031,15 @@ uid 908,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4800,60000,5600"
-st "rst      : IN     unsigned  ;
+xt "44000,4800,61000,5600"
+st "rst      : IN     std_uLogic  ;
 "
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_uLogic"
 o 4
 suid 80,0
 )
@@ -1409,7 +1409,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,46200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2031,6 +2031,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1215,0
+lastUid 1353,0
 activeModelName "Symbol:CDM"
 )

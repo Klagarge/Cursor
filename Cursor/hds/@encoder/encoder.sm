@@ -15,10 +15,6 @@ unitName "numeric_std"
 library "gates"
 unitName "gates"
 )
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 machine (Machine
 name "csm"
@@ -43,23 +39,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm.info"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm.user"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -79,15 +75,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder"
 )
 (vvPair
 variable "date"
-value "14.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
@@ -99,7 +95,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -123,11 +119,11 @@ value "encoder"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -135,11 +131,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:09:40"
+value "15:19:09"
 )
 (vvPair
 variable "group"
@@ -147,7 +143,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "language"
@@ -163,7 +159,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -171,19 +167,19 @@ value "Encoder"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\encoder.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder\\encoder.sm"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder\\encoder.sm"
 )
 (vvPair
 variable "package_name"
@@ -211,7 +207,7 @@ value "encoder"
 )
 (vvPair
 variable "time"
-value "13:09:40"
+value "15:19:09"
 )
 (vvPair
 variable "unit"
@@ -219,7 +215,7 @@ value "Encoder"
 )
 (vvPair
 variable "user"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "version"
@@ -231,11 +227,11 @@ value "encoder"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -304,28 +300,25 @@ shape (Rectangle
 uid 52,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "38412,8524,46212,11124"
+xt "38412,7124,46212,12524"
 )
 autoResize 1
 tline (Line
 uid 53,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "38512,8424,46112,8424"
+xt "38512,9824,46112,9824"
 pts [
-"38512,8424"
-"46112,8424"
+"38512,9824"
+"46112,9824"
 ]
 )
 bline (Line
@@ -334,12 +327,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "38512,8724,46112,8724"
+xt "38512,9424,46112,9424"
 pts [
-"38512,8724"
-"46112,8724"
+"38512,9424"
+"46112,9424"
 ]
 )
 ttri (Triangle
@@ -347,13 +340,12 @@ uid 55,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "38062,8049,38412,8399"
+xt "38062,8249,38412,8599"
 )
 btri (Triangle
 uid 56,0
@@ -372,14 +364,16 @@ entryActions (MLText
 uid 57,0
 va (VaSet
 )
-xt "38512,8224,38512,8224"
+xt "38512,7224,46112,9624"
+st "down <= '0';
+up <= '0';"
 tm "Actions"
 )
 inActions (MLText
 uid 58,0
 va (VaSet
 )
-xt "38512,8624,46112,11024"
+xt "38512,10024,46112,12424"
 st "down <= '0';
 up <= '0';"
 tm "Actions"
@@ -515,10 +509,10 @@ vasetType 3
 )
 xt "4150,19700,4749,20300"
 pts [
-"4749,20300"
-"4449,20300"
+"4749,19700"
 "4449,19700"
-"4150,19700"
+"4449,20300"
+"4150,20300"
 ]
 )
 (Line
@@ -576,7 +570,7 @@ va (VaSet
 isHidden 1
 )
 xt "2400,17800,9000,19000"
-st "reset = '0'"
+st "reset = '1'"
 tm "SmControlConditionMgr"
 )
 )
@@ -634,6 +628,7 @@ st "< Automatic >"
 tm "Actions"
 )
 )
+level 1
 )
 *5 (Link
 uid 87,0
@@ -789,7 +784,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,46000,45400,47000"
+xt "36200,46000,46200,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1158,28 +1153,25 @@ shape (Rectangle
 uid 188,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "28184,19240,35984,21840"
+xt "28184,17840,35984,23240"
 )
 autoResize 1
 tline (Line
 uid 189,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "28284,19140,35884,19140"
+xt "28284,20540,35884,20540"
 pts [
-"28284,19140"
-"35884,19140"
+"28284,20540"
+"35884,20540"
 ]
 )
 bline (Line
@@ -1188,12 +1180,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "28284,19440,35884,19440"
+xt "28284,20140,35884,20140"
 pts [
-"28284,19440"
-"35884,19440"
+"28284,20140"
+"35884,20140"
 ]
 )
 ttri (Triangle
@@ -1201,13 +1193,12 @@ uid 191,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "27834,18765,28184,19115"
+xt "27834,18965,28184,19315"
 )
 btri (Triangle
 uid 192,0
@@ -1226,14 +1217,16 @@ entryActions (MLText
 uid 193,0
 va (VaSet
 )
-xt "28284,18940,28284,18940"
+xt "28284,17940,35884,20340"
+st "down <= '0';
+up <= '0';"
 tm "Actions"
 )
 inActions (MLText
 uid 194,0
 va (VaSet
 )
-xt "28284,19340,35884,21740"
+xt "28284,20740,35884,23140"
 st "down <= '0';
 up <= '0';"
 tm "Actions"
@@ -1318,28 +1311,25 @@ shape (Rectangle
 uid 205,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "38480,30112,46280,32712"
+xt "38480,28712,46280,34112"
 )
 autoResize 1
 tline (Line
 uid 206,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "38580,30012,46180,30012"
+xt "38580,31412,46180,31412"
 pts [
-"38580,30012"
-"46180,30012"
+"38580,31412"
+"46180,31412"
 ]
 )
 bline (Line
@@ -1348,12 +1338,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "38580,30312,46180,30312"
+xt "38580,31012,46180,31012"
 pts [
-"38580,30312"
-"46180,30312"
+"38580,31012"
+"46180,31012"
 ]
 )
 ttri (Triangle
@@ -1361,13 +1351,12 @@ uid 208,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "38130,29637,38480,29987"
+xt "38130,29837,38480,30187"
 )
 btri (Triangle
 uid 209,0
@@ -1386,14 +1375,16 @@ entryActions (MLText
 uid 210,0
 va (VaSet
 )
-xt "38580,29812,38580,29812"
+xt "38580,28812,46180,31212"
+st "down <= '0';
+up <= '0';"
 tm "Actions"
 )
 inActions (MLText
 uid 211,0
 va (VaSet
 )
-xt "38580,30212,46180,32612"
+xt "38580,31612,46180,34012"
 st "down <= '0';
 up <= '0';"
 tm "Actions"
@@ -1478,28 +1469,25 @@ shape (Rectangle
 uid 222,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "48776,19672,56576,22272"
+xt "48776,18272,56576,23672"
 )
 autoResize 1
 tline (Line
 uid 223,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "48876,19572,56476,19572"
+xt "48876,20972,56476,20972"
 pts [
-"48876,19572"
-"56476,19572"
+"48876,20972"
+"56476,20972"
 ]
 )
 bline (Line
@@ -1508,12 +1496,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "48876,19872,56476,19872"
+xt "48876,20572,56476,20572"
 pts [
-"48876,19872"
-"56476,19872"
+"48876,20572"
+"56476,20572"
 ]
 )
 ttri (Triangle
@@ -1521,13 +1509,12 @@ uid 225,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "48426,19197,48776,19547"
+xt "48426,19397,48776,19747"
 )
 btri (Triangle
 uid 226,0
@@ -1546,14 +1533,16 @@ entryActions (MLText
 uid 227,0
 va (VaSet
 )
-xt "48876,19372,48876,19372"
+xt "48876,18372,56476,20772"
+st "down <= '0';
+up <= '0';"
 tm "Actions"
 )
 inActions (MLText
 uid 228,0
 va (VaSet
 )
-xt "48876,19772,56476,22172"
+xt "48876,21172,56476,23572"
 st "down <= '0';
 up <= '0';"
 tm "Actions"
@@ -1598,7 +1587,7 @@ start &4
 end &5
 ss 0
 es 0
-cond "reset = '0'"
+cond "reset = '1'"
 tb (TransitionBlock
 uid 106,0
 ps "CenterOffsetStrategy"
@@ -1629,7 +1618,7 @@ uid 109,0
 va (VaSet
 )
 xt "8650,18900,15250,20100"
-st "reset = '0'"
+st "reset = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -1811,8 +1800,8 @@ actions (MLText
 uid 236,0
 va (VaSet
 )
-xt "48762,4921,55062,6121"
-st "up <= '1';"
+xt "48112,4921,55712,6121"
+st "down <= '1';"
 tm "Actions"
 )
 )
@@ -1896,8 +1885,8 @@ actions (MLText
 uid 246,0
 va (VaSet
 )
-xt "55843,25806,62143,27006"
-st "up <= '1';"
+xt "55193,25806,62793,27006"
+st "down <= '1';"
 tm "Actions"
 )
 )
@@ -1981,8 +1970,8 @@ actions (MLText
 uid 256,0
 va (VaSet
 )
-xt "21845,28363,28145,29563"
-st "up <= '1';"
+xt "21195,28363,28795,29563"
+st "down <= '1';"
 tm "Actions"
 )
 )
@@ -2066,8 +2055,8 @@ actions (MLText
 uid 266,0
 va (VaSet
 )
-xt "25043,5792,31343,6992"
-st "up <= '1';"
+xt "24393,5792,31993,6992"
+st "down <= '1';"
 tm "Actions"
 )
 )
@@ -2125,7 +2114,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "18696,9513,28396,13313"
+xt "18696,9313,28396,13513"
 )
 autoResize 1
 lineShape (Line
@@ -2151,8 +2140,8 @@ actions (MLText
 uid 286,0
 va (VaSet
 )
-xt "19746,11813,27346,13013"
-st "down <= '1';"
+xt "20396,11813,26696,13013"
+st "up <= '1';"
 tm "Actions"
 )
 )
@@ -2236,8 +2225,8 @@ actions (MLText
 uid 296,0
 va (VaSet
 )
-xt "25089,34766,32689,35966"
-st "down <= '1';"
+xt "25739,34766,32039,35966"
+st "up <= '1';"
 tm "Actions"
 )
 )
@@ -2295,7 +2284,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "49149,29354,58849,33154"
+xt "49149,29154,58849,33354"
 )
 autoResize 1
 lineShape (Line
@@ -2321,8 +2310,8 @@ actions (MLText
 uid 306,0
 va (VaSet
 )
-xt "50199,31654,57799,32854"
-st "down <= '1';"
+xt "50849,31654,57149,32854"
+st "up <= '1';"
 tm "Actions"
 )
 )
@@ -2380,7 +2369,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "53685,11593,63485,15393"
+xt "53685,11393,63485,15593"
 )
 autoResize 1
 lineShape (Line
@@ -2406,8 +2395,8 @@ actions (MLText
 uid 316,0
 va (VaSet
 )
-xt "54785,13893,62385,15093"
-st "down <= '1';"
+xt "55435,13893,61735,15093"
+st "up <= '1';"
 tm "Actions"
 )
 )
@@ -2466,13 +2455,12 @@ blo "0,3064"
 uid 33,0
 va (VaSet
 )
-xt "0,3264,19000,10464"
+xt "0,3264,17500,9264"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+USE gates.gates.all;"
 tm "SmPackageListTextMgr"
 )
 ]
@@ -2550,8 +2538,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "5,0,1542,926"
-viewArea "-17300,-8300,78257,49954"
+windowSize "5,0,1546,926"
+viewArea "-17300,-8300,78549,49954"
 cachedDiagramExtent "-506,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-3000,-2000"
@@ -2927,7 +2915,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 388,0
+lastUid 504,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *64 (LEmptyRow
@@ -3009,7 +2997,7 @@ uid 158,0
 port (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 1
 )
 )
@@ -3033,13 +3021,13 @@ scheme 0
 port (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 4
 )
 )
 uid 164,0
-cat 8
-expr "reset = '0'"
+cat 9
+expr "reset = '1'"
 )
 *88 (LeafLogPort
 port (LogicalPort

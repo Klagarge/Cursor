@@ -1268,8 +1268,8 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_cursor\\Prefs\\hds.hdp"
 "C:\\work\\edu\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
-"C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\hds.hdp"
-"C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\hds.hdp"
+"C:\\work\\eln\\project\\eln_cursor\\Prefs\\hds.hdp"
+"U:\\Cursor\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
 teamLibMappingsRootDir ""
@@ -1290,262 +1290,244 @@ exportedDirectories [
 exportStdIncludeRefs 1
 exportStdPackageRefs 1
 )
-printerName "PR_FOLLOWME"
+printerName "Adobe PDF"
 pageSizes [
 (PageSizeInfo
-name "12\" x 18\""
-type 512
-width 1106
-height 1658
+name "Letter"
+width 783
+height 1013
 )
 (PageSizeInfo
-name "11\" x 17\""
-type 17
+name "Tabloid"
+type 3
 width 1013
 height 1566
 )
 (PageSizeInfo
-name "Legal (8,5\" x 14\")"
+name "Ledger"
+type 4
+width 1566
+height 1013
+)
+(PageSizeInfo
+name "Legal"
 type 5
 width 783
 height 1290
 )
 (PageSizeInfo
-name "Letter (8,5\" x 11\")"
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Executive (7,25\"x10,5\")"
+name "Executive"
 type 7
 width 667
 height 967
 )
 (PageSizeInfo
-name "5,5\" x 8,5\""
-type 6
-width 506
-height 783
-)
-(PageSizeInfo
-name "A3 (297 x 420 mm)"
+name "A3"
 type 8
 width 1077
 height 1523
 )
 (PageSizeInfo
-name "A4 (210 x 297 mm)"
+name "A4"
 type 9
 width 761
 height 1077
 )
 (PageSizeInfo
-name "A5 (148 x 210 mm)"
-type 11
-width 538
-height 761
+name "A2"
+type 66
+width 1523
+height 2155
 )
 (PageSizeInfo
-name "A6 (105 x 148 mm)"
-type 70
-width 380
-height 538
+name "11 x 17"
+type 119
+width 1013
+height 1566
 )
 (PageSizeInfo
-name "B4 JIS (257 x 364 mm)"
-type 12
-width 932
-height 1320
+name "Screen"
+type 120
+width 599
+height 477
 )
 (PageSizeInfo
-name "B5 JIS (182 x 257 mm)"
-type 13
-width 660
-height 932
+name "ANSI C"
+type 121
+width 1566
+height 2027
 )
 (PageSizeInfo
-name "B6 JIS (128 x 182 mm)"
-type 88
-width 464
-height 660
+name "ANSI D"
+type 122
+width 2027
+height 3133
 )
 (PageSizeInfo
-name "8\" x 13\""
-type 518
-width 737
-height 1198
+name "ANSI E"
+type 123
+width 3133
+height 4055
 )
 (PageSizeInfo
-name "8,25\" x 13\""
-type 519
-width 760
-height 1198
+name "ANSI F"
+type 124
+width 2580
+height 3686
 )
 (PageSizeInfo
-name "8,5\" x 13\""
-type 14
-width 783
-height 1198
+name "ARCH A"
+type 125
+width 829
+height 1105
 )
 (PageSizeInfo
-name "Com10 Env.(4,125\"x9,5\")"
-type 20
-width 380
-height 875
+name "ARCH B"
+type 126
+width 1105
+height 1658
 )
 (PageSizeInfo
-name "Env.Monar.(3,875\"x7,5\")"
-type 37
-width 357
-height 691
+name "ARCH C"
+type 127
+width 1658
+height 2211
 )
 (PageSizeInfo
-name "Env. DL (110 x 220 mm)"
-type 27
-width 399
-height 798
+name "ARCH D"
+type 128
+width 2211
+height 3317
 )
 (PageSizeInfo
-name "Env. C6 (114 x 162 mm)"
-type 31
-width 413
-height 587
+name "ARCH E"
+type 129
+width 3317
+height 4423
 )
 (PageSizeInfo
-name "Env. C5 (162 x 229 mm)"
-type 28
+name "ARCH E1"
+type 130
+width 2764
+height 3870
+)
+(PageSizeInfo
+name "ARCH E2"
+type 131
+width 2396
+height 3502
+)
+(PageSizeInfo
+name "ARCH E3"
+type 132
+width 2488
+height 3594
+)
+(PageSizeInfo
+name "A1"
+type 133
+width 2155
+height 3051
+)
+(PageSizeInfo
+name "A0"
+type 134
+width 3051
+height 4313
+)
+(PageSizeInfo
+name "Oversize A2"
+type 135
+width 1741
+height 2268
+)
+(PageSizeInfo
+name "Oversize A1"
+type 136
+width 2268
+height 3265
+)
+(PageSizeInfo
+name "Oversize A0"
+type 137
+width 3265
+height 4516
+)
+(PageSizeInfo
+name "ISO B5"
+type 138
+width 638
+height 907
+)
+(PageSizeInfo
+name "ISO B4"
+type 139
+width 907
+height 1281
+)
+(PageSizeInfo
+name "ISO B2"
+type 140
+width 1813
+height 2564
+)
+(PageSizeInfo
+name "ISO B1"
+type 141
+width 2564
+height 3628
+)
+(PageSizeInfo
+name "C5"
+type 142
 width 587
 height 830
 )
 (PageSizeInfo
-name "8K (267 x 390 mm)"
-type 520
-width 968
-height 1415
+name "JIS B4"
+type 143
+width 932
+height 1320
 )
 (PageSizeInfo
-name "16K (195 x 267 mm)"
-type 521
-width 707
-height 968
+name "JIS B3"
+type 144
+width 1320
+height 1868
 )
 (PageSizeInfo
-name "100 x 148 mm"
-type 43
-width 362
-height 536
+name "JIS B2"
+type 145
+width 1868
+height 2641
 )
 (PageSizeInfo
-name "148 x 200 mm"
-type 82
-width 536
-height 725
+name "JIS B1"
+type 146
+width 2641
+height 3737
 )
 (PageSizeInfo
-name "JPN Env. #3(120 x 235 mm)"
-type 73
-width 435
-height 852
+name "JIS B0"
+type 147
+width 3737
+height 5282
 )
 (PageSizeInfo
-name "JPN Env. #4(90 x 205 mm)"
-type 74
-width 326
-height 743
+name "92 x 92"
+type 148
+width 8478
+height 8478
 )
 (PageSizeInfo
-name "Yoh Chou #3 E.(120x235mm)"
-type 540
-width 435
-height 852
+name "Slide 7.5 x 10"
+type 149
+width 691
+height 921
 )
 (PageSizeInfo
-name "Yoh #4 Env. (105 x 235 mm)"
-type 91
-width 380
-height 852
-)
-(PageSizeInfo
-name "Kaku #2 Env. (240 x 332 mm)"
-type 71
-width 870
-height 1204
-)
-(PageSizeInfo
-name "SRA3 (320 x 450 mm)"
-type 530
-width 1161
-height 1632
-)
-(PageSizeInfo
-name "SRA4 (225 x 320 mm)"
-type 531
-width 816
-height 1161
-)
-(PageSizeInfo
-name "Format papier personnalisé"
-type 256
-width 783
-height 1013
-)
-(PageSizeInfo
-name "Format papier personnalisé1(210,0 x 297,0 mm)"
-type 257
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé2(210,0 x 297,0 mm)"
-type 258
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé3(210,0 x 297,0 mm)"
-type 259
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé4(210,0 x 297,0 mm)"
-type 260
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé5(210,0 x 297,0 mm)"
-type 261
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé6(210,0 x 297,0 mm)"
-type 262
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé7(210,0 x 297,0 mm)"
-type 263
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé8(210,0 x 297,0 mm)"
-type 264
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé9(210,0 x 297,0 mm)"
-type 265
-width 761
-height 1077
-)
-(PageSizeInfo
-name "Format papier personnalisé10(210,0 x 297,0 mm)"
-type 266
+name "PostScript Custom Page Size"
+type 32767
 width 761
 height 1077
 )
@@ -4173,6 +4155,7 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
+autoPopupExprBuilder 0
 showExprBldrHint 0
 searchStrings [
 ]
@@ -4181,7 +4164,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "770x454+563+50"
+logWindowGeometry "661x518+1161+196"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6203,34 +6186,26 @@ size 180
 )
 ]
 displayHierarchy 0
-xPos 0
-yPos 0
-width 1552
-height 936
+xPos 457
+yPos 125
+width 974
+height 1057
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 1
 sidePanelSize 278
 showUnixHiddenFiles 0
-componentBrowserXpos 158
-componentBrowserYpos 308
-componentBrowserWidth 483
-componentBrowserHeight 491
+componentBrowserXpos 809
+componentBrowserYpos 225
+componentBrowserWidth 689
+componentBrowserHeight 592
 componentBrowserLibraryNames [
 "Board"
 "gates"
 "Common"
-"io"
-"sequential"
-"LCD_test"
-"synopsys"
-"verilog"
-"vital2000"
-"LCD"
-"Memory"
-"std"
-"Memory_test"
-"ieee"
 "Cursor"
+"sequential"
+"Memory_test"
+"Memory"
 ]
 )
 (SmPreferences
@@ -6695,7 +6670,6 @@ font "Courier New,8,0"
 )
 order 0
 editSignalScope 4
-promptGenOrderIndicator 0
 showUpdateWhereUsedPrompt 0
 )
 ]

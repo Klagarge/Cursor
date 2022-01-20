@@ -175,19 +175,19 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "dim."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "dimanche"
 )
 (vvPair
 variable "dd"
-value "21"
+value "09"
 )
 (vvPair
 variable "entity_name"
@@ -215,7 +215,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -227,7 +227,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:59:21"
+value "14:05:30"
 )
 (vvPair
 variable "group"
@@ -251,7 +251,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -259,11 +259,11 @@ value "Main"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -299,7 +299,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:59:21"
+value "14:05:30"
 )
 (vvPair
 variable "unit"
@@ -319,11 +319,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -1083,7 +1083,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "27200,49000,36400,50000"
+xt "27200,49000,36600,50000"
 st "
 by %user on %dd %month %year
 "
@@ -1836,7 +1836,7 @@ uid 535,0
 lang 11
 decl (Decl
 n "power_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 22
 suid 24,0
@@ -1960,7 +1960,7 @@ uid 629,0
 lang 11
 decl (Decl
 n "info_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -1978,7 +1978,7 @@ uid 631,0
 lang 11
 decl (Decl
 n "info_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -2341,7 +2341,7 @@ uid 1348,0
 lang 11
 decl (Decl
 n "pos1"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -2359,7 +2359,7 @@ uid 1350,0
 lang 11
 decl (Decl
 n "pos2"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0
@@ -3068,43 +3068,6 @@ uid 72,0
 va (VaSet
 vasetType 3
 )
-xt "95000,22000,115000,22000"
-pts [
-"115000,22000"
-"95000,22000"
-]
-)
-start &9
-end &38
-sat 32
-eat 2
-st 0
-sf 1
-si 0
-tg (WTG
-uid 75,0
-ps "ConnStartEndStrategy"
-stg "STSignalDisplayStrategy"
-f (Text
-uid 76,0
-va (VaSet
-isHidden 1
-)
-xt "114000,20800,116700,22000"
-st "RaZ"
-blo "114000,21800"
-tm "WireNameMgr"
-)
-)
-on &10
-)
-*112 (Wire
-uid 71,0
-shape (OrthoPolyLine
-uid 72,0
-va (VaSet
-vasetType 3
-)
 xt "35000,40000,114000,45000"
 pts [
 "114000,45000"
@@ -3136,6 +3099,43 @@ tm "WireNameMgr"
 )
 )
 on &16
+)
+*112 (Wire
+uid 71,0
+shape (OrthoPolyLine
+uid 72,0
+va (VaSet
+vasetType 3
+)
+xt "95000,22000,115000,22000"
+pts [
+"115000,22000"
+"95000,22000"
+]
+)
+start &9
+end &38
+sat 32
+eat 2
+st 0
+sf 1
+si 0
+tg (WTG
+uid 75,0
+ps "ConnStartEndStrategy"
+stg "STSignalDisplayStrategy"
+f (Text
+uid 76,0
+va (VaSet
+isHidden 1
+)
+xt "114000,20800,116700,22000"
+st "RaZ"
+blo "114000,21800"
+tm "WireNameMgr"
+)
+)
+on &10
 )
 *113 (Wire
 uid 85,0
@@ -5641,12 +5641,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,960"
-viewArea "13668,16080,70937,51255"
+windowSize "836,123,2376,1083"
+viewArea "6200,-8119,96728,49289"
 cachedDiagramExtent "-37000,-20200,122900,50000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-82000,-49000"
-lastUid 5444,0
+lastUid 6005,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -6873,7 +6873,7 @@ lang 11
 m 4
 decl (Decl
 n "power_acceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(7 DOWNTO 0)"
 o 22
 suid 24,0
@@ -6969,7 +6969,7 @@ lang 11
 m 4
 decl (Decl
 n "info_cruse"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 17
 suid 35,0
@@ -6983,7 +6983,7 @@ lang 11
 m 4
 decl (Decl
 n "info_deceleration"
-t "unsigned"
+t "std_ulogic_vector"
 b "(15 DOWNTO 0)"
 o 18
 suid 36,0
@@ -7073,7 +7073,7 @@ lang 11
 m 4
 decl (Decl
 n "pos1"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 19
 suid 51,0
@@ -7087,7 +7087,7 @@ lang 11
 m 4
 decl (Decl
 n "pos2"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 20
 suid 52,0

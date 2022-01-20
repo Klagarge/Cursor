@@ -54,23 +54,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd.info"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd.user"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -90,27 +90,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "sam."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "samedi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -134,11 +134,11 @@ value "button@diagram"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -146,11 +146,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:26:48"
+value "15:22:00"
 )
 (vvPair
 variable "group"
@@ -158,7 +158,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "PC-SDM"
 )
 (vvPair
 variable "language"
@@ -174,7 +174,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -182,19 +182,19 @@ value "ButtonBlock"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\@button@block\\button@diagram.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock\\buttonDiagram.bd"
+value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\ButtonBlock\\buttonDiagram.bd"
 )
 (vvPair
 variable "package_name"
@@ -222,7 +222,7 @@ value "buttonDiagram"
 )
 (vvPair
 variable "time"
-value "15:26:48"
+value "15:22:00"
 )
 (vvPair
 variable "unit"
@@ -230,7 +230,7 @@ value "ButtonBlock"
 )
 (vvPair
 variable "user"
-value "remi"
+value "Simon"
 )
 (vvPair
 variable "version"
@@ -242,11 +242,11 @@ value "buttonDiagram"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -357,8 +357,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,1400,29500,2200"
-st "button4 : std_ulogic
-"
+st "button4 : std_ulogic"
 )
 )
 *4 (PortIoIn
@@ -420,8 +419,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,2200,29500,3000"
-st "clock   : std_ulogic
-"
+st "clock   : std_ulogic"
 )
 )
 *6 (PortIoIn
@@ -483,8 +481,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,3000,29500,3800"
-st "go1     : std_uLogic
-"
+st "go1     : std_uLogic"
 )
 )
 *8 (PortIoIn
@@ -546,8 +543,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,3800,29500,4600"
-st "go2     : std_uLogic
-"
+st "go2     : std_uLogic"
 )
 )
 *10 (PortIoIn
@@ -609,8 +605,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,5400,29500,6200"
-st "restart : std_uLogic
-"
+st "restart : std_uLogic"
 )
 )
 *12 (PortIoIn
@@ -673,8 +668,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,6200,29500,7000"
-st "unlock  : std_ulogic
-"
+st "unlock  : std_ulogic"
 )
 )
 *14 (Grouping
@@ -699,7 +693,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "27200,48000,36400,49000"
+xt "27200,48000,37200,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1070,8 +1064,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,4600,29500,5400"
-st "reset   : std_ulogic
-"
+st "reset   : std_ulogic"
 )
 )
 *27 (Blk
@@ -1171,8 +1164,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "18000,7000,34500,7800"
-st "button  : unsigned(3 DOWNTO 0)
-"
+st "button  : unsigned(3 DOWNTO 0)"
 )
 )
 *32 (SaComponent
@@ -1887,12 +1879,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,24,1537,960"
-viewArea "-13500,-5100,67658,43260"
+windowSize "0,24,1540,960"
+viewArea "-13500,-5100,67844,43260"
 cachedDiagramExtent "-7600,-1000,67200,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-8000,-49000"
-lastUid 672,0
+lastUid 789,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

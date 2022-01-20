@@ -97,19 +97,19 @@ value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "dim."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "dimanche"
 )
 (vvPair
 variable "dd"
-value "21"
+value "09"
 )
 (vvPair
 variable "entity_name"
@@ -137,7 +137,7 @@ value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -149,7 +149,7 @@ value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:59:07"
+value "14:00:49"
 )
 (vvPair
 variable "group"
@@ -173,7 +173,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -181,11 +181,11 @@ value "process_acceleration"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -221,7 +221,7 @@ value "struct1"
 )
 (vvPair
 variable "time"
-value "15:59:07"
+value "14:00:49"
 )
 (vvPair
 variable "unit"
@@ -241,11 +241,11 @@ value "struct1"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -302,7 +302,7 @@ uid 21,0
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -623,7 +623,7 @@ uid 91,0
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 6,0
 )
@@ -724,7 +724,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "22200,48000,31400,49000"
+xt "22200,48000,31600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -2563,12 +2563,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1537,960"
-viewArea "-30000,-15600,79956,51936"
+windowSize "816,192,2354,1152"
+viewArea "-30000,-15600,80040,54288"
 cachedDiagramExtent "-15300,-6200,59400,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-87000,-49000"
-lastUid 1867,0
+lastUid 1946,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -3721,7 +3721,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_uLogic"
 o 2
 suid 1,0
 )
@@ -3733,7 +3733,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 suid 6,0
 )

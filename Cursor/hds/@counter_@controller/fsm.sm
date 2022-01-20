@@ -83,19 +83,19 @@ value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\C
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "sam."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "samedi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "15"
 )
 (vvPair
 variable "entity_name"
@@ -123,7 +123,7 @@ value "Simon"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "15.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -135,7 +135,7 @@ value "PC-SDM"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:48:18"
+value "19:09:27"
 )
 (vvPair
 variable "group"
@@ -159,7 +159,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -167,11 +167,11 @@ value "Counter_Controller"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:48:18"
+value "19:09:27"
 )
 (vvPair
 variable "unit"
@@ -227,11 +227,11 @@ value "fsm"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -300,28 +300,25 @@ shape (Rectangle
 uid 52,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "42110,23140,52810,25740"
+xt "38652,30203,49352,35603"
 )
 autoResize 1
 tline (Line
 uid 53,0
 va (VaSet
 vasetType 3
-isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "42210,23040,52710,23040"
+xt "38752,32903,49252,32903"
 pts [
-"42210,23040"
-"52710,23040"
+"38752,32903"
+"49252,32903"
 ]
 )
 bline (Line
@@ -330,12 +327,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "42210,23340,52710,23340"
+xt "38752,32503,49252,32503"
 pts [
-"42210,23340"
-"52710,23340"
+"38752,32503"
+"49252,32503"
 ]
 )
 ttri (Triangle
@@ -343,13 +340,12 @@ uid 55,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41760,22665,42110,23015"
+xt "38302,31328,38652,31678"
 )
 btri (Triangle
 uid 56,0
@@ -362,20 +358,22 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41760,20865,42110,21215"
+xt "38302,29328,38652,29678"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 )
-xt "42210,22840,42210,22840"
+xt "38752,30303,49252,32703"
+st "resetSync <= '1' ;
+enable <= '0';"
 tm "Actions"
 )
 inActions (MLText
 uid 58,0
 va (VaSet
 )
-xt "42210,23240,52710,25640"
+xt "38752,33103,49252,35503"
 st "resetSync <= '1' ;
 enable <= '0';"
 tm "Actions"
@@ -384,7 +382,7 @@ exitActions (MLText
 uid 59,0
 va (VaSet
 )
-xt "43460,21040,43460,21040"
+xt "40002,29503,40002,29503"
 tm "Actions"
 )
 )
@@ -402,6 +400,7 @@ st "CASE: expr"
 tm "SmCaseExpr"
 )
 )
+execEntry 1
 )
 *3 (SmClockPoint
 uid 60,0
@@ -511,10 +510,10 @@ vasetType 3
 )
 xt "4150,19700,4749,20300"
 pts [
-"4749,20300"
-"4449,20300"
+"4749,19700"
 "4449,19700"
-"4150,19700"
+"4449,20300"
+"4150,20300"
 ]
 )
 (Line
@@ -572,7 +571,7 @@ va (VaSet
 isHidden 1
 )
 xt "2400,17800,9000,19000"
-st "reset = '0'"
+st "reset = '1'"
 tm "SmControlConditionMgr"
 )
 )
@@ -630,6 +629,7 @@ st "< Automatic >"
 tm "Actions"
 )
 )
+level 1
 )
 *5 (Link
 uid 87,0
@@ -787,7 +787,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,46000,46000,47000"
+xt "36200,46000,46200,47000"
 st "
 by %user on %dd %month %year
 "
@@ -1182,7 +1182,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "62920,24430,71520,25830"
+xt "61870,23830,72570,26430"
 )
 autoResize 1
 tline (Line
@@ -1193,10 +1193,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "63020,24330,71420,24330"
+xt "61970,23730,72470,23730"
 pts [
-"63020,24330"
-"71420,24330"
+"61970,23730"
+"72470,23730"
 ]
 )
 bline (Line
@@ -1207,10 +1207,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "63020,23730,71420,23730"
+xt "61970,24030,72470,24030"
 pts [
-"63020,23730"
-"71420,23730"
+"61970,24030"
+"72470,24030"
 ]
 )
 ttri (Triangle
@@ -1224,7 +1224,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "62570,23955,62920,24305"
+xt "61520,23355,61870,23705"
 )
 btri (Triangle
 uid 179,0
@@ -1237,21 +1237,22 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "62570,21555,62920,21905"
+xt "61520,21555,61870,21905"
 )
 entryActions (MLText
 uid 180,0
 va (VaSet
 )
-xt "63020,24130,63020,24130"
+xt "61970,23530,61970,23530"
 tm "Actions"
 )
 inActions (MLText
 uid 181,0
 va (VaSet
 )
-xt "63020,24530,71420,25730"
-st "enable <= '1';"
+xt "61970,23930,72470,26330"
+st "enable <= '1';
+resetSync <= '0' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1702,7 +1703,7 @@ start &4
 end &5
 ss 0
 es 0
-cond "reset = '0'"
+cond "reset = '1'"
 tb (TransitionBlock
 uid 106,0
 ps "CenterOffsetStrategy"
@@ -1714,7 +1715,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "8150,18855,15750,21055"
+xt "7331,20129,14931,22329"
 )
 autoResize 1
 lineShape (Line
@@ -1722,18 +1723,18 @@ uid 108,0
 va (VaSet
 vasetType 3
 )
-xt "8650,20455,15250,20455"
+xt "7831,21729,14431,21729"
 pts [
-"8650,20455"
-"15250,20455"
+"7831,21729"
+"14431,21729"
 ]
 )
 condition (MLText
 uid 109,0
 va (VaSet
 )
-xt "8650,18855,15250,20055"
-st "reset = '0'"
+xt "7831,20129,14431,21329"
+st "reset = '1'"
 tm "Condition"
 )
 actions (MLText
@@ -1741,7 +1742,7 @@ uid 110,0
 va (VaSet
 isHidden 1
 )
-xt "7650,20855,16250,22055"
+xt "6831,22129,15431,23329"
 st "< Automatic >"
 tm "Actions"
 )
@@ -1888,19 +1889,18 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "2600,27620,19000,29820"
+xt "2600,27820,19000,31620"
 )
 autoResize 1
 lineShape (Line
 uid 232,0
 va (VaSet
 vasetType 3
-isHidden 1
 )
-xt "5750,29720,5750,29720"
+xt "3100,29720,18500,29720"
 pts [
-"5750,29720"
-"5750,29720"
+"3100,29720"
+"18500,29720"
 ]
 )
 condition (MLText
@@ -1915,7 +1915,8 @@ actions (MLText
 uid 234,0
 va (VaSet
 )
-xt "10800,29720,10800,29720"
+xt "5700,30120,15900,31320"
+st "resetSync <= '1';"
 tm "Actions"
 )
 )
@@ -2787,7 +2788,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 375,0
+lastUid 520,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *63 (LEmptyRow
@@ -2879,8 +2880,8 @@ o 3
 )
 )
 uid 160,0
-cat 8
-expr "reset = '0'"
+cat 9
+expr "reset = '1'"
 )
 *85 (LeafLogPort
 port (LogicalPort
@@ -4110,6 +4111,6 @@ pts [
 ]
 )
 )
-activeModelName "StateMachine:CDM"
+activeModelName "StateMachine"
 LanguageMgr "Vhdl2008LangMgr"
 )

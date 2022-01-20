@@ -34,23 +34,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm.info"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm.user"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -70,27 +70,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "dim."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "dimanche"
 )
 (vvPair
 variable "dd"
-value "21"
+value "09"
 )
 (vvPair
 variable "entity_name"
@@ -114,11 +114,11 @@ value "fsm"
 )
 (vvPair
 variable "graphical_source_author"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "09.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,11 +126,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:20:58"
+value "14:00:30"
 )
 (vvPair
 variable "group"
@@ -138,7 +138,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "PC-SDM"
+value "MARVIN"
 )
 (vvPair
 variable "language"
@@ -154,7 +154,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -162,19 +162,19 @@ value "side_acceleration"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\Simon\\Desktop\\ELN\\Projet\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm"
+value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\side_acceleration\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:20:58"
+value "14:00:30"
 )
 (vvPair
 variable "unit"
@@ -210,7 +210,7 @@ value "side_acceleration"
 )
 (vvPair
 variable "user"
-value "Simon"
+value "remi"
 )
 (vvPair
 variable "version"
@@ -222,11 +222,11 @@ value "fsm"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -1710,8 +1710,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,0,1715,1119"
-viewArea "8600,-1600,78489,43755"
+windowSize "1020,0,2736,1119"
+viewArea "8600,-1600,78536,43661"
 cachedDiagramExtent "0,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,-2000"
@@ -2084,7 +2084,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 271,0
+lastUid 300,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *56 (LEmptyRow
@@ -2147,7 +2147,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "Position"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 1
 )
@@ -2159,7 +2159,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "info_acceleration"
-t "std_ulogic_vector"
+t "unsigned"
 b "(15 DOWNTO 0)"
 o 3
 )
@@ -2184,7 +2184,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "clk"
-t "unsigned"
+t "std_ulogic"
 o 2
 )
 )
@@ -2197,7 +2197,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "rst"
-t "unsigned"
+t "std_ulogic"
 o 4
 )
 )

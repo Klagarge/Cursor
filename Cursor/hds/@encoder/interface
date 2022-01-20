@@ -15,10 +15,6 @@ unitName "numeric_std"
 library "gates"
 unitName "gates"
 )
-(DmPackageRef
-library "ieee"
-unitName "NUMERIC_SIGNED"
-)
 ]
 libraryRefs [
 "ieee"
@@ -30,7 +26,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 12,0
+suid 24,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -73,12 +69,12 @@ tm "EolColHdrMgr"
 port (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 1
-suid 7,0
+suid 19,0
 )
 )
-uid 364,0
+uid 586,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -87,10 +83,10 @@ decl (Decl
 n "down"
 t "std_uLogic"
 o 5
-suid 8,0
+suid 20,0
 )
 )
-uid 366,0
+uid 588,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -98,10 +94,10 @@ decl (Decl
 n "encoderA"
 t "std_uLogic"
 o 2
-suid 9,0
+suid 21,0
 )
 )
-uid 368,0
+uid 590,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -109,21 +105,21 @@ decl (Decl
 n "encoderB"
 t "std_uLogic"
 o 3
-suid 10,0
+suid 22,0
 )
 )
-uid 370,0
+uid 592,0
 )
 *18 (LogPort
 port (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 4
-suid 11,0
+suid 23,0
 )
 )
-uid 372,0
+uid 594,0
 )
 *19 (LogPort
 port (LogicalPort
@@ -132,10 +128,10 @@ decl (Decl
 n "up"
 t "std_uLogic"
 o 6
-suid 12,0
+suid 24,0
 )
 )
-uid 374,0
+uid 596,0
 )
 ]
 )
@@ -191,37 +187,37 @@ uid 113,0
 litem &14
 pos 0
 dimension 20
-uid 365,0
+uid 587,0
 )
 *26 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 367,0
+uid 589,0
 )
 *27 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 369,0
+uid 591,0
 )
 *28 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 371,0
+uid 593,0
 )
 *29 (MRCItem
 litem &18
 pos 4
 dimension 20
-uid 373,0
+uid 595,0
 )
 *30 (MRCItem
 litem &19
 pos 5
 dimension 20
-uid 375,0
+uid 597,0
 )
 ]
 )
@@ -452,23 +448,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hdl"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface.info"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface.user"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds"
 )
 (vvPair
 variable "appl"
@@ -488,15 +484,15 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder"
 )
 (vvPair
 variable "d_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder"
 )
 (vvPair
 variable "date"
-value "21.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "day"
@@ -508,7 +504,7 @@ value "mardi"
 )
 (vvPair
 variable "dd"
-value "21"
+value "18"
 )
 (vvPair
 variable "entity_name"
@@ -532,11 +528,11 @@ value "interface"
 )
 (vvPair
 variable "graphical_source_author"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "graphical_source_date"
-value "21.12.2021"
+value "18.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -544,11 +540,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:54:36"
+value "15:19:09"
 )
 (vvPair
 variable "group"
@@ -556,7 +552,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "MARVIN"
+value "WEA20306"
 )
 (vvPair
 variable "language"
@@ -572,7 +568,7 @@ value "$SCRATCH_DIR/Cursor/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -580,19 +576,19 @@ value "Encoder"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\@encoder\\interface"
 )
 (vvPair
 variable "p_logical"
-value "C:\\Users\\remi\\OneDrive\\Documents\\Cours\\05-HEVS\\S1fb\\electricity\\1-EIN\\project\\cursor\\HDLdesigner\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder\\interface"
+value "Y:\\simon.donnetmo\\Cursor\\Prefs\\..\\Cursor\\hds\\Encoder\\interface"
 )
 (vvPair
 variable "package_name"
@@ -620,7 +616,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "14:54:36"
+value "15:19:09"
 )
 (vvPair
 variable "unit"
@@ -628,7 +624,7 @@ value "Encoder"
 )
 (vvPair
 variable "user"
-value "remi"
+value "simon.donnetmo"
 )
 (vvPair
 variable "version"
@@ -640,11 +636,11 @@ value "interface"
 )
 (vvPair
 variable "year"
-value "2021"
+value "2022"
 )
 (vvPair
 variable "yy"
-value "21"
+value "22"
 )
 ]
 )
@@ -655,10 +651,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *64 (CptPort
-uid 334,0
+uid 556,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 335,0
+uid 557,0
 ro 90
 va (VaSet
 vasetType 1
@@ -667,11 +663,11 @@ fg "0,65535,0"
 xt "14250,16625,15000,17375"
 )
 tg (CPTG
-uid 336,0
+uid 558,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 337,0
+uid 559,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -682,27 +678,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 338,0
+uid 560,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,61000,3200"
-st "clock    : IN     std_ulogic  ;"
+st "clock    : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "clock"
-t "std_ulogic"
+t "std_uLogic"
 o 1
-suid 7,0
+suid 19,0
 )
 )
 )
 *65 (CptPort
-uid 339,0
+uid 561,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 340,0
+uid 562,0
 ro 90
 va (VaSet
 vasetType 1
@@ -711,11 +708,11 @@ fg "0,65535,0"
 xt "23000,12625,23750,13375"
 )
 tg (CPTG
-uid 341,0
+uid 563,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 342,0
+uid 564,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -727,12 +724,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 343,0
+uid 565,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,61000,6400"
-st "down     : OUT    std_uLogic  ;"
+st "down     : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -740,15 +738,15 @@ decl (Decl
 n "down"
 t "std_uLogic"
 o 5
-suid 8,0
+suid 20,0
 )
 )
 )
 *66 (CptPort
-uid 344,0
+uid 566,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 345,0
+uid 567,0
 ro 90
 va (VaSet
 vasetType 1
@@ -757,11 +755,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 346,0
+uid 568,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 347,0
+uid 569,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -772,27 +770,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 348,0
+uid 570,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,61000,4000"
-st "encoderA : IN     std_uLogic  ;"
+st "encoderA : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "encoderA"
 t "std_uLogic"
 o 2
-suid 9,0
+suid 21,0
 )
 )
 )
 *67 (CptPort
-uid 349,0
+uid 571,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 350,0
+uid 572,0
 ro 90
 va (VaSet
 vasetType 1
@@ -801,11 +800,11 @@ fg "0,65535,0"
 xt "14250,11625,15000,12375"
 )
 tg (CPTG
-uid 351,0
+uid 573,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 352,0
+uid 574,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -816,27 +815,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 353,0
+uid 575,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,61000,4800"
-st "encoderB : IN     std_uLogic  ;"
+st "encoderB : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "encoderB"
 t "std_uLogic"
 o 3
-suid 10,0
+suid 22,0
 )
 )
 )
 *68 (CptPort
-uid 354,0
+uid 576,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 355,0
+uid 577,0
 ro 90
 va (VaSet
 vasetType 1
@@ -845,11 +845,11 @@ fg "0,65535,0"
 xt "14250,18625,15000,19375"
 )
 tg (CPTG
-uid 356,0
+uid 578,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 357,0
+uid 579,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -860,27 +860,28 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 358,0
+uid 580,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,61000,5600"
-st "reset    : IN     std_ulogic  ;"
+st "reset    : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
 n "reset"
-t "std_ulogic"
+t "std_uLogic"
 o 4
-suid 11,0
+suid 23,0
 )
 )
 )
 *69 (CptPort
-uid 359,0
+uid 581,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 360,0
+uid 582,0
 ro 90
 va (VaSet
 vasetType 1
@@ -889,11 +890,11 @@ fg "0,65535,0"
 xt "23000,10625,23750,11375"
 )
 tg (CPTG
-uid 361,0
+uid 583,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 362,0
+uid 584,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -905,12 +906,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 363,0
+uid 585,0
 va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,60000,7200"
-st "up       : OUT    std_uLogic "
+st "up       : OUT    std_uLogic 
+"
 )
 thePort (LogicalPort
 m 1
@@ -918,7 +920,7 @@ decl (Decl
 n "up"
 t "std_uLogic"
 o 6
-suid 12,0
+suid 24,0
 )
 )
 )
@@ -1007,7 +1009,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45400,49000"
+xt "36200,48000,49600,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1348,13 +1350,12 @@ blo "0,1000"
 uid 50,0
 va (VaSet
 )
-xt "0,1200,19000,8400"
+xt "0,1200,17500,7200"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 LIBRARY gates;
-USE gates.gates.all;
-USE ieee.NUMERIC_SIGNED.all;"
+USE gates.gates.all;"
 tm "PackageList"
 )
 ]
@@ -1632,7 +1633,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 444,0
+lastUid 620,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
