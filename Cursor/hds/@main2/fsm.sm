@@ -78,19 +78,19 @@ value "U:\\Cursor\\Prefs\\..\\Cursor\\hds\\Main2"
 )
 (vvPair
 variable "date"
-value "20.01.2022"
+value "21.01.2022"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -118,7 +118,7 @@ value "remi.heredero"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.01.2022"
+value "21.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -126,11 +126,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE2332001"
+value "WE2331007"
 )
 (vvPair
 variable "graphical_source_time"
-value "20:04:26"
+value "14:26:52"
 )
 (vvPair
 variable "group"
@@ -138,7 +138,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE2332001"
+value "WE2331007"
 )
 (vvPair
 variable "language"
@@ -202,7 +202,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "20:04:26"
+value "14:26:52"
 )
 (vvPair
 variable "unit"
@@ -302,7 +302,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "75587,19953,89887,24953"
+xt "81885,10293,96185,17693"
 )
 autoResize 1
 tline (Line
@@ -313,10 +313,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "75687,19853,89787,19853"
+xt "81985,10193,96085,10193"
 pts [
-"75687,19853"
-"89787,19853"
+"81985,10193"
+"96085,10193"
 ]
 )
 bline (Line
@@ -327,10 +327,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "75687,21953,89787,21953"
+xt "81985,14093,96085,14093"
 pts [
-"75687,21953"
-"89787,21953"
+"81985,14093"
+"96085,14093"
 ]
 )
 ttri (Triangle
@@ -344,7 +344,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "75237,17678,75587,18028"
+xt "81535,9218,81885,9568"
 )
 btri (Triangle
 uid 56,0
@@ -357,31 +357,33 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "75237,18878,75587,19228"
+xt "81535,10418,81885,10768"
 )
 entryActions (MLText
 uid 57,0
 va (VaSet
 )
-xt "75687,16053,89787,19653"
+xt "81985,8793,96085,9993"
 tm "Actions"
 )
 inActions (MLText
 uid 58,0
 va (VaSet
 )
-xt "75687,20053,89787,24853"
+xt "81985,10393,96085,17593"
 st "RaZ <= '0';
 unlock <= '1' ;
 Power <= \"00000000\";
-sideL <= '0';"
+sideL <= '0';
+testMain <= '0';
+in1 <= '0';"
 tm "Actions"
 )
 exitActions (MLText
 uid 59,0
 va (VaSet
 )
-xt "78737,19053,78737,19053"
+xt "85035,10593,85035,10593"
 tm "Actions"
 )
 )
@@ -848,6 +850,7 @@ oxt "14000,66000,55000,71000"
 *16 (State
 uid 221,0
 shape (CircleInOctagon
+uid 3934,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -876,9 +879,9 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,12,1"
 )
-xt "70081,36415,76081,37815"
+xt "70109,38483,76109,39883"
 st "wait 50"
-blo "70081,37615"
+blo "70109,39683"
 tm "SmWaitText"
 )
 )
@@ -899,14 +902,12 @@ shape (Rectangle
 uid 230,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "79487,38613,94287,41213"
+xt "80709,37131,95509,42131"
 )
 autoResize 1
 tline (Line
@@ -915,12 +916,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "79587,38513,94187,38513"
+xt "80809,39131,95409,39131"
 pts [
-"79587,38513"
-"94187,38513"
+"80809,39131"
+"95409,39131"
 ]
 )
 bline (Line
@@ -929,12 +930,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "79587,38813,94187,38813"
+xt "80809,39831,95409,39831"
 pts [
-"79587,38813"
-"94187,38813"
+"80809,39831"
+"95409,39831"
 ]
 )
 ttri (Triangle
@@ -942,13 +943,12 @@ uid 233,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "79137,38138,79487,38488"
+xt "80359,39456,80709,39806"
 )
 btri (Triangle
 uid 234,0
@@ -961,29 +961,31 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "79137,36338,79487,36688"
+xt "80359,36056,80709,36406"
 )
 entryActions (MLText
 uid 235,0
 va (VaSet
 )
-xt "79587,38313,79587,38313"
+xt "80809,37231,95409,42031"
+st "in1 <= '0';
+testMain <= '1';
+CurrentPos <= Position ;
+unlock <= '0' ;"
 tm "Actions"
 )
 inActions (MLText
 uid 236,0
 va (VaSet
 )
-xt "79587,38713,94187,41113"
-st "CurrentPos <= Position ;
-unlock <= '0' ;"
+xt "80809,39831,95409,43431"
 tm "Actions"
 )
 exitActions (MLText
 uid 237,0
 va (VaSet
 )
-xt "82887,36513,82887,36513"
+xt "84109,36231,84109,36231"
 tm "Actions"
 )
 )
@@ -1007,6 +1009,7 @@ expLoop 1
 *17 (State
 uid 238,0
 shape (CircleInOctagon
+uid 3935,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -1035,9 +1038,9 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,12,1"
 )
-xt "33207,37203,39207,38603"
+xt "33705,38519,39705,39919"
 st "wait 50"
-blo "33207,38403"
+blo "33705,39719"
 tm "SmWaitText"
 )
 )
@@ -1058,14 +1061,12 @@ shape (Rectangle
 uid 247,0
 va (VaSet
 vasetType 1
-transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth -1
-fillStyle 1
+lineWidth 2
 )
-xt "42331,38461,57131,41061"
+xt "43647,37167,58447,42167"
 )
 autoResize 1
 tline (Line
@@ -1074,12 +1075,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "42431,38361,57031,38361"
+xt "43747,39167,58347,39167"
 pts [
-"42431,38361"
-"57031,38361"
+"43747,39167"
+"58347,39167"
 ]
 )
 bline (Line
@@ -1088,12 +1089,12 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth -1
+lineWidth 2
 )
-xt "42431,38661,57031,38661"
+xt "43747,39867,58347,39867"
 pts [
-"42431,38661"
-"57031,38661"
+"43747,39867"
+"58347,39867"
 ]
 )
 ttri (Triangle
@@ -1101,13 +1102,12 @@ uid 250,0
 ro 90
 va (VaSet
 vasetType 1
-isHidden 1
 fg "0,32768,49152"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41981,37986,42331,38336"
+xt "43297,39492,43647,39842"
 )
 btri (Triangle
 uid 251,0
@@ -1120,29 +1120,31 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "41981,36186,42331,36536"
+xt "43297,36092,43647,36442"
 )
 entryActions (MLText
 uid 252,0
 va (VaSet
 )
-xt "42431,38161,42431,38161"
+xt "43747,37267,58347,42067"
+st "in1 <= '1';
+testMain <= '0';
+CurrentPos <= Position ;
+unlock <= '0' ;"
 tm "Actions"
 )
 inActions (MLText
 uid 253,0
 va (VaSet
 )
-xt "42431,38561,57031,40961"
-st "CurrentPos <= Position ;
-unlock <= '0' ;"
+xt "43747,39867,58347,43467"
 tm "Actions"
 )
 exitActions (MLText
 uid 254,0
 va (VaSet
 )
-xt "45731,36361,45731,36361"
+xt "47047,36267,47047,36267"
 tm "Actions"
 )
 )
@@ -1227,7 +1229,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "114680,37429,128980,41229"
+xt "114680,36229,128980,42429"
 )
 autoResize 1
 tline (Line
@@ -1238,10 +1240,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "114780,37329,128880,37329"
+xt "114780,36129,128880,36129"
 pts [
-"114780,37329"
-"128880,37329"
+"114780,36129"
+"128880,36129"
 ]
 )
 bline (Line
@@ -1252,10 +1254,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "114780,38529,128880,38529"
+xt "114780,39129,128880,39129"
 pts [
-"114780,38529"
-"128880,38529"
+"114780,39129"
+"128880,39129"
 ]
 )
 ttri (Triangle
@@ -1269,7 +1271,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "114330,36954,114680,37304"
+xt "114330,35754,114680,36104"
 )
 btri (Triangle
 uid 268,0
@@ -1288,17 +1290,19 @@ entryActions (MLText
 uid 269,0
 va (VaSet
 )
-xt "114780,37129,114780,37129"
+xt "114780,35929,114780,35929"
 tm "Actions"
 )
 inActions (MLText
 uid 270,0
 va (VaSet
 )
-xt "114780,37529,128880,41129"
+xt "114780,36329,128880,42329"
 st "Power <= \"11111111\";
 SideL <= '1' ;
-unlock <= '0' ;"
+unlock <= '0' ;
+testMain <= '1';
+in1 <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -1487,6 +1491,7 @@ tm "SmCaseExpr"
 *20 (State
 uid 400,0
 shape (CircleInOctagon
+uid 3936,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -1515,9 +1520,9 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,12,1"
 )
-xt "34485,62904,40485,64304"
+xt "35641,63280,41641,64680"
 st "wait 50"
-blo "34485,64104"
+blo "35641,64480"
 tm "SmWaitText"
 )
 )
@@ -1543,20 +1548,21 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "43906,64619,51906,67619"
+xt "43906,65419,51906,66819"
 )
 autoResize 1
 tline (Line
 uid 410,0
 va (VaSet
 vasetType 3
+isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "44006,66119,51806,66119"
+xt "44006,64719,51806,64719"
 pts [
-"44006,66119"
-"51806,66119"
+"44006,64719"
+"51806,64719"
 ]
 )
 bline (Line
@@ -1583,7 +1589,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "43556,65144,43906,65494"
+xt "43556,65944,43906,66294"
 )
 btri (Triangle
 uid 413,0
@@ -1602,7 +1608,7 @@ entryActions (MLText
 uid 414,0
 va (VaSet
 )
-xt "44006,64719,51806,65919"
+xt "44006,65519,51806,66719"
 st "sideL <= '0';"
 tm "Actions"
 )
@@ -1611,7 +1617,6 @@ uid 415,0
 va (VaSet
 )
 xt "44006,66319,51806,67519"
-st "sideL <= '0';"
 tm "Actions"
 )
 exitActions (MLText
@@ -1642,6 +1647,7 @@ expLoop 1
 *21 (State
 uid 417,0
 shape (CircleInOctagon
+uid 3937,0
 va (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -1670,9 +1676,9 @@ va (VaSet
 fg "0,0,32768"
 font "Verdana,12,1"
 )
-xt "72827,62813,78827,64213"
+xt "73513,63847,79513,65247"
 st "wait 50"
-blo "72827,64013"
+blo "73513,65047"
 tm "SmWaitText"
 )
 )
@@ -1698,20 +1704,21 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "81158,63494,89458,66494"
+xt "81158,64294,89458,65694"
 )
 autoResize 1
 tline (Line
 uid 427,0
 va (VaSet
 vasetType 3
+isHidden 1
 lineColor "39936,56832,65280"
 lineWidth 2
 )
-xt "81258,64994,89358,64994"
+xt "81258,63594,89358,63594"
 pts [
-"81258,64994"
-"89358,64994"
+"81258,63594"
+"89358,63594"
 ]
 )
 bline (Line
@@ -1738,7 +1745,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "80808,64019,81158,64369"
+xt "80808,64819,81158,65169"
 )
 btri (Triangle
 uid 430,0
@@ -1757,7 +1764,7 @@ entryActions (MLText
 uid 431,0
 va (VaSet
 )
-xt "81258,63594,89358,64794"
+xt "81258,64394,89358,65594"
 st "sideL <= '1' ;"
 tm "Actions"
 )
@@ -1766,7 +1773,6 @@ uid 432,0
 va (VaSet
 )
 xt "81258,65194,89358,66394"
-st "sideL <= '1' ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -1927,7 +1933,7 @@ uid 965,0
 va (VaSet
 )
 xt "33416,83927,47816,85127"
-st "Power <= \"00011010\" ;"
+st "Power <= \"01000111\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2086,7 +2092,7 @@ uid 982,0
 va (VaSet
 )
 xt "52675,92251,67075,93451"
-st "Power <= \"00110011\" ;"
+st "Power <= \"01011100\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2245,7 +2251,7 @@ uid 999,0
 va (VaSet
 )
 xt "32114,103544,46514,104744"
-st "Power <= \"01001101\" ;"
+st "Power <= \"01110000\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2404,7 +2410,7 @@ uid 1016,0
 va (VaSet
 )
 xt "52763,112714,67163,113914"
-st "Power <= \"01100110\" ;"
+st "Power <= \"10000101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2563,7 +2569,7 @@ uid 1033,0
 va (VaSet
 )
 xt "30937,122957,45337,124157"
-st "Power <= \"10000000\" ;"
+st "Power <= \"10011001\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2722,7 +2728,7 @@ uid 1050,0
 va (VaSet
 )
 xt "51838,132390,66238,133590"
-st "Power <= \"10011010\" ;"
+st "Power <= \"10101101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -2881,7 +2887,7 @@ uid 1067,0
 va (VaSet
 )
 xt "30172,143435,44572,144635"
-st "Power <= \"10110011\" ;"
+st "Power <= \"11000010\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3040,7 +3046,7 @@ uid 1084,0
 va (VaSet
 )
 xt "51762,152881,66162,154081"
-st "Power <= \"11001101\" ;"
+st "Power <= \"11010110\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3199,7 +3205,7 @@ uid 1101,0
 va (VaSet
 )
 xt "28723,162435,43123,163635"
-st "Power <= \"11100110\" ;"
+st "Power <= \"11101011\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3517,7 +3523,7 @@ uid 1284,0
 va (VaSet
 )
 xt "83251,83268,97651,84468"
-st "Power <= \"00011010\" ;"
+st "Power <= \"01000111\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3676,7 +3682,7 @@ uid 1301,0
 va (VaSet
 )
 xt "102510,91592,116910,92792"
-st "Power <= \"00110011\" ;"
+st "Power <= \"01011100\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3835,7 +3841,7 @@ uid 1318,0
 va (VaSet
 )
 xt "81949,102885,96349,104085"
-st "Power <= \"01001101\" ;"
+st "Power <= \"01110000\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -3994,7 +4000,7 @@ uid 1335,0
 va (VaSet
 )
 xt "102598,112055,116998,113255"
-st "Power <= \"01100110\" ;"
+st "Power <= \"10000101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4153,7 +4159,7 @@ uid 1352,0
 va (VaSet
 )
 xt "80772,122298,95172,123498"
-st "Power <= \"10000000\" ;"
+st "Power <= \"10011001\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4312,7 +4318,7 @@ uid 1369,0
 va (VaSet
 )
 xt "101673,131731,116073,132931"
-st "Power <= \"10011010\" ;"
+st "Power <= \"10101101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4471,7 +4477,7 @@ uid 1386,0
 va (VaSet
 )
 xt "80007,142776,94407,143976"
-st "Power <= \"10110011\" ;"
+st "Power <= \"11000010\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4630,7 +4636,7 @@ uid 1403,0
 va (VaSet
 )
 xt "101597,152222,115997,153422"
-st "Power <= \"11001101\" ;"
+st "Power <= \"11010110\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -4789,7 +4795,7 @@ uid 1420,0
 va (VaSet
 )
 xt "78558,161776,92958,162976"
-st "Power <= \"11100110\" ;"
+st "Power <= \"11101011\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5107,7 +5113,7 @@ uid 1584,0
 va (VaSet
 )
 xt "27547,202234,41947,203434"
-st "Power <= \"11100110\" ;"
+st "Power <= \"11101011\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5266,7 +5272,7 @@ uid 1601,0
 va (VaSet
 )
 xt "46806,210558,61206,211758"
-st "Power <= \"11001101\" ;"
+st "Power <= \"11010110\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5425,7 +5431,7 @@ uid 1618,0
 va (VaSet
 )
 xt "26245,221851,40645,223051"
-st "Power <= \"10110011\" ;"
+st "Power <= \"11000010\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5584,7 +5590,7 @@ uid 1635,0
 va (VaSet
 )
 xt "46894,231021,61294,232221"
-st "Power <= \"10011010\" ;"
+st "Power <= \"10101101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5743,7 +5749,7 @@ uid 1652,0
 va (VaSet
 )
 xt "25068,241264,39468,242464"
-st "Power <= \"10000000\" ;"
+st "Power <= \"10011001\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -5902,7 +5908,7 @@ uid 1669,0
 va (VaSet
 )
 xt "45969,250697,60369,251897"
-st "Power <= \"01100110\" ;"
+st "Power <= \"10000101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6061,7 +6067,7 @@ uid 1686,0
 va (VaSet
 )
 xt "24303,261742,38703,262942"
-st "Power <= \"01001101\" ;"
+st "Power <= \"01110000\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6220,7 +6226,7 @@ uid 1703,0
 va (VaSet
 )
 xt "45893,271188,60293,272388"
-st "Power <= \"00110011\" ;"
+st "Power <= \"01011100\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6379,7 +6385,7 @@ uid 1720,0
 va (VaSet
 )
 xt "22854,280742,37254,281942"
-st "Power <= \"00011010\" ;"
+st "Power <= \"01000111\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6462,13 +6468,14 @@ shape (Rectangle
 uid 1731,0
 va (VaSet
 vasetType 1
-isHidden 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
+fillStyle 1
 )
-xt "82282,310681,82482,310881"
+xt "75082,310081,89682,311481"
 )
 autoResize 1
 tline (Line
@@ -6477,7 +6484,7 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
 xt "75182,309981,89582,309981"
 pts [
@@ -6491,7 +6498,7 @@ va (VaSet
 vasetType 3
 isHidden 1
 lineColor "39936,56832,65280"
-lineWidth 2
+lineWidth -1
 )
 xt "75182,309381,89582,309381"
 pts [
@@ -6510,7 +6517,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "77932,309006,78282,309356"
+xt "74732,309006,75082,309356"
 )
 btri (Triangle
 uid 1735,0
@@ -6523,13 +6530,13 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "77932,307206,78282,307556"
+xt "74732,307206,75082,307556"
 )
 entryActions (MLText
 uid 1736,0
 va (VaSet
 )
-xt "75182,308581,89582,309781"
+xt "75182,308581,89282,309781"
 tm "Actions"
 )
 inActions (MLText
@@ -6537,6 +6544,7 @@ uid 1737,0
 va (VaSet
 )
 xt "75182,310181,89582,311381"
+st "Power <= \"00000000\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6696,7 +6704,7 @@ uid 1900,0
 va (VaSet
 )
 xt "124233,204725,138633,205925"
-st "Power <= \"11100110\" ;"
+st "Power <= \"11101011\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -6855,7 +6863,7 @@ uid 1917,0
 va (VaSet
 )
 xt "143492,213049,157892,214249"
-st "Power <= \"11001101\" ;"
+st "Power <= \"11010110\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7014,7 +7022,7 @@ uid 1934,0
 va (VaSet
 )
 xt "122931,224342,137331,225542"
-st "Power <= \"10110011\" ;"
+st "Power <= \"11000010\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7173,7 +7181,7 @@ uid 1951,0
 va (VaSet
 )
 xt "143580,233512,157980,234712"
-st "Power <= \"10011010\" ;"
+st "Power <= \"10101101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7332,7 +7340,7 @@ uid 1968,0
 va (VaSet
 )
 xt "121754,243755,136154,244955"
-st "Power <= \"10000000\" ;"
+st "Power <= \"10011001\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7491,7 +7499,7 @@ uid 1985,0
 va (VaSet
 )
 xt "142655,253188,157055,254388"
-st "Power <= \"01100110\" ;"
+st "Power <= \"10000101\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7650,7 +7658,7 @@ uid 2002,0
 va (VaSet
 )
 xt "120989,264233,135389,265433"
-st "Power <= \"01001101\" ;"
+st "Power <= \"01110000\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7809,7 +7817,7 @@ uid 2019,0
 va (VaSet
 )
 xt "142579,273679,156979,274879"
-st "Power <= \"00110011\" ;"
+st "Power <= \"01011100\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -7968,7 +7976,7 @@ uid 2036,0
 va (VaSet
 )
 xt "119540,283233,133940,284433"
-st "Power <= \"00011010\" ;"
+st "Power <= \"01000111\" ;"
 tm "Actions"
 )
 exitActions (MLText
@@ -8716,7 +8724,7 @@ arrow 1
 )
 start &2
 end &17
-cond "button = \"0010\""
+cond "button(1) = '1'"
 tb (TransitionBlock
 uid 274,0
 ps "CenterOffsetStrategy"
@@ -8728,34 +8736,34 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "43129,24235,66529,28435"
+xt "47035,20851,56735,23051"
 )
 autoResize 1
 lineShape (Line
 uid 276,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "43629,26335,66029,26335"
+xt "41185,22951,63585,22951"
 pts [
-"43629,26335"
-"66029,26335"
+"41185,22951"
+"63585,22951"
 ]
 )
 condition (MLText
 uid 277,0
 va (VaSet
 )
-xt "49979,24735,59679,25935"
-st "button = \"0010\""
+xt "47535,21351,56235,22551"
+st "button(1) = '1'"
 tm "Condition"
 )
 actions (MLText
 uid 278,0
 va (VaSet
 )
-xt "43629,26735,66029,27935"
-st "CurrentPos <= \"0000000000000000\";"
+xt "40685,22951,63085,24151"
 tm "Actions"
 )
 )
@@ -8801,7 +8809,7 @@ arrow 1
 )
 start &2
 end &16
-cond "button = \"0100\""
+cond "button(2) = '1'"
 tb (TransitionBlock
 uid 284,0
 ps "CenterOffsetStrategy"
@@ -8813,34 +8821,34 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "72901,26176,96301,30376"
+xt "71073,25988,80773,28188"
 )
 autoResize 1
 lineShape (Line
 uid 286,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "73401,28276,95801,28276"
+xt "65223,28088,87623,28088"
 pts [
-"73401,28276"
-"95801,28276"
+"65223,28088"
+"87623,28088"
 ]
 )
 condition (MLText
 uid 287,0
 va (VaSet
 )
-xt "79751,26676,89451,27876"
-st "button = \"0100\""
+xt "71573,26488,80273,27688"
+st "button(2) = '1'"
 tm "Condition"
 )
 actions (MLText
 uid 288,0
 va (VaSet
 )
-xt "73401,28676,95801,29876"
-st "CurrentPos <= \"0000000000000000\";"
+xt "64723,28088,87123,29288"
 tm "Actions"
 )
 )
@@ -8862,7 +8870,7 @@ uid 291,0
 va (VaSet
 )
 xt "72386,22272,73786,23472"
-st "3"
+st "2"
 ju 0
 blo "73086,23272"
 tm "TransitionPriority"
@@ -8948,7 +8956,7 @@ uid 301,0
 va (VaSet
 )
 xt "80765,18468,82165,19668"
-st "2"
+st "3"
 ju 0
 blo "81465,19468"
 tm "TransitionPriority"
@@ -9152,7 +9160,7 @@ arrow 1
 start &17
 end &20
 es 0
-cond "Position < Pos1"
+cond "Position <= Pos1"
 tb (TransitionBlock
 uid 436,0
 ps "CenterOffsetStrategy"
@@ -9164,34 +9172,34 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "16654,56323,27054,60123"
+xt "12236,50953,23336,53153"
 )
 autoResize 1
 lineShape (Line
 uid 438,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "17154,58223,26554,58223"
+xt "12736,53053,22836,53053"
 pts [
-"17154,58223"
-"26554,58223"
+"12736,53053"
+"22836,53053"
 ]
 )
 condition (MLText
 uid 439,0
 va (VaSet
 )
-xt "17154,56623,26554,57823"
-st "Position < Pos1"
+xt "12736,51453,22836,52653"
+st "Position <= Pos1"
 tm "Condition"
 )
 actions (MLText
 uid 440,0
 va (VaSet
 )
-xt "17954,58623,25754,59823"
-st "sideL <= '0';"
+xt "13886,53053,21686,54253"
 tm "Actions"
 )
 )
@@ -9251,25 +9259,26 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "34056,53997,44456,57797"
+xt "40918,49849,51318,52049"
 )
 autoResize 1
 lineShape (Line
 uid 448,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "34556,55897,43956,55897"
+xt "41418,51949,50818,51949"
 pts [
-"34556,55897"
-"43956,55897"
+"41418,51949"
+"50818,51949"
 ]
 )
 condition (MLText
 uid 449,0
 va (VaSet
 )
-xt "34556,54297,43956,55497"
+xt "41418,50349,50818,51549"
 st "Position > Pos1"
 tm "Condition"
 )
@@ -9277,8 +9286,7 @@ actions (MLText
 uid 450,0
 va (VaSet
 )
-xt "35206,56297,43306,57497"
-st "sideL <= '1' ;"
+xt "42068,51949,50168,53149"
 tm "Actions"
 )
 )
@@ -9324,7 +9332,7 @@ arrow 1
 )
 start &22
 end &23
-cond "Position >= CurrentPos + 109"
+cond "Position >= CurrentPos + 44"
 tb (TransitionBlock
 uid 1142,0
 ps "CenterOffsetStrategy"
@@ -9336,7 +9344,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "43556,82071,61856,84271"
+xt "43556,82071,61156,84271"
 )
 autoResize 1
 lineShape (Line
@@ -9355,15 +9363,15 @@ condition (MLText
 uid 1145,0
 va (VaSet
 )
-xt "44056,82571,61356,83771"
-st "Position >= CurrentPos + 109"
+xt "44056,82571,60656,83771"
+st "Position >= CurrentPos + 44"
 tm "Condition"
 )
 actions (MLText
 uid 1146,0
 va (VaSet
 )
-xt "52706,84171,52706,84171"
+xt "52356,84171,52356,84171"
 tm "Actions"
 )
 )
@@ -9413,7 +9421,7 @@ start &23
 end &24
 ss 0
 es 0
-cond "Position >= CurrentPos + 246"
+cond "Position >= CurrentPos + 176"
 tb (TransitionBlock
 uid 1152,0
 ps "CenterOffsetStrategy"
@@ -9445,7 +9453,7 @@ uid 1155,0
 va (VaSet
 )
 xt "44554,94853,61854,96053"
-st "Position >= CurrentPos + 246"
+st "Position >= CurrentPos + 176"
 tm "Condition"
 )
 actions (MLText
@@ -9502,7 +9510,7 @@ start &24
 end &25
 ss 0
 es 0
-cond "Position >= CurrentPos + 437"
+cond "Position >= CurrentPos + 397"
 tb (TransitionBlock
 uid 1162,0
 ps "CenterOffsetStrategy"
@@ -9534,7 +9542,7 @@ uid 1165,0
 va (VaSet
 )
 xt "45639,105329,62939,106529"
-st "Position >= CurrentPos + 437"
+st "Position >= CurrentPos + 397"
 tm "Condition"
 )
 actions (MLText
@@ -9591,7 +9599,7 @@ start &25
 end &26
 ss 0
 es 0
-cond "Position >= CurrentPos + 684"
+cond "Position >= CurrentPos + 705"
 tb (TransitionBlock
 uid 1172,0
 ps "CenterOffsetStrategy"
@@ -9623,7 +9631,7 @@ uid 1175,0
 va (VaSet
 )
 xt "45050,115036,62350,116236"
-st "Position >= CurrentPos + 684"
+st "Position >= CurrentPos + 705"
 tm "Condition"
 )
 actions (MLText
@@ -9680,7 +9688,7 @@ start &26
 end &27
 ss 0
 es 0
-cond "Position >= CurrentPos + 984"
+cond "Position >= CurrentPos + 1102"
 tb (TransitionBlock
 uid 1182,0
 ps "CenterOffsetStrategy"
@@ -9692,7 +9700,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "44088,124374,62388,126574"
+xt "44088,124374,63088,126574"
 )
 autoResize 1
 lineShape (Line
@@ -9711,15 +9719,15 @@ condition (MLText
 uid 1185,0
 va (VaSet
 )
-xt "44588,124874,61888,126074"
-st "Position >= CurrentPos + 984"
+xt "44588,124874,62588,126074"
+st "Position >= CurrentPos + 1102"
 tm "Condition"
 )
 actions (MLText
 uid 1186,0
 va (VaSet
 )
-xt "53238,126474,53238,126474"
+xt "53588,126474,53588,126474"
 tm "Actions"
 )
 )
@@ -9769,7 +9777,7 @@ start &27
 end &28
 ss 0
 es 0
-cond "Position >= CurrentPos + 1340"
+cond "Position >= CurrentPos + 1587"
 tb (TransitionBlock
 uid 1192,0
 ps "CenterOffsetStrategy"
@@ -9801,7 +9809,7 @@ uid 1195,0
 va (VaSet
 )
 xt "44205,135113,62205,136313"
-st "Position >= CurrentPos + 1340"
+st "Position >= CurrentPos + 1587"
 tm "Condition"
 )
 actions (MLText
@@ -9858,7 +9866,7 @@ start &28
 end &29
 ss 0
 es 0
-cond "Position >= CurrentPos + 1750"
+cond "Position >= CurrentPos + 2160"
 tb (TransitionBlock
 uid 1202,0
 ps "CenterOffsetStrategy"
@@ -9890,7 +9898,7 @@ uid 1205,0
 va (VaSet
 )
 xt "44167,145358,62167,146558"
-st "Position >= CurrentPos + 1750"
+st "Position >= CurrentPos + 2160"
 tm "Condition"
 )
 actions (MLText
@@ -9947,7 +9955,7 @@ start &29
 end &30
 ss 0
 es 0
-cond "Position >= CurrentPos + 2215"
+cond "Position >= CurrentPos + 2822"
 tb (TransitionBlock
 uid 1212,0
 ps "CenterOffsetStrategy"
@@ -9979,7 +9987,7 @@ uid 1215,0
 va (VaSet
 )
 xt "43825,154571,61825,155771"
-st "Position >= CurrentPos + 2215"
+st "Position >= CurrentPos + 2822"
 tm "Condition"
 )
 actions (MLText
@@ -10037,7 +10045,7 @@ start &30
 end &31
 ss 0
 es 0
-cond "Position >= CurrentPos + 2734"
+cond "Position >= CurrentPos + 3571"
 tb (TransitionBlock
 uid 1222,0
 ps "CenterOffsetStrategy"
@@ -10069,7 +10077,7 @@ uid 1225,0
 va (VaSet
 )
 xt "17806,171794,35806,172994"
-st "Position >= CurrentPos + 2734"
+st "Position >= CurrentPos + 3571"
 tm "Condition"
 )
 actions (MLText
@@ -10115,15 +10123,15 @@ uid 1260,0
 va (VaSet
 vasetType 3
 )
-xt "34370,69056,38281,114386"
+xt "37396,69056,38147,75404"
 pts [
-"38281,69056"
-"34370,114386"
+"38147,69056"
+"37396,75404"
 ]
 arrow 1
 )
 start &20
-end &26
+end &22
 ss 0
 tb (TransitionBlock
 uid 1261,0
@@ -10137,7 +10145,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "35825,91816,42125,92826"
+xt "37271,72325,43571,73335"
 )
 autoResize 1
 lineShape (Line
@@ -10146,24 +10154,24 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "38975,93321,38975,93321"
+xt "40421,73830,40421,73830"
 pts [
-"38975,93321"
-"38975,93321"
+"40421,73830"
+"40421,73830"
 ]
 )
 condition (MLText
 uid 1264,0
 va (VaSet
 )
-xt "36325,91721,41625,92921"
+xt "37771,72230,43071,73430"
 tm "Condition"
 )
 actions (MLText
 uid 1265,0
 va (VaSet
 )
-xt "38975,93321,38975,93321"
+xt "40421,73830,40421,73830"
 tm "Actions"
 )
 )
@@ -10178,7 +10186,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "36826,72525,38952,74651"
+xt "37008,68627,39134,70753"
 radius 1063
 )
 pr (Text
@@ -10186,10 +10194,10 @@ uid 1268,0
 va (VaSet
 isHidden 1
 )
-xt "37189,72988,38589,74188"
+xt "37371,69090,38771,70290"
 st "1"
 ju 0
-blo "37889,73988"
+blo "38071,70090"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -10213,7 +10221,7 @@ start &39
 end &40
 ss 0
 es 0
-cond "Position <= CurrentPos - 2215"
+cond "Position <= CurrentPos - 2822"
 tb (TransitionBlock
 uid 1441,0
 ps "CenterOffsetStrategy"
@@ -10225,7 +10233,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "93160,153412,111960,155612"
+xt "93160,154822,111960,157022"
 )
 autoResize 1
 lineShape (Line
@@ -10234,25 +10242,25 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "96310,155512,96310,155512"
+xt "96310,156922,96310,156922"
 pts [
-"96310,155512"
-"96310,155512"
+"96310,156922"
+"96310,156922"
 ]
 )
 condition (MLText
 uid 1444,0
 va (VaSet
 )
-xt "93660,153912,111460,155112"
-st "Position <= CurrentPos - 2215"
+xt "93660,155322,111460,156522"
+st "Position <= CurrentPos - 2822"
 tm "Condition"
 )
 actions (MLText
 uid 1445,0
 va (VaSet
 )
-xt "102560,155512,102560,155512"
+xt "102560,156922,102560,156922"
 tm "Actions"
 )
 )
@@ -10303,7 +10311,7 @@ start &40
 end &41
 ss 0
 es 0
-cond "Position <= CurrentPos - 2734"
+cond "Position <= CurrentPos - 3571"
 tb (TransitionBlock
 uid 1451,0
 ps "CenterOffsetStrategy"
@@ -10335,7 +10343,7 @@ uid 1454,0
 va (VaSet
 )
 xt "74976,175103,92776,176303"
-st "Position <= CurrentPos - 2734"
+st "Position <= CurrentPos - 3571"
 tm "Condition"
 )
 actions (MLText
@@ -10392,7 +10400,7 @@ start &34
 end &35
 ss 0
 es 0
-cond "Position <= CurrentPos - 437"
+cond "Position <= CurrentPos - 397"
 tb (TransitionBlock
 uid 1461,0
 ps "CenterOffsetStrategy"
@@ -10424,7 +10432,7 @@ uid 1464,0
 va (VaSet
 )
 xt "95474,104670,112574,105870"
-st "Position <= CurrentPos - 437"
+st "Position <= CurrentPos - 397"
 tm "Condition"
 )
 actions (MLText
@@ -10481,7 +10489,7 @@ start &36
 end &37
 ss 0
 es 0
-cond "Position <= CurrentPos - 984"
+cond "Position <= CurrentPos - 1102"
 tb (TransitionBlock
 uid 1471,0
 ps "CenterOffsetStrategy"
@@ -10493,7 +10501,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "93923,123715,112023,125915"
+xt "93923,123715,112723,125915"
 )
 autoResize 1
 lineShape (Line
@@ -10512,15 +10520,15 @@ condition (MLText
 uid 1474,0
 va (VaSet
 )
-xt "94423,124215,111523,125415"
-st "Position <= CurrentPos - 984"
+xt "94423,124215,112223,125415"
+st "Position <= CurrentPos - 1102"
 tm "Condition"
 )
 actions (MLText
 uid 1475,0
 va (VaSet
 )
-xt "102973,125815,102973,125815"
+xt "103323,125815,103323,125815"
 tm "Actions"
 )
 )
@@ -10570,7 +10578,7 @@ start &37
 end &38
 ss 0
 es 0
-cond "Position <= CurrentPos - 1340"
+cond "Position <= CurrentPos - 1587"
 tb (TransitionBlock
 uid 1481,0
 ps "CenterOffsetStrategy"
@@ -10602,7 +10610,7 @@ uid 1484,0
 va (VaSet
 )
 xt "94040,134454,111840,135654"
-st "Position <= CurrentPos - 1340"
+st "Position <= CurrentPos - 1587"
 tm "Condition"
 )
 actions (MLText
@@ -10659,7 +10667,7 @@ start &35
 end &36
 ss 0
 es 0
-cond "Position <= CurrentPos - 684"
+cond "Position <= CurrentPos - 705"
 tb (TransitionBlock
 uid 1491,0
 ps "CenterOffsetStrategy"
@@ -10691,7 +10699,7 @@ uid 1494,0
 va (VaSet
 )
 xt "94885,114377,111985,115577"
-st "Position <= CurrentPos - 684"
+st "Position <= CurrentPos - 705"
 tm "Condition"
 )
 actions (MLText
@@ -10746,7 +10754,7 @@ arrow 1
 )
 start &32
 end &33
-cond "Position <= CurrentPos - 109"
+cond "Position <= CurrentPos - 44"
 tb (TransitionBlock
 uid 1501,0
 ps "CenterOffsetStrategy"
@@ -10758,7 +10766,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "93391,81412,111491,83612"
+xt "93391,81412,110791,83612"
 )
 autoResize 1
 lineShape (Line
@@ -10777,15 +10785,15 @@ condition (MLText
 uid 1504,0
 va (VaSet
 )
-xt "93891,81912,110991,83112"
-st "Position <= CurrentPos - 109"
+xt "93891,81912,110291,83112"
+st "Position <= CurrentPos - 44"
 tm "Condition"
 )
 actions (MLText
 uid 1505,0
 va (VaSet
 )
-xt "102441,83512,102441,83512"
+xt "102091,83512,102091,83512"
 tm "Actions"
 )
 )
@@ -10835,7 +10843,7 @@ start &33
 end &34
 ss 0
 es 0
-cond "Position <= CurrentPos - 246"
+cond "Position <= CurrentPos - 176"
 tb (TransitionBlock
 uid 1511,0
 ps "CenterOffsetStrategy"
@@ -10867,7 +10875,7 @@ uid 1514,0
 va (VaSet
 )
 xt "94389,94194,111489,95394"
-st "Position <= CurrentPos - 246"
+st "Position <= CurrentPos - 176"
 tm "Condition"
 )
 actions (MLText
@@ -10924,7 +10932,7 @@ start &38
 end &39
 ss 0
 es 0
-cond "Position <= CurrentPos - 1750"
+cond "Position <= CurrentPos - 2160"
 tb (TransitionBlock
 uid 1521,0
 ps "CenterOffsetStrategy"
@@ -10956,7 +10964,7 @@ uid 1524,0
 va (VaSet
 )
 xt "94002,144699,111802,145899"
-st "Position <= CurrentPos - 1750"
+st "Position <= CurrentPos - 2160"
 tm "Condition"
 )
 actions (MLText
@@ -11002,16 +11010,15 @@ uid 1530,0
 va (VaSet
 vasetType 3
 )
-xt "76569,69623,83124,113785"
+xt "76569,69623,83655,75414"
 pts [
 "76569,69623"
-"83124,113785"
+"83655,75414"
 ]
 arrow 1
 )
 start &21
-end &36
-es 0
+end &32
 tb (TransitionBlock
 uid 1531,0
 ps "CenterOffsetStrategy"
@@ -11024,7 +11031,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "79347,91799,85647,92809"
+xt "79612,72614,85912,73624"
 )
 autoResize 1
 lineShape (Line
@@ -11033,24 +11040,24 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "82497,93304,82497,93304"
+xt "82762,74119,82762,74119"
 pts [
-"82497,93304"
-"82497,93304"
+"82762,74119"
+"82762,74119"
 ]
 )
 condition (MLText
 uid 1534,0
 va (VaSet
 )
-xt "79847,91704,85147,92904"
+xt "80112,72519,85412,73719"
 tm "Condition"
 )
 actions (MLText
 uid 1535,0
 va (VaSet
 )
-xt "82497,93304,82497,93304"
+xt "82762,74119,82762,74119"
 tm "Actions"
 )
 )
@@ -11065,7 +11072,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "76161,72975,78287,75101"
+xt "76214,69139,78340,71265"
 radius 1063
 )
 pr (Text
@@ -11073,10 +11080,10 @@ uid 1538,0
 va (VaSet
 isHidden 1
 )
-xt "76524,73438,77924,74638"
+xt "76577,69602,77977,70802"
 st "1"
 ju 0
-blo "77224,74438"
+blo "77277,70602"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -11100,7 +11107,7 @@ arrow 1
 start &16
 end &20
 es 0
-cond "Position < Pos2"
+cond "Position <= Pos2"
 tb (TransitionBlock
 uid 1541,0
 ps "CenterOffsetStrategy"
@@ -11112,34 +11119,34 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "55461,49734,65861,53534"
+xt "58939,53764,70039,55964"
 )
 autoResize 1
 lineShape (Line
 uid 1543,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "55961,51634,65361,51634"
+xt "59439,55864,69539,55864"
 pts [
-"55961,51634"
-"65361,51634"
+"59439,55864"
+"69539,55864"
 ]
 )
 condition (MLText
 uid 1544,0
 va (VaSet
 )
-xt "55961,50034,65361,51234"
-st "Position < Pos2"
+xt "59439,54264,69539,55464"
+st "Position <= Pos2"
 tm "Condition"
 )
 actions (MLText
 uid 1545,0
 va (VaSet
 )
-xt "56761,52034,64561,53234"
-st "sideL <= '0';"
+xt "60589,55864,68389,57064"
 tm "Actions"
 )
 )
@@ -11200,25 +11207,26 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "80491,54279,90891,58079"
+xt "80491,49285,90891,51485"
 )
 autoResize 1
 lineShape (Line
 uid 1553,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
-xt "80991,56179,90391,56179"
+xt "80991,51385,90391,51385"
 pts [
-"80991,56179"
-"90391,56179"
+"80991,51385"
+"90391,51385"
 ]
 )
 condition (MLText
 uid 1554,0
 va (VaSet
 )
-xt "80991,54579,90391,55779"
+xt "80991,49785,90391,50985"
 st "Position > Pos2"
 tm "Condition"
 )
@@ -11226,8 +11234,7 @@ actions (MLText
 uid 1555,0
 va (VaSet
 )
-xt "81641,56579,89741,57779"
-st "sideL <= '1' ;"
+xt "81641,51385,89741,52585"
 tm "Actions"
 )
 )
@@ -11275,7 +11282,7 @@ start &49
 end &50
 ss 0
 es 0
-cond "(Position >= Pos1 - 109 AND button = \"0010\") OR (Position >= Pos2 - 109 AND button = \"0100\")"
+cond "(Position >= Pos1 - 44 AND button = \"0010\") OR (Position >= Pos2 - 44 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1741,0
 ps "CenterOffsetStrategy"
@@ -11287,7 +11294,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-29133,272990,24867,275190"
+xt "-29133,272990,23467,275190"
 )
 autoResize 1
 lineShape (Line
@@ -11306,15 +11313,15 @@ condition (MLText
 uid 1744,0
 va (VaSet
 )
-xt "-28633,273490,24367,274690"
-st "(Position >= Pos1 - 109 AND button = \"0010\") OR (Position >= Pos2 - 109 AND button = \"0100\")"
+xt "-28633,273490,22967,274690"
+st "(Position >= Pos1 - 44 AND button = \"0010\") OR (Position >= Pos2 - 44 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 1745,0
 va (VaSet
 )
-xt "-2133,275090,-2133,275090"
+xt "-2833,275090,-2833,275090"
 tm "Actions"
 )
 )
@@ -11376,7 +11383,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-2173,293431,45427,295631"
+xt "20011,288543,67611,290743"
 )
 autoResize 1
 lineShape (Line
@@ -11385,17 +11392,17 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "977,295531,977,295531"
+xt "23161,290643,23161,290643"
 pts [
-"977,295531"
-"977,295531"
+"23161,290643"
+"23161,290643"
 ]
 )
 condition (MLText
 uid 1754,0
 va (VaSet
 )
-xt "-1673,293931,44927,295131"
+xt "20511,289043,67111,290243"
 st "(Position >= Pos1 AND button = \"0010\") OR (Position >= Pos2 AND button = \"0100\")"
 tm "Condition"
 )
@@ -11403,7 +11410,7 @@ actions (MLText
 uid 1755,0
 va (VaSet
 )
-xt "21627,295531,21627,295531"
+xt "43811,290643,43811,290643"
 tm "Actions"
 )
 )
@@ -11453,7 +11460,7 @@ start &44
 end &45
 ss 0
 es 0
-cond "(Position >= Pos1 - 1340 AND button = \"0010\") OR (Position >= Pos2 - 1340 AND button = \"0100\")"
+cond "(Position >= Pos1 - 1587 AND button = \"0010\") OR (Position >= Pos2 - 1587 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1761,0
 ps "CenterOffsetStrategy"
@@ -11485,7 +11492,7 @@ uid 1764,0
 va (VaSet
 )
 xt "-29077,224883,25323,226083"
-st "(Position >= Pos1 - 1340 AND button = \"0010\") OR (Position >= Pos2 - 1340 AND button = \"0100\")"
+st "(Position >= Pos1 - 1587 AND button = \"0010\") OR (Position >= Pos2 - 1587 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -11542,7 +11549,7 @@ start &46
 end &47
 ss 0
 es 0
-cond "(Position >= Pos1 - 684 AND button = \"0010\") OR (Position >= Pos2 - 684 AND button = \"0100\")"
+cond "(Position >= Pos1 - 705 AND button = \"0010\") OR (Position >= Pos2 - 705 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1771,0
 ps "CenterOffsetStrategy"
@@ -11574,7 +11581,7 @@ uid 1774,0
 va (VaSet
 )
 xt "-29187,244993,23813,246193"
-st "(Position >= Pos1 - 684 AND button = \"0010\") OR (Position >= Pos2 - 684 AND button = \"0100\")"
+st "(Position >= Pos1 - 705 AND button = \"0010\") OR (Position >= Pos2 - 705 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -11620,17 +11627,17 @@ uid 1780,0
 va (VaSet
 vasetType 3
 )
-xt "51894,252989,78331,302382"
+xt "32950,250728,44135,257021"
 pts [
-"51894,252989"
-"78331,302382"
+"44135,250728"
+"32950,257021"
 ]
 arrow 1
 )
 start &47
-end &51
+end &48
 ss 0
-cond "(Position >= Pos1 - 437 AND button = \"0010\") OR (Position >= Pos2 - 437 AND button = \"0100\")"
+cond "(Position >= Pos1 - 397 AND button = \"0010\") OR (Position >= Pos2 - 397 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1781,0
 ps "CenterOffsetStrategy"
@@ -11642,7 +11649,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-2493,276950,51507,279150"
+xt "-29064,253139,24936,255339"
 )
 autoResize 1
 lineShape (Line
@@ -11651,25 +11658,25 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "657,279050,657,279050"
+xt "-25914,255239,-25914,255239"
 pts [
-"657,279050"
-"657,279050"
+"-25914,255239"
+"-25914,255239"
 ]
 )
 condition (MLText
 uid 1784,0
 va (VaSet
 )
-xt "-1993,277450,51007,278650"
-st "(Position >= Pos1 - 437 AND button = \"0010\") OR (Position >= Pos2 - 437 AND button = \"0100\")"
+xt "-28564,253639,24436,254839"
+st "(Position >= Pos1 - 397 AND button = \"0010\") OR (Position >= Pos2 - 397 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 1785,0
 va (VaSet
 )
-xt "24507,279050,24507,279050"
+xt "-2064,255239,-2064,255239"
 tm "Actions"
 )
 )
@@ -11684,7 +11691,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "53474,256865,55600,258991"
+xt "41953,250294,44079,252420"
 radius 1063
 )
 pr (Text
@@ -11692,10 +11699,10 @@ uid 1788,0
 va (VaSet
 isHidden 1
 )
-xt "53837,257328,55237,258528"
+xt "42316,250757,43716,251957"
 st "1"
 ju 0
-blo "54537,258328"
+blo "43016,251757"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -11719,7 +11726,7 @@ start &45
 end &46
 ss 0
 es 0
-cond "(Position >= Pos1 - 984 AND button = \"0010\") OR (Position >= Pos2 - 984 AND button = \"0100\")"
+cond "(Position >= Pos1 - 1102 AND button = \"0010\") OR (Position >= Pos2 - 1102 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1791,0
 ps "CenterOffsetStrategy"
@@ -11731,7 +11738,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-29437,233313,24563,235513"
+xt "-29437,233313,25963,235513"
 )
 autoResize 1
 lineShape (Line
@@ -11750,15 +11757,15 @@ condition (MLText
 uid 1794,0
 va (VaSet
 )
-xt "-28937,233813,24063,235013"
-st "(Position >= Pos1 - 984 AND button = \"0010\") OR (Position >= Pos2 - 984 AND button = \"0100\")"
+xt "-28937,233813,25463,235013"
+st "(Position >= Pos1 - 1102 AND button = \"0010\") OR (Position >= Pos2 - 1102 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 1795,0
 va (VaSet
 )
-xt "-2437,235413,-2437,235413"
+xt "-1737,235413,-1737,235413"
 tm "Actions"
 )
 )
@@ -11806,7 +11813,7 @@ arrow 1
 )
 start &42
 end &43
-cond "(Position >= Pos1 - 2215 AND button = \"0010\") OR (Position >= Pos2 - 2215 AND button = \"0100\")"
+cond "(Position >= Pos1 - 2822 AND button = \"0010\") OR (Position >= Pos2 - 2822 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1801,0
 ps "CenterOffsetStrategy"
@@ -11838,7 +11845,7 @@ uid 1804,0
 va (VaSet
 )
 xt "-28246,204976,26154,206176"
-st "(Position >= Pos1 - 2215 AND button = \"0010\") OR (Position >= Pos2 - 2215 AND button = \"0100\")"
+st "(Position >= Pos1 - 2822 AND button = \"0010\") OR (Position >= Pos2 - 2822 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -11895,7 +11902,7 @@ start &43
 end &44
 ss 0
 es 0
-cond "(Position >= Pos1 - 1750 AND button = \"0010\") OR (Position >= Pos2 - 1750 AND button = \"0100\")"
+cond "(Position >= Pos1 - 2160 AND button = \"0010\") OR (Position >= Pos2 - 2160 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1811,0
 ps "CenterOffsetStrategy"
@@ -11927,7 +11934,7 @@ uid 1814,0
 va (VaSet
 )
 xt "-28186,213372,26214,214572"
-st "(Position >= Pos1 - 1750 AND button = \"0010\") OR (Position >= Pos2 - 1750 AND button = \"0100\")"
+st "(Position >= Pos1 - 2160 AND button = \"0010\") OR (Position >= Pos2 - 2160 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -11984,7 +11991,7 @@ start &48
 end &49
 ss 0
 es 0
-cond "(Position >= Pos1 - 246 AND button = \"0010\") OR (Position >= Pos2 - 246 AND button = \"0100\")"
+cond "(Position >= Pos1 - 176 AND button = \"0010\") OR (Position >= Pos2 - 176 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1821,0
 ps "CenterOffsetStrategy"
@@ -12016,7 +12023,7 @@ uid 1824,0
 va (VaSet
 )
 xt "-28973,264206,24027,265406"
-st "(Position >= Pos1 - 246 AND button = \"0010\") OR (Position >= Pos2 - 246 AND button = \"0100\")"
+st "(Position >= Pos1 - 176 AND button = \"0010\") OR (Position >= Pos2 - 176 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12074,7 +12081,7 @@ arrow 1
 start &31
 end &42
 es 0
-cond "(Position >= Pos1 - 2734 AND button = \"0010\") OR (Position >= Pos2 - 2734 AND button = \"0100\")"
+cond "(Position >= Pos1 - 3571 AND button = \"0010\") OR (Position >= Pos2 - 3571 AND button = \"0100\")"
 tb (TransitionBlock
 uid 1831,0
 ps "CenterOffsetStrategy"
@@ -12106,7 +12113,7 @@ uid 1834,0
 va (VaSet
 )
 xt "-16475,190709,37925,191909"
-st "(Position >= Pos1 - 2734 AND button = \"0010\") OR (Position >= Pos2 - 2734 AND button = \"0100\")"
+st "(Position >= Pos1 - 3571 AND button = \"0010\") OR (Position >= Pos2 - 3571 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12163,7 +12170,7 @@ start &59
 end &60
 ss 0
 es 0
-cond "(Position <= Pos1 + 109 AND button = \"0010\") OR (Position <= Pos2 + 109 AND button = \"0100\")"
+cond "(Position <= Pos1 + 44 AND button = \"0010\") OR (Position <= Pos2 + 44 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2057,0
 ps "CenterOffsetStrategy"
@@ -12175,7 +12182,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "67553,275481,121953,277681"
+xt "67553,275481,120553,277681"
 )
 autoResize 1
 lineShape (Line
@@ -12194,15 +12201,15 @@ condition (MLText
 uid 2060,0
 va (VaSet
 )
-xt "68053,275981,121453,277181"
-st "(Position <= Pos1 + 109 AND button = \"0010\") OR (Position <= Pos2 + 109 AND button = \"0100\")"
+xt "68053,275981,120053,277181"
+st "(Position <= Pos1 + 44 AND button = \"0010\") OR (Position <= Pos2 + 44 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 2061,0
 va (VaSet
 )
-xt "94753,277581,94753,277581"
+xt "94053,277581,94053,277581"
 tm "Actions"
 )
 )
@@ -12252,7 +12259,7 @@ start &55
 end &56
 ss 0
 es 0
-cond "(Position <= Pos1 + 984 AND button = \"0010\") OR (Position <= Pos2 + 984 AND button = \"0100\")"
+cond "(Position <= Pos1 + 1102 AND button = \"0010\") OR (Position <= Pos2 + 1102 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2067,0
 ps "CenterOffsetStrategy"
@@ -12264,7 +12271,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "67249,235804,121649,238004"
+xt "67249,235804,123049,238004"
 )
 autoResize 1
 lineShape (Line
@@ -12283,15 +12290,15 @@ condition (MLText
 uid 2070,0
 va (VaSet
 )
-xt "67749,236304,121149,237504"
-st "(Position <= Pos1 + 984 AND button = \"0010\") OR (Position <= Pos2 + 984 AND button = \"0100\")"
+xt "67749,236304,122549,237504"
+st "(Position <= Pos1 + 1102 AND button = \"0010\") OR (Position <= Pos2 + 1102 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 2071,0
 va (VaSet
 )
-xt "94449,237904,94449,237904"
+xt "95149,237904,95149,237904"
 tm "Actions"
 )
 )
@@ -12341,7 +12348,7 @@ start &54
 end &55
 ss 0
 es 0
-cond "(Position <= Pos1 + 1340 AND button = \"0010\") OR (Position <= Pos2 + 1340 AND button = \"0100\")"
+cond "(Position <= Pos1 + 1587 AND button = \"0010\") OR (Position <= Pos2 + 1587 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2077,0
 ps "CenterOffsetStrategy"
@@ -12373,7 +12380,7 @@ uid 2080,0
 va (VaSet
 )
 xt "67609,227374,122409,228574"
-st "(Position <= Pos1 + 1340 AND button = \"0010\") OR (Position <= Pos2 + 1340 AND button = \"0100\")"
+st "(Position <= Pos1 + 1587 AND button = \"0010\") OR (Position <= Pos2 + 1587 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12519,7 +12526,7 @@ start &56
 end &57
 ss 0
 es 0
-cond "(Position <= Pos1 + 684 AND button = \"0010\") OR (Position <= Pos2 + 684 AND button = \"0100\")"
+cond "(Position <= Pos1 + 705 AND button = \"0010\") OR (Position <= Pos2 + 705 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2097,0
 ps "CenterOffsetStrategy"
@@ -12551,7 +12558,7 @@ uid 2100,0
 va (VaSet
 )
 xt "67499,247484,120899,248684"
-st "(Position <= Pos1 + 684 AND button = \"0010\") OR (Position <= Pos2 + 684 AND button = \"0100\")"
+st "(Position <= Pos1 + 705 AND button = \"0010\") OR (Position <= Pos2 + 705 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12608,7 +12615,7 @@ start &58
 end &59
 ss 0
 es 0
-cond "(Position <= Pos1 + 246 AND button = \"0010\") OR (Position <= Pos2 + 246 AND button = \"0100\")"
+cond "(Position <= Pos1 + 176 AND button = \"0010\") OR (Position <= Pos2 + 176 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2107,0
 ps "CenterOffsetStrategy"
@@ -12640,7 +12647,7 @@ uid 2110,0
 va (VaSet
 )
 xt "67713,266697,121113,267897"
-st "(Position <= Pos1 + 246 AND button = \"0010\") OR (Position <= Pos2 + 246 AND button = \"0100\")"
+st "(Position <= Pos1 + 176 AND button = \"0010\") OR (Position <= Pos2 + 176 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12697,7 +12704,7 @@ start &53
 end &54
 ss 0
 es 0
-cond "(Position <= Pos1 + 1750 AND button = \"0010\") OR (Position <= Pos2 + 1750 AND button = \"0100\")"
+cond "(Position <= Pos1 + 2160 AND button = \"0010\") OR (Position <= Pos2 + 2160 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2117,0
 ps "CenterOffsetStrategy"
@@ -12729,7 +12736,7 @@ uid 2120,0
 va (VaSet
 )
 xt "68500,215863,123300,217063"
-st "(Position <= Pos1 + 1750 AND button = \"0010\") OR (Position <= Pos2 + 1750 AND button = \"0100\")"
+st "(Position <= Pos1 + 2160 AND button = \"0010\") OR (Position <= Pos2 + 2160 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12775,17 +12782,18 @@ uid 2126,0
 va (VaSet
 vasetType 3
 )
-xt "85221,254125,141452,301848"
+xt "129335,253011,140709,258810"
 pts [
-"141452,254125"
-"85221,301848"
+"140709,253011"
+"129335,258810"
 ]
 arrow 1
 )
 start &57
-end &51
+end &58
 ss 0
-cond "(Position <= Pos1 + 437 AND button = \"0010\") OR (Position <= Pos2 + 437 AND button = \"0100\")"
+es 0
+cond "(Position <= Pos1 + 397 AND button = \"0010\") OR (Position <= Pos2 + 397 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2127,0
 ps "CenterOffsetStrategy"
@@ -12797,7 +12805,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "45730,277251,100130,279451"
+xt "67416,255175,121816,257375"
 )
 autoResize 1
 lineShape (Line
@@ -12806,25 +12814,25 @@ va (VaSet
 vasetType 3
 isHidden 1
 )
-xt "48880,279351,48880,279351"
+xt "70566,257275,70566,257275"
 pts [
-"48880,279351"
-"48880,279351"
+"70566,257275"
+"70566,257275"
 ]
 )
 condition (MLText
 uid 2130,0
 va (VaSet
 )
-xt "46230,277751,99630,278951"
-st "(Position <= Pos1 + 437 AND button = \"0010\") OR (Position <= Pos2 + 437 AND button = \"0100\")"
+xt "67916,255675,121316,256875"
+st "(Position <= Pos1 + 397 AND button = \"0010\") OR (Position <= Pos2 + 397 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
 uid 2131,0
 va (VaSet
 )
-xt "72930,279351,72930,279351"
+xt "94616,257275,94616,257275"
 tm "Actions"
 )
 )
@@ -12839,7 +12847,7 @@ isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 )
-xt "134766,257834,136892,259960"
+xt "138509,252527,140635,254653"
 radius 1063
 )
 pr (Text
@@ -12847,10 +12855,10 @@ uid 2134,0
 va (VaSet
 isHidden 1
 )
-xt "135129,258297,136529,259497"
+xt "138872,252990,140272,254190"
 st "1"
 ju 0
-blo "135829,259297"
+blo "139572,253990"
 tm "TransitionPriority"
 )
 padding "100,100"
@@ -12872,7 +12880,7 @@ arrow 1
 )
 start &52
 end &53
-cond "(Position <= Pos1 + 2215 AND button = \"0010\") OR (Position <= Pos2 + 2215 AND button = \"0100\")"
+cond "(Position <= Pos1 + 2822 AND button = \"0010\") OR (Position <= Pos2 + 2822 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2137,0
 ps "CenterOffsetStrategy"
@@ -12904,7 +12912,7 @@ uid 2140,0
 va (VaSet
 )
 xt "68440,207467,123240,208667"
-st "(Position <= Pos1 + 2215 AND button = \"0010\") OR (Position <= Pos2 + 2215 AND button = \"0100\")"
+st "(Position <= Pos1 + 2822 AND button = \"0010\") OR (Position <= Pos2 + 2822 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -12962,7 +12970,7 @@ start &41
 end &52
 ss 0
 es 0
-cond "(Position <= Pos1 + 2734 AND button = \"0010\") OR (Position <= Pos2 + 2734 AND button = \"0100\")"
+cond "(Position <= Pos1 + 3571 AND button = \"0010\") OR (Position <= Pos2 + 3571 AND button = \"0100\")"
 tb (TransitionBlock
 uid 2147,0
 ps "CenterOffsetStrategy"
@@ -12994,7 +13002,7 @@ uid 2150,0
 va (VaSet
 )
 xt "92139,188036,146939,189236"
-st "(Position <= Pos1 + 2734 AND button = \"0010\") OR (Position <= Pos2 + 2734 AND button = \"0100\")"
+st "(Position <= Pos1 + 3571 AND button = \"0010\") OR (Position <= Pos2 + 3571 AND button = \"0100\")"
 tm "Condition"
 )
 actions (MLText
@@ -13061,17 +13069,19 @@ shape (Rectangle
 uid 2163,0
 va (VaSet
 vasetType 1
+isHidden 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "191032,33897,206132,38907"
+xt "195432,34697,201732,35707"
 )
 autoResize 1
 lineShape (Line
 uid 2164,0
 va (VaSet
 vasetType 3
+isHidden 1
 )
 xt "191532,34607,205632,34607"
 pts [
@@ -13090,10 +13100,7 @@ actions (MLText
 uid 2166,0
 va (VaSet
 )
-xt "191532,35007,205632,38607"
-st "RaZ <= '0';
-unlock <= '1' ;
-Power <= \"00000000\";"
+xt "191532,34607,205632,35807"
 tm "Actions"
 )
 )
@@ -13327,7 +13334,7 @@ fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "0,32768,49152"
 )
-xt "-17975,35856,28225,42456"
+xt "-16659,35010,29541,41610"
 )
 autoResize 1
 lineShape (Line
@@ -13335,17 +13342,17 @@ uid 2457,0
 va (VaSet
 vasetType 3
 )
-xt "-17475,37956,27725,37956"
+xt "-16159,37110,29041,37110"
 pts [
-"-17475,37956"
-"27725,37956"
+"-16159,37110"
+"29041,37110"
 ]
 )
 condition (MLText
 uid 2458,0
 va (VaSet
 )
-xt "-17475,36356,27725,37556"
+xt "-16159,35510,29041,36710"
 st "(button = \"0010\" AND Position = Pos1) OR (button = \"0100\" AND Position = Pos2)"
 tm "Condition"
 )
@@ -13353,7 +13360,7 @@ actions (MLText
 uid 2459,0
 va (VaSet
 )
-xt "-1925,38356,12175,41956"
+xt "-609,37510,13491,41110"
 st "RaZ <= '0';
 unlock <= '1' ;
 Power <= \"00000000\";"
@@ -13585,8 +13592,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "190,0,1921,1080"
-viewArea "-14600,44060,126682,130916"
+windowSize "186,0,1921,1080"
+viewArea "4210,-7580,145868,79276"
 cachedDiagramExtent "-29687,-7346,209008,335321"
 hasePageBreakOrigin 1
 pageBreakOrigin "-73000,-51000"
@@ -13859,15 +13866,17 @@ uid 30,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "45400,200,78900,6600"
+xt "45400,200,78900,8200"
 st "SIGNAL      MODE    DEFAULT             RESET  SCHEME COMMENT  
-Power       OUT                                COMB            
-RaZ         OUT                                COMB            
+Power       OUT     \"00000000\"                 COMB            
+RaZ         OUT     '0'                        COMB            
 sideL       OUT                                COMB            
-unlock      OUT                                COMB            
+unlock      OUT     '0'                        COMB            
 CurrentPos  LOCAL                              CLKD            
 Pos1        LOCAL   \"0101100101001000\"         CLKD            
 Pos2        LOCAL   \"1000010111101100\"         CLKD            
+testMain    OUT                                COMB            
+in1         OUT                                COMB            
 "
 tm "SmSignalsGenStatusTextMgr"
 )
@@ -14010,7 +14019,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 3904,0
+lastUid 4028,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *156 (LEmptyRow
@@ -14135,6 +14144,7 @@ o 8
 )
 uid 170,0
 scheme 0
+defVal "\"00000000\""
 )
 *181 (LeafLogPort
 port (LogicalPort
@@ -14148,6 +14158,7 @@ o 9
 )
 uid 172,0
 scheme 0
+defVal "'0'"
 )
 *182 (LeafLogPort
 port (LogicalPort
@@ -14155,7 +14166,7 @@ m 1
 decl (Decl
 n "sideL"
 t "std_ulogic"
-o 10
+o 11
 )
 )
 uid 174,0
@@ -14168,11 +14179,12 @@ m 1
 decl (Decl
 n "unlock"
 t "std_ulogic"
-o 11
+o 13
 )
 )
 uid 178,0
 scheme 0
+defVal "'0'"
 )
 *184 (LeafLogPort
 port (LogicalPort
@@ -14182,7 +14194,7 @@ decl (Decl
 n "CurrentPos"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 12
+o 14
 )
 )
 uid 1247,0
@@ -14224,7 +14236,7 @@ decl (Decl
 n "Pos1"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 13
+o 15
 )
 )
 uid 3286,0
@@ -14239,12 +14251,36 @@ decl (Decl
 n "Pos2"
 t "unsigned"
 b "(15 DOWNTO 0)"
-o 14
+o 16
 )
 )
 uid 3288,0
 scheme 1
 defVal "\"1000010111101100\""
+)
+*189 (LeafLogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "testMain"
+t "std_ulogic"
+o 12
+)
+)
+uid 3938,0
+scheme 0
+)
+*190 (LeafLogPort
+port (LogicalPort
+m 1
+decl (Decl
+n "in1"
+t "std_uLogic"
+o 10
+)
+)
+uid 3970,0
+scheme 0
 )
 ]
 )
@@ -14253,7 +14289,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 200,0
 optionalChildren [
-*189 (Sheet
+*191 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -14270,115 +14306,127 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *190 (MRCItem
+emptyMRCItem *192 (MRCItem
 litem &156
-pos 14
+pos 16
 dimension 20
 )
 uid 202,0
 optionalChildren [
-*191 (MRCItem
+*193 (MRCItem
 litem &157
 pos 0
 dimension 20
 uid 203,0
 )
-*192 (MRCItem
+*194 (MRCItem
 litem &158
 pos 1
 dimension 23
 uid 204,0
 )
-*193 (MRCItem
+*195 (MRCItem
 litem &159
 pos 2
 hidden 1
 dimension 20
 uid 205,0
 )
-*194 (MRCItem
+*196 (MRCItem
 litem &175
-pos 2
+pos 3
 dimension 20
 uid 157,0
 )
-*195 (MRCItem
+*197 (MRCItem
 litem &176
 pos 0
 dimension 20
 uid 159,0
 )
-*196 (MRCItem
+*198 (MRCItem
 litem &177
-pos 6
+pos 7
 dimension 20
 uid 165,0
 )
-*197 (MRCItem
+*199 (MRCItem
 litem &178
-pos 7
+pos 8
 dimension 20
 uid 167,0
 )
-*198 (MRCItem
+*200 (MRCItem
 litem &179
-pos 9
+pos 11
 dimension 20
 uid 169,0
 )
-*199 (MRCItem
+*201 (MRCItem
 litem &180
-pos 3
+pos 4
 dimension 20
 uid 171,0
 )
-*200 (MRCItem
+*202 (MRCItem
 litem &181
-pos 4
+pos 5
 dimension 20
 uid 173,0
 )
-*201 (MRCItem
+*203 (MRCItem
 litem &182
-pos 8
+pos 9
 dimension 20
 uid 175,0
 )
-*202 (MRCItem
+*204 (MRCItem
 litem &183
-pos 10
+pos 12
 dimension 20
 uid 179,0
 )
-*203 (MRCItem
+*205 (MRCItem
 litem &184
-pos 11
+pos 13
 dimension 20
 uid 1248,0
 )
-*204 (MRCItem
+*206 (MRCItem
 litem &185
 pos 1
 dimension 20
 uid 2362,0
 )
-*205 (MRCItem
+*207 (MRCItem
 litem &186
-pos 5
+pos 6
 dimension 20
 uid 2364,0
 )
-*206 (MRCItem
+*208 (MRCItem
 litem &187
-pos 12
+pos 14
 dimension 20
 uid 3287,0
 )
-*207 (MRCItem
+*209 (MRCItem
 litem &188
-pos 13
+pos 15
 dimension 20
 uid 3289,0
+)
+*210 (MRCItem
+litem &189
+pos 10
+dimension 20
+uid 3939,0
+)
+*211 (MRCItem
+litem &190
+pos 2
+dimension 20
+uid 3969,0
 )
 ]
 )
@@ -14391,85 +14439,85 @@ textAngle 90
 )
 uid 206,0
 optionalChildren [
-*208 (MRCItem
+*212 (MRCItem
 litem &160
 pos 0
 dimension 20
 uid 207,0
 )
-*209 (MRCItem
+*213 (MRCItem
 litem &162
 pos 1
 dimension 40
 uid 208,0
 )
-*210 (MRCItem
+*214 (MRCItem
 litem &163
 pos 2
 dimension 46
 uid 209,0
 )
-*211 (MRCItem
+*215 (MRCItem
 litem &164
 pos 3
 dimension 40
 uid 210,0
 )
-*212 (MRCItem
+*216 (MRCItem
 litem &165
 pos 4
 dimension 66
 uid 211,0
 )
-*213 (MRCItem
+*217 (MRCItem
 litem &166
 pos 5
 dimension 45
 uid 212,0
 )
-*214 (MRCItem
+*218 (MRCItem
 litem &167
 pos 6
 dimension 40
 uid 213,0
 )
-*215 (MRCItem
+*219 (MRCItem
 litem &168
 pos 7
 dimension 100
 uid 214,0
 )
-*216 (MRCItem
+*220 (MRCItem
 litem &169
 pos 8
 dimension 60
 uid 215,0
 )
-*217 (MRCItem
+*221 (MRCItem
 litem &170
 pos 9
 dimension 130
 uid 216,0
 )
-*218 (MRCItem
+*222 (MRCItem
 litem &171
 pos 10
 dimension 56
 uid 217,0
 )
-*219 (MRCItem
+*223 (MRCItem
 litem &172
 pos 11
 dimension 187
 uid 218,0
 )
-*220 (MRCItem
+*224 (MRCItem
 litem &173
 pos 12
 dimension 50
 uid 219,0
 )
-*221 (MRCItem
+*225 (MRCItem
 litem &174
 pos 13
 dimension 80
@@ -14491,38 +14539,38 @@ uid 180,0
 cdmCsm &1
 genericsCommonDM (CommonDM
 ldm (LogicalDM
-emptyRow *222 (LEmptyRow
+emptyRow *226 (LEmptyRow
 )
 uid 1859,0
 optionalChildren [
-*223 (RefLabelRowHdr
+*227 (RefLabelRowHdr
 )
-*224 (TitleRowHdr
+*228 (TitleRowHdr
 )
-*225 (FilterRowHdr
+*229 (FilterRowHdr
 )
-*226 (RefLabelColHdr
+*230 (RefLabelColHdr
 tm "RefLabelColHdrMgr"
 )
-*227 (RowExpandColHdr
+*231 (RowExpandColHdr
 tm "RowExpandColHdrMgr"
 )
-*228 (GroupColHdr
+*232 (GroupColHdr
 tm "GroupColHdrMgr"
 )
-*229 (NameColHdr
+*233 (NameColHdr
 tm "GenericNameColHdrMgr"
 )
-*230 (TypeColHdr
+*234 (TypeColHdr
 tm "GenericTypeColHdrMgr"
 )
-*231 (InitColHdr
+*235 (InitColHdr
 tm "GenericValueColHdrMgr"
 )
-*232 (PragmaColHdr
+*236 (PragmaColHdr
 tm "GenericPragmaColHdrMgr"
 )
-*233 (EolColHdr
+*237 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
 ]
@@ -14532,7 +14580,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 1871,0
 optionalChildren [
-*234 (Sheet
+*238 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -14549,27 +14597,27 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *235 (MRCItem
-litem &222
+emptyMRCItem *239 (MRCItem
+litem &226
 pos 0
 dimension 20
 )
 uid 1873,0
 optionalChildren [
-*236 (MRCItem
-litem &223
+*240 (MRCItem
+litem &227
 pos 0
 dimension 20
 uid 1874,0
 )
-*237 (MRCItem
-litem &224
+*241 (MRCItem
+litem &228
 pos 1
 dimension 23
 uid 1875,0
 )
-*238 (MRCItem
-litem &225
+*242 (MRCItem
+litem &229
 pos 2
 hidden 1
 dimension 20
@@ -14586,44 +14634,44 @@ textAngle 90
 )
 uid 1877,0
 optionalChildren [
-*239 (MRCItem
-litem &226
+*243 (MRCItem
+litem &230
 pos 0
 dimension 20
 uid 1878,0
 )
-*240 (MRCItem
-litem &228
+*244 (MRCItem
+litem &232
 pos 1
 dimension 50
 uid 1879,0
 )
-*241 (MRCItem
-litem &229
+*245 (MRCItem
+litem &233
 pos 2
 dimension 100
 uid 1880,0
 )
-*242 (MRCItem
-litem &230
+*246 (MRCItem
+litem &234
 pos 3
 dimension 100
 uid 1881,0
 )
-*243 (MRCItem
-litem &231
+*247 (MRCItem
+litem &235
 pos 4
 dimension 50
 uid 1882,0
 )
-*244 (MRCItem
-litem &232
+*248 (MRCItem
+litem &236
 pos 5
 dimension 50
 uid 1883,0
 )
-*245 (MRCItem
-litem &233
+*249 (MRCItem
+litem &237
 pos 6
 dimension 80
 uid 1884,0

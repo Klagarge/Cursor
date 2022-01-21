@@ -83,19 +83,19 @@ value "U:\\Cursor\\Prefs\\..\\Cursor\\hds\\convertissor_position"
 )
 (vvPair
 variable "date"
-value "20.01.2022"
+value "21.01.2022"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "20"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -123,7 +123,7 @@ value "remi.heredero"
 )
 (vvPair
 variable "graphical_source_date"
-value "20.01.2022"
+value "21.01.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -131,11 +131,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE2332001"
+value "WE2331007"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:43:11"
+value "15:15:32"
 )
 (vvPair
 variable "group"
@@ -143,7 +143,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE2332001"
+value "WE2331007"
 )
 (vvPair
 variable "language"
@@ -207,7 +207,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "13:43:11"
+value "15:15:32"
 )
 (vvPair
 variable "unit"
@@ -2051,8 +2051,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,114,1551,1074"
-viewArea "-5500,-4200,87110,54040"
+windowSize "66,84,1618,1044"
+viewArea "-5500,-4200,87180,54040"
 cachedDiagramExtent "-750,-1000,86600,47000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-5000,-2000"
@@ -2427,7 +2427,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 1099,0
+lastUid 1128,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *59 (LEmptyRow
