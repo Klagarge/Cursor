@@ -13,90 +13,91 @@
 
 # Table des matières
 
-[1Introduction 2](#_Toc93790564)
+[1 Introduction](#1Introduction)
 
-[2Design général 2](#_Toc93790565)
+[2 Design général](#_Toc93790565)
 
-[2.1« PositionBlock » 3](#_Toc93790566)
+[2.1 "PositionBlock"](#_Toc93790566)
 
-[2.2« ButtonBlock » 6](#_Toc93790567)
+[2.2 "ButtonBlock"](#_Toc93790567)
 
-[2.3« Driver » 7](#_Toc93790568)
+[2.3 "Driver"](#_Toc93790568)
 
-[2.4« Main » 8](#_Toc93790569)
+[2.4 "Main"](#_Toc93790569)
 
-[3Vérification et validation 9](#_Toc93790570)
+[3 Vérification et validation](#_Toc93790570)
 
-[3.1Simulation Position 9](#_Toc93790571)
+[3.1 Simulation Position](#_Toc93790571)
 
-[3.2Simulation Boutons 9](#_Toc93790572)
+[3.2 Simulation Boutons](#_Toc93790572)
 
-[3.3Simulation Main 9](#_Toc93790573)
+[3.3 Simulation Main](#_Toc93790573)
 
-[3.4Simulation Driver 9](#_Toc93790574)
+[3.4 Simulation Driver](#_Toc93790574)
 
-[4Intégration 10](#_Toc93790575)
+[4 Intégration](#_Toc93790575)
 
-[4.1HDL-Designer 10](#_Toc93790576)
+[4.1 HDL-Designer](#_Toc93790576)
 
-[4.2Test Design 10](#_Toc93790577)
+[4.2 Test Design](#_Toc93790577)
 
-[4.3Préparation pour la synthèse 11](#_Toc93790578)
+[4.3 Préparation pour la synthèse](#_Toc93790578)
 
-[4.4Synthèse 11](#_Toc93790579)
+[4.4 Synthèse](#_Toc93790579)
 
-[4.5Configuration 12](#_Toc93790580)
+[4.5 Configuration](#_Toc93790580)
 
-[5Conclusion 13](#_Toc93790581)
+[5 Conclusion](#_Toc93790581)
 
-[Figure 1 Top level 2](#_Toc93790582)
 
-[Figure 2 Architecture « PositionBlock » 3](#_Toc93790583)
+[Figure 1 Top level](#_Toc93790582)
 
-[Figure 3 Signaux du codeur incrémental 3](#_Toc93790584)
+[Figure 2 Architecture "PositionBlock"](#_Toc93790583)
 
-[Figure 4 FSM encoder 4](#_Toc93790585)
+[Figure 3 Signaux du codeur incrémental](#_Toc93790584)
 
-[Figure 5 Counter 1 bit 4](#_Toc93790586)
+[Figure 4 FSM encoder](#_Toc93790585)
 
-[Figure 6 Counter 4 bits 5](#_Toc93790587)
+[Figure 5 Counter 1 bit](#_Toc93790586)
 
-[Figure 7 Counter 24 bits 5](#_Toc93790588)
+[Figure 6 Counter 4 bits](#_Toc93790587)
 
-[Figure 8 Blocage pour éviter le dépassement 5](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790589)
+[Figure 7 Counter 24 bits](#_Toc93790588)
 
-[Figure 9 Filtrage de 24 bit à 16 bit 6](#_Toc93790590)
+[Figure 8 Blocage pour éviter le dépassement](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790589)
 
-[Figure 10 Stand by des boutons 6](#_Toc93790591)
+[Figure 9 Filtrage de 24 bit à 16 bit](#_Toc93790590)
 
-[Figure 11 Bypass du button4 6](#_Toc93790592)
+[Figure 10 Stand by des boutons](#_Toc93790591)
 
-[Figure 12 Architecture « Driver » 7](#_Toc93790593)
+[Figure 11 Bypass du button4](#_Toc93790592)
 
-[Figure 13 Bloc « Counter\_Controller » 7](#_Toc93790594)
+[Figure 12 Architecture "Driver"](#_Toc93790593)
 
-[Figure 14 Architecture &quot;Main&quot; 8](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790595)
+[Figure 13 Bloc "Counter_Controller"](#_Toc93790594)
 
-[Figure 15 Root view pour la simulation 10](#_Toc93790596)
+[Figure 14 Architecture "Main&quot"](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790595)
 
-[Figure 16 ModelSim Flow 11](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790597)
+[Figure 15 Root view pour la simulation](#_Toc93790596)
 
-[Figure 17 Prepare for Synthesis 11](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790598)
+[Figure 16 ModelSim Flow](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790597)
 
-[Figure 18 Xilinx Project Navigator 11](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790599)
+[Figure 17 Prepare for Synthesis](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790598)
 
-[Figure 19 Buttons on ucf file 11](#_Toc93790600)
+[Figure 18 Xilinx Project Navigator](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790599)
 
-[Figure 20 Hierarchy in ISE 11](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790601)
+[Figure 19 Buttons on ucf file](#_Toc93790600)
 
-[Figure 21 Processes ISE 12](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790602)
+[Figure 20 Hierarchy in ISE](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790601)
 
-[Figure 22 iMPACT 12](#_Toc93790603)
+[Figure 21 Processes ISE](https://hessoit-my.sharepoint.com/personal/remi_heredero_hes-so_ch/Documents/S1fb/electricity/1-EIN/project/cursor/Rapport.docx#_Toc93790602)
+
+[Figure 22 iMPACT](#_Toc93790603)
 
 #
 
 
-# 1Introduction
+# 1 Introduction
 
 Dans le cadre des cours d&#39;électronique numérique nous devons en fin de semestre réaliser un projet. Ce projet consiste à réaliser le design d&#39;un curseur. Celui-ci-doit se déplacer à une position pré-enregistré avec une certaine accélération et un certaine décélération. Nous devons réaliser le design de la partie logique de notre système. Pour ce faire, nous utilisons le logiciel « HDL Designer ». Les instructions et la documentation complète se trouve sur Cyberlearn dans la section « Cursor ».
 
